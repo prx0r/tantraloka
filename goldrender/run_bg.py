@@ -22,7 +22,7 @@ Usage:
     # Cancel a running render
     python run_bg.py --cancel
 """
-import argparse, json, os, shutil, subprocess, sys, time
+import argparse, json, os, shlex, shutil, subprocess, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -86,7 +86,6 @@ p.write_text(json.dumps(d, indent=2))
 echo 'RENDER_COMPLETE'
 """
 
-    import shlex
     screen_cmd = [
         "screen", "-dmS", f"render_{name}",
         "bash", "-c", wrapper_cmd,
