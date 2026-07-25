@@ -141,3 +141,66 @@ possible, then flag it for review rather than improvising a new look.
   implementations.
 - `moderngl` GitHub repo `examples/` folder — for headless context setup
   patterns in Python.
+
+---
+
+## Environment Pitfalls (vast.ai / Docker + EGL)
+
+The following are the most common failures when running headless EGL on rented GPU boxes. Debug these **before** running any packs:
+
+### Step 0: EGL sanity check
+```python
+python -c "import moderngl; ctx = moderngl.create_context(standalone=True, backend='egl'); print(ctx.info['GL_RENDERER'])"
+```
+If this prints your actual GPU name (not "llvmpipe"), proceed. If it prints "llvmpipe" or fails, fix the environment before touching `--render`.
+
+### Known vast.ai/Docker landmines
+
+1. **`NVIDIA_DRIVER_CAPABILITIES` env var** — vast.ai images often default to `compute,utility` only. Set `NVIDIA_DRIVER_CAPABILITIES=all` (or explicitly `graphics,compute,utility`) or EGL will silently fail to find a display device even with a working GPU.
+
+2. **Missing EGL vendor ICD JSON** — common fix:
+   ```
+   apt install libglvnd0 libglvnd-dev libegl1-mesa-dev
+   ```
+   Then ensure an ICD file exists at `/usr/share/glvnd/egl_vendor.d/` pointing at `libEGL_nvidia.so.0`. Without this, EGL falls back to llvmpipe (software) — it will "work" but at 1/50th the speed.
+
+3. **`eglQueryDevicesEXT` finding zero devices** — the single most-reported failure: an EGL app works fine directly on a cloud instance but finds no devices inside a container, because the container doesn't have the NVIDIA EGL vendor libraries visible. Bake the fix into the Dockerfile/setup script, don't fix by hand each time.
+
+## Advanced Shader Techniques (post-port upgrades)
+
+After the basic port is working, these give the highest visual quality gain per line of GLSL, in priority order:
+
+### 1. Cosine Palette Gradients (cheapest, biggest upgrade)
+Replace hardcoded palette colors with iq's cosine palette formula:
+```glsl
+vec3 palette(float t, vec3 a, vec3 b, vec3 c, vec3 d) {
+    return a + b * cos(6.28318 * (c * t + d));
+}
+```
+One function, four `vec3` constants per pack, gives continuous smoothly-shifting color across the animation instead of discrete palette swaps. Single cheapest "why does this suddenly look premium" trick.
+
+### 2. Domain-Warped fbm (turns flat noise into living motion)
+Feed noise through itself: `fbm(p + fbm(p))` instead of raw single-octave noise. This separates "static grain texture" from "flowing organic motion" in background fields and glow shapes. Nearly free once you have an `fbm()` function.
+
+### 3. Ping-Pong Feedback Buffer for Trails/Echo
+Extend the bloom multi-pass FBO pattern with a persistent buffer that blends the previous frame at low opacity before drawing the new one: `prevFrame * 0.9 + currentFrame`. Gives motion trails, echo, comet effects — very cheap once bloom infrastructure exists.
+
+### 4. Raymarched Volumetrics (hero scenes only)
+For scenes meant to feel like real depth/atmosphere (halos, auras, "field" backgrounds): a short raymarch loop through a simple density function (`fbm` as 3D volume sampled along a ray) gives actual volumetric light shafts and fog rather than a flat radial gradient. More expensive — budget for specific scenes, not all 25 modes.
+
+### 5. Chromatic Aberration + Film Grain (final post-pass)
+After tonemapping: sample R/G/B at slightly offset UVs, add a subtle noise dither before 8-bit quantization (kills gradient banding that appears with HDR→LDR tonemapping). ~5 lines each, reads as "cinema-graded."
+
+### 6. ACES Filmic Tonemap (replaces clamp)
+Replace simple Reinhard/clamp with ACES filmic (well-known fitted curve, few lines of GLSL). Stops bright bloom highlights from clipping to flat white — rolls off with color retained. Difference between "blown out" and "glowing."
+
+### Priority order for your actual next session
+```
+1. EGL sanity check               (does the GPU even work?)
+2. Cosine palettes                 (touches every pack, trivial cost)
+3. Domain-warped fbm              (upgrades noise everywhere)
+4. ACES tonemap                    (fixes bloom highlight quality)
+5. Feedback trails                 (motion echo, selected scenes)
+6. Raymarched volumetrics          (hero scenes only)
+7. Chromatic aberration + grain   (final polish, every frame)
+```
