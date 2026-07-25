@@ -11,7 +11,8 @@ IVORY=(249,247,241); WHITE=(255,254,250); INK=(29,33,39); SOFT=(86,91,98)
 GOLD=(194,156,72); GL=(236,219,175); CYAN=(57,156,180); CRIMSON=(162,58,69); VIOLET=(109,83,153); GREEN=(70,139,99)
 FS="/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"; FSB=FS.replace("Serif","Serif-Bold"); FSN=FS.replace("Serif","Sans"); FSNB=FSN.replace("Sans","Sans-Bold")
 
-def clamp(x,l=0.0,h=1.0): return max(l,min(h,x)); def lerp(a,b,t): return a+(b-a)*clamp(t)
+def clamp(x,l=0.0,h=1.0): return max(l,min(h,x))
+def lerp(a,b,t): return a+(b-a)*clamp(t)
 def mix(a,b,t): return tuple(int(lerp(x,y,t)) for x,y in zip(a,b))
 def ss(a,b,x):
     if a==b: return 1.0 if x>=b else 0.0; q=clamp((x-a)/(b-a)); return q*q*(3-2*q)
