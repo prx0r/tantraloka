@@ -51,6 +51,20 @@
 - Text rendering (`seal()` / `footer()`) — SDF font atlas not yet generated
 - Per-scene parameter uniforms (`p.mode` branching) — simplified to single-path per shader
 
+### Audio-reactive uniforms wired into shaders (Jul 25)
+Audio features (volume, onset, beat) from `audio_analysis.py` are passed as
+`u_audioVolume`, `u_audioBeat`, `u_audioOnset`, `u_audioSpectral` per frame.
+
+Example usage in `classical_wall.glsl`:
+- Proton pulse radius = `0.025 + 0.015 * u_audioVolume + 0.010 * u_audioBeat`
+- Glow intensity = `0.5 + 0.5 * u_audioVolume`
+- Impact sparks follow `u_audioBeat` (onset strength)
+- Wall outline pulses with beat
+
+This pattern (uniform per frame, matched to narration WAV) means the visuals
+vibe with the voiceover naturally — proton pulses on stressed syllables,
+sparks hit on word onsets, glow breathes with speech volume.
+
 ### Audio-reactive uniforms (offline analysis pattern)
 Reference: github.com/kessoning/Audio-Offline-Analysis
 

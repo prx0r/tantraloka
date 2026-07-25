@@ -119,6 +119,12 @@ class GPUEngine:
         prog['iResolution'] = (float(self.width), float(self.height))
         prog['bloomIntensity'] = 0.3
         prog['bloomThreshold'] = 0.8
+        if 'u_audioVolume' in prog and hasattr(self, 'audio_features'):
+            fi = min(fi, len(self.audio_features['volume']) - 1)
+            prog['u_audioVolume'] = self.audio_features['volume'][fi]
+            prog['u_audioBeat'] = self.audio_features['beat'][fi]
+            prog['u_audioOnset'] = self.audio_features['onset'][fi]
+            prog['u_audioSpectral'] = self.audio_features['centroid'][fi]
 
         self.hdr.use()
         self.ctx.clear(1, 1, 1, 0)
