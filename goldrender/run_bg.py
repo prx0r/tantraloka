@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
 """
-Background render + narration runner for platinum packs.
+Background render + narration + publish runner for platinum packs.
 Launches in screen, logs progress, provides status.
 
 Usage:
-    # Launch storyboard (fast: narrated slideshow from 4 stills per scene)
+    # Launch storyboard (fast: narrated slideshow)
     python run_bg.py life_crosses_barriers_platinum.py --storyboard
 
-    # Launch production (full per-frame render + narration, parallel)
-    python run_bg.py life_crosses_barriers_platinum.py --production
+    # Launch + auto-publish to studio.tantrafiles.xyz when done
+    python run_bg.py life_crosses_barriers_platinum.py --storyboard --publish
+
+    # Production render with publish
+    python run_bg.py life_crosses_barriers_platinum.py --production --publish
 
     # Check status
     python run_bg.py --status
 
-    # Check status for a specific pack
-    python run_bg.py --status life_crosses
-
     # Tail the log
-    python run_bg.py --tail
+    python run_bg.py --tail life_crosses
 
     # Cancel a running render
-    python run_bg.py --cancel
+    python run_bg.py --cancel life_crosses
 """
 import argparse, json, os, shlex, shutil, subprocess, sys, time
 from pathlib import Path
@@ -34,11 +34,11 @@ def sanitize(s: str) -> str:
     return s.replace("_platinum", "").replace(".py", "").replace("/", "_")
 
 
-def run_background(pack_path: str, mode: str, fps: int, width: int, height: int, voice: str):
+def run_background(pack_path: str, mode: str, fps: int, width: int, height: int,
+                   voice: str, publish: bool, slug: str):
     """Launch the render in a screen session."""
     pack = Path(pack_path)
     if not pack.exists():
-        # Try goldrender/
         pack = ROOT / pack_path
     if not pack.exists():
         print(f"Pack not found: {pack_path}")
@@ -48,18 +48,18 @@ def run_background(pack_path: str, mode: str, fps: int, width: int, height: int,
     log_path = LOG_DIR / f"{name}.log"
     status_path = LOG_DIR / f"{name}.status.json"
 
-    # Write initial status
     status_path.write_text(json.dumps({
         "pack": pack.name,
         "mode": mode,
+        "publish": publish,
         "status": "starting",
         "started": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
     }))
 
     script_path = ROOT / "render_narrate.py"
+    publish_script = ROOT / "publish_pipeline.py"
 
-    # Build command
-    cmd = [
+    render_cmd = [
         "python3", str(script_path), str(pack),
         f"--{mode}",
         "--fps", str(fps),
@@ -68,23 +68,37 @@ def run_background(pack_path: str, mode: str, fps: int, width: int, height: int,
         "--voice", voice,
     ]
 
-    # Status updater loop runs alongside
-    wrapper_cmd = f"""
-cd {shlex.quote(str(ROOT))}
-(
-  {' '.join(shlex.quote(str(c)) for c in cmd)}
-) 2>&1 | tee {shlex.quote(str(log_path))}
-python3 -c "
-import json
-from pathlib import Path
-p = Path('{shlex.quote(str(status_path))}')
-d = json.loads(p.read_text())
-d['status'] = 'completed'
-d['finished'] = '{time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}'
-p.write_text(json.dumps(d, indent=2))
-"
-echo 'RENDER_COMPLETE'
-"""
+    # Build the wrapper command chain: render → (optionally) publish → update status
+    lines = [
+        f"cd {shlex.quote(str(ROOT))}",
+        "(",
+        "  " + " ".join(shlex.quote(str(c)) for c in render_cmd),
+        f") 2>&1 | tee {shlex.quote(str(log_path))}",
+    ]
+
+    if publish:
+        outdir = f"output_{name}"
+        slug_arg = f"--slug {shlex.quote(slug)}" if slug else ""
+        lines.append(
+            f"R2_ACCESS_KEY=$({shlex.quote(str(shutil.which('grep')))} -oP 'R2_ACCESS_KEY=\\K.*' {shlex.quote(str(ROOT.parent / '.env'))} | head -1) "
+            f"R2_SECRET_KEY=$({shlex.quote(str(shutil.which('grep')))} -oP 'R2_SECRET_KEY=\\K.*' {shlex.quote(str(ROOT.parent / '.env'))} | head -1) "
+            f"python3 {shlex.quote(str(publish_script))} {shlex.quote(str(ROOT / outdir))} {slug_arg} "
+            f"--narrated 2>&1 | tee -a {shlex.quote(str(log_path))}"
+        )
+
+    lines.extend([
+        'python3 -c "'
+        f"import json; from pathlib import Path; "
+        f"p = Path('{shlex.quote(str(status_path))}'); "
+        f"d = json.loads(p.read_text()); "
+        f"d['status'] = 'completed'; "
+        f"d['finished'] = '{time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}'; "
+        f"p.write_text(json.dumps(d, indent=2))"
+        '"',
+        "echo 'RENDER_COMPLETE'",
+    ])
+
+    wrapper_cmd = "\n".join(lines)
 
     screen_cmd = [
         "screen", "-dmS", f"render_{name}",
@@ -94,12 +108,13 @@ echo 'RENDER_COMPLETE'
     subprocess.run(screen_cmd)
     print(f"Launched in screen session: render_{name}")
     print(f"  Log: {log_path}")
+    if publish:
+        print(f"  Auto-publish: enabled → studio.tantrafiles.xyz")
     print(f"  Run: python {sys.argv[0]} --status {name}")
     print(f"  Tail: python {sys.argv[0]} --tail {name}")
 
 
 def show_status(pack_name: str | None = None):
-    """Show running/completed renders."""
     statuses = sorted(LOG_DIR.glob("*.status.json"))
     if not statuses:
         print("No renders found.")
@@ -115,41 +130,36 @@ def show_status(pack_name: str | None = None):
         log = LOG_DIR / f"{name}.log"
         log_size = log.stat().st_size if log.exists() else 0
 
-        # Check if screen session is still alive
         screen_check = subprocess.run(
             ["screen", "-ls"], capture_output=True, text=True, timeout=5
         )
         running = f"render_{name}" in screen_check.stdout
 
-        print(f"{name:40s} {status:12s} {'RUNNING' if running else 'STOPPED':8s} {log_size//1024:>4d}K log")
+        publish_tag = " PUB" if data.get("publish") else ""
+        print(f"{name:35s} {status:12s} {'RUNNING' if running else '':8s} {log_size//1024:>4d}K{publish_tag}")
 
 
 def tail_log(pack_name: str):
-    """Tail a render log."""
     logs = sorted(LOG_DIR.glob("*.log"))
     if not logs:
         print("No logs found.")
         return
-
     if pack_name:
         log = LOG_DIR / f"{sanitize(pack_name)}.log"
         if log.exists():
             subprocess.run(["tail", "-f", str(log)])
             return
-        # Try substring
         for l in logs:
             if pack_name.lower() in l.stem.lower():
                 subprocess.run(["tail", "-f", str(l)])
                 return
         print(f"No log matching '{pack_name}'")
     else:
-        # Show latest log
         latest = max(logs, key=lambda p: p.stat().st_mtime)
         subprocess.run(["tail", "-f", str(latest)])
 
 
 def cancel_render(pack_name: str | None = None):
-    """Kill screen sessions for renders."""
     result = subprocess.run(["screen", "-ls"], capture_output=True, text=True, timeout=5)
     lines = result.stdout.splitlines()
     killed = 0
@@ -166,16 +176,15 @@ def cancel_render(pack_name: str | None = None):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Background render runner")
+    parser = argparse.ArgumentParser(description="Background render + publish runner")
     parser.add_argument("pack", nargs="?", type=str, help="Pack file or name")
     parser.add_argument("--storyboard", action="store_true", help="Fast narrated storyboard")
     parser.add_argument("--production", action="store_true", help="Full production render")
-    parser.add_argument("--status", nargs="?", const=True, default=False,
-                        help="Show render status")
-    parser.add_argument("--tail", nargs="?", const=True, default=False,
-                        help="Tail render log")
-    parser.add_argument("--cancel", nargs="?", const=True, default=False,
-                        help="Cancel running renders")
+    parser.add_argument("--publish", action="store_true", help="Auto-publish to studio.tantrafiles.xyz")
+    parser.add_argument("--slug", type=str, default="", help="Override slug for dashboard URL")
+    parser.add_argument("--status", nargs="?", const=True, default=False, help="Show render status")
+    parser.add_argument("--tail", nargs="?", const=True, default=False, help="Tail render log")
+    parser.add_argument("--cancel", nargs="?", const=True, default=False, help="Cancel running renders")
     parser.add_argument("--fps", type=int, default=5, help="FPS for rendering")
     parser.add_argument("--width", type=int, default=640, help="Render width")
     parser.add_argument("--height", type=int, default=360, help="Render height")
@@ -207,7 +216,8 @@ def main():
         sys.exit(1)
 
     mode = "storyboard" if args.storyboard else "production"
-    run_background(args.pack, mode, args.fps, args.width, args.height, args.voice)
+    run_background(args.pack, mode, args.fps, args.width, args.height,
+                   args.voice, args.publish, args.slug)
 
 
 if __name__ == "__main__":
