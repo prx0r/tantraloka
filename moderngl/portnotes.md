@@ -56,6 +56,11 @@
 - Text SDF atlas generation
 - Cosine palette integration (ready in primitives.glsl, not wired per-shader)
 
+### Reference libraries discovered
+- **Lygia** (github.com/patriciogonzalezvivo/lygia) — 3.4k★ multi-language shader library. SDF, noise, easing, color, tonemaps. Battle-tested, maintained. Added as submodule at moderngl/lygia/.
+- **Generative Gestaltung** (generative-gestaltung.de/2/) — Companion site to canonical "Generative Design" textbook. 200+ p5.js sketches: color, shape, type, image, noise, oscillation, data. Direct visual design reference for procedural abstract work.
+- **Synesthesia** (synesthesia.live) — Live audio-reactive GLSL performance instrument. Our shaders could run as SSF (Synesthesia Shader Format) scenes. Adds audio-reactive potential (bass/treble/beat uniforms).
+
 ### Key decision: Lygia replaces custom primitives
 All hand-written SDF, noise, easing, and color functions have been replaced with
 Lygia (https://github.com/patriciogonzalezvivo/lygia) — a 3.4k-star battle-tested
