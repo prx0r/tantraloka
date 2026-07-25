@@ -1,0 +1,63 @@
+{
+  "id": "prakasha-vimarsha",
+  "title": "Prakāśa–Vimarśa",
+  "sanskrit": "प्रकाश–विमर्श",
+  "transliteration": "prakāśa–vimarśa",
+  "summary": "The two inseparable aspects of consciousness: its self-luminous radiance (prakāśa) and its reflective self-awareness (vimarśa).",
+  "intuitiveMeaning": "A lamp lights a room — that is prakāśa, pure illumination. But the lamp does not know it lights the room; it is insentient. Consciousness is a lamp that knows it is lighting the room. That self-knowing is vimarśa. Together they are what you are, right now: aware, and aware that you are aware.",
+  "explanation": "Prakāśa is the pure light of consciousness — the sheer fact that anything appears at all. It is objectless radiance. Vimarśa is the reflexive power by which consciousness knows itself as 'I' — it is self-possession. Together they constitute the Heart (hṛdaya) of reality. Prakāśa without vimarśa would be insentient, like a lamp that lights objects but does not know it lights them. Vimarśa without prakāśa would have nothing to reflect upon. They are two aspects of one unitary consciousness, distinguished only for analysis. Their dynamic union is the supreme reality, the pulsation (spanda) from which the universe unfolds.",
+  "image": "/plates/prakasha-vimarsha.webp",
+  "plateHotspots": [
+    {
+      "id": "pure-light",
+      "x": 30,
+      "y": 30,
+      "type": "explanation",
+      "label": "Prakāśa — the light",
+      "panelContent": "Before any particular object appears, there is the sheer capacity for appearance — the light that makes seeing possible. This light is not a thing, not an object, but the condition for all objects. That is prakāśa."
+    },
+    {
+      "id": "self-knowing",
+      "x": 65,
+      "y": 35,
+      "type": "explanation",
+      "label": "Vimarśa — the self-knowing",
+      "panelContent": "The light not only illumines objects, it knows itself as light. This self-referential awareness — the 'I' of experience — is vimarśa. Without it, the light would be merely a physical phenomenon."
+    },
+    {
+      "id": "heart-union",
+      "x": 48,
+      "y": 68,
+      "type": "explanation",
+      "label": "The Heart — their union",
+      "panelContent": "The union of prakāśa and vimarśa is the Heart (hṛdaya) — not a physical organ but the core of being. It is the dynamic pulsation (spanda) that is both the source of the universe and its final resting place."
+    },
+    {
+      "id": "link-spanda",
+      "x": 72,
+      "y": 55,
+      "type": "concept",
+      "targetId": "spanda",
+      "label": "Their dynamism",
+      "panelContent": "The pulsation between prakāśa and vimarśa — the eternal rhythm of illumination and self-awareness — is spanda. It is the heartbeat of reality."
+    }
+  ],
+  "sourcePassages": [
+    {
+      "work": "Tantrāloka",
+      "chapter": "1",
+      "verse": "52",
+      "sanskrit": "jñeyasya hi paraṁ tattvaṁ yaḥ prakāśātmakaḥ śivaḥ | na hy aprakāśarūpasya prākāśyaṁ vastutāpi vā ||",
+      "transliteration": "jñeyasya hi paraṁ tattvaṁ yaḥ prakāśātmakaḥ śivaḥ | na hy aprakāśarūpasya prākāśyaṁ vastutāpi vā ||",
+      "translation": "The supreme reality of the object of perception is Śiva Who is the Light of consciousness, for that which is not Light can neither be illumined nor even exist.",
+      "commentary": "This verse establishes prakāśa as the innermost nature of all things. If something were outside consciousness it could never appear. Therefore everything that appears is consciousness."
+    }
+  ],
+  "relations": [
+    { "targetId": "spanda", "type": "manifests_as", "label": "their dynamism is spanda" },
+    { "targetId": "maya", "type": "presupposes", "label": "presupposed by māyā" },
+    { "targetId": "recognition", "type": "explained_by", "label": "recognized in pratyabhijñā" }
+  ],
+  "trails": ["infinity-to-individual"],
+  "tags": ["foundation", "consciousness", "nonduality", "heart"]
+}

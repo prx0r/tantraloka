@@ -1,0 +1,62 @@
+{
+  "id": "vidya",
+  "title": "Vidyā",
+  "sanskrit": "विद्या",
+  "transliteration": "vidyā",
+  "summary": "The contraction of unlimited knowing into partial, conditional knowledge — the fourth of the five kañcukas.",
+  "intuitiveMeaning": "Before you learned to read, you saw letters as meaningless shapes. After learning, each letter held precise meaning. That shift from not-knowing to knowing is a movement within Vidyā's domain — but note that even your 'knowing' is partial, limited by language, culture and perspective. Vidyā is the power that makes you feel you know something, while simultaneously cutting you off from total knowing.",
+  "explanation": "Vidyā is the fourth of the five kañcukas (coverings) that arise from Māyā. It restricts Śiva's omniscience (jñānaśakti) into the limited, conditional knowing that characterizes the individual soul. Where Śiva knows all things immediately and simultaneously, Vidyā produces discursive, sequential, partial knowledge. It is the power that gives the puruṣa (contracted subject) the experience of 'knowing something' — but always within boundaries. Paradoxically, it is also through Vidyā that the path back begins: by refining and purifying knowledge through śāktopāya (the empowered means), the practitioner transforms limited knowing back toward its source. The Tantrāloka teaches that Vidyā is not to be rejected but to be recognized as a contraction of divine knowledge — and when seen as such, it releases its hold.",
+  "image": "/plates/vidya.webp",
+  "plateHotspots": [
+    {
+      "id": "partial-knowing",
+      "x": 30,
+      "y": 30,
+      "type": "explanation",
+      "label": "The experience of partial knowing",
+      "panelContent": "You know your native language but not every language. You know quantum mechanics or cooking or music, but not everything. This boundedness — that knowing is always knowing-something and not-knowing-others — is Vidyā's signature. The experience is so ordinary you never question it. But why should knowing be limited? On the other side of Vidyā is omniscience — knowing without edges."
+    },
+    {
+      "id": "link-jnana-shakti",
+      "x": 68,
+      "y": 25,
+      "type": "relation",
+      "targetId": "prakasha-vimarsha",
+      "label": "The unlimited knowing it contracts",
+      "panelContent": "Behind Vidyā lies jñānaśakti — Śiva's power of knowledge that knows all things immediately, without effort, without partiality. Vidyā is the contraction of that power into the discursive mind."
+    },
+    {
+      "id": "link-saktopaya",
+      "x": 50,
+      "y": 72,
+      "type": "practice",
+      "label": "Practicing through Vidyā",
+      "panelContent": "Śāktopāya (the empowered means) works directly through Vidyā. It refines thought itself — using vikalpa (conceptualization) to exhaust vikalpa, until the conceptual mind falls away and pure knowing remains."
+    },
+    {
+      "id": "source-ta",
+      "x": 65,
+      "y": 55,
+      "type": "source",
+      "label": "Tantrāloka 9.9",
+      "panelContent": "\"Vidyā is limited knowledge (paricchinnajñāna), through which the soul experiences itself as knowing particular objects. It is the contraction of the Lord's omniscience.\""
+    }
+  ],
+  "sourcePassages": [
+    {
+      "work": "Tantrāloka",
+      "chapter": "9",
+      "verse": "9",
+      "translation": "Vidyā is that through which the soul has limited knowledge of particular objects. It is the contraction of the Lord's omniscience.",
+      "commentary": "Jayaratha explains that Vidyā is a restriction of jñānaśakti. In Śiva, knowing is immediate and total. In the bound soul, it is mediated through the senses, mind and intellect."
+    }
+  ],
+  "relations": [
+    { "targetId": "maya", "type": "manifests_as", "label": "arises from Māyā" },
+    { "targetId": "prakasha-vimarsha", "type": "contracts_into", "label": "contracts jñānaśakti" },
+    { "targetId": "kancukas", "type": "belongs_to", "label": "fourth of the five kañcukas" },
+    { "targetId": "purusa", "type": "conditions", "label": "conditions the knower" }
+  ],
+  "trails": ["infinity-to-individual", "desire-and-fullness"],
+  "tags": ["tattva", "kañcuka", "knowledge", "contraction"]
+}

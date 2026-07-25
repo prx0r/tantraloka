@@ -1,0 +1,72 @@
+{
+  "id": "raga",
+  "title": "Rāga",
+  "sanskrit": "राग",
+  "transliteration": "rāga",
+  "summary": "The contraction of infinite fullness into experienced lack and object-directed desire — the third kañcuka.",
+  "intuitiveMeaning": "You feel a subtle unease, a sense that something is missing. You check your phone. You eat something. You scroll. The unease returns because it was never about the object — it was Rāga, the contraction of fullness into the feeling of lack. Rāga is the deeply familiar ache of 'I want' that seems to come from outside but actually structures your entire subjective world.",
+  "explanation": "Rāga is the third kañcuka, the covering of attachment. It restricts Śiva's absolute fullness (pūrṇatā) into a sense of lack and the consequent reaching out for objects to fill that lack. Where Śiva experiences himself as complete — lacking nothing — the soul contracted by Rāga experiences itself as incomplete, as needing something outside itself to become whole. This generates the entire economy of desire: the wanting, the grasping, the brief satisfaction, the return of want. Rāga is not merely emotional attachment to particular objects; it is the structural condition of desire itself. The Trika path does not oppose desire but traces it back to its source — the inherent delight (ānanda) of consciousness. When Rāga is recognized as a contraction of ānandaśakti, the outward movement of desire reveals itself as the outward movement of consciousness's own delight.",
+  "image": "/plates/raga.webp",
+  "plateHotspots": [
+    {
+      "id": "felt-lack",
+      "x": 25,
+      "y": 40,
+      "type": "explanation",
+      "label": "The experience of lack",
+      "panelContent": "Before any particular desire arises, there is a baseline sense of lack — that something is not quite right, that you need something to feel complete. This pre-personal lack is Rāga. It colours every experience before you even name what you want."
+    },
+    {
+      "id": "desire-cycle",
+      "x": 45,
+      "y": 25,
+      "type": "explanation",
+      "label": "The cycle of desire",
+      "panelContent": "Lack -> reaching -> obtaining -> brief satisfaction -> return of lack. This cycle is powered by Rāga. The Tantrāloka teaches that the cycle can be broken not by renouncing objects but by recognizing the desirer as the fullness he seeks."
+    },
+    {
+      "id": "link-ananda",
+      "x": 72,
+      "y": 65,
+      "type": "relation",
+      "targetId": "prakasha-vimarsha",
+      "label": "The delight behind desire",
+      "panelContent": "Behind Rāga lies ānandaśakti — Śiva's power of bliss. What feels like a reaching-out-for-something is actually a contracted form of the absolute delight that consciousness takes in itself. To recognize this is liberation."
+    },
+    {
+      "id": "source-ta",
+      "x": 55,
+      "y": 52,
+      "type": "source",
+      "label": "Tantrāloka 9.8",
+      "panelContent": "\"Rāga is attachment, the principle of passion, through which the soul, feeling incomplete, desires objects outside itself. It is the contraction of Śiva's blissful fullness.\""
+    },
+    {
+      "id": "link-purusa",
+      "x": 20,
+      "y": 68,
+      "type": "concept",
+      "targetId": "purusa",
+      "label": "Conditions the experiencer",
+      "panelContent": "Rāga together with the other kañcukas conditions puruṣa, the contracted subject. Puruṣa experiences itself as a desirer because Rāga is active within it."
+    }
+  ],
+  "sourcePassages": [
+    {
+      "work": "Tantrāloka",
+      "chapter": "9",
+      "verse": "8",
+      "translation": "Rāga is attachment, through which the soul, feeling incomplete, desires objects. It is the contraction of Śiva's bliss.",
+      "commentary": "Jayaratha notes that Rāga has two aspects: the sense of lack (śūnyatā) and the movement toward objects (abhilāṣa). Both are contractions of the single delight of consciousness."
+    }
+  ],
+  "relations": [
+    { "targetId": "maya", "type": "manifests_as", "label": "arises from Māyā" },
+    { "targetId": "kancukas", "type": "belongs_to", "label": "third of the five kañcukas" },
+    { "targetId": "prakasha-vimarsha", "type": "contracts_into", "label": "contracts ānandaśakti" },
+    { "targetId": "purusa", "type": "conditions", "label": "conditions the desiring subject" },
+    { "targetId": "vidya", "type": "opposes", "label": "opposed to clear knowing" }
+  ],
+  "trails": ["infinity-to-individual", "desire-and-fullness"],
+  "tags": ["tattva", "kañcuka", "desire", "contraction", "lack"]
+}

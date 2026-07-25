@@ -1,0 +1,44 @@
+{
+  "id": "spanda",
+  "title": "Spanda",
+  "sanskrit": "स्पन्द",
+  "transliteration": "spanda",
+  "summary": "The subtle vibration or pulsation of consciousness — the eternal self-affirmation of 'I-I'.",
+  "intuitiveMeaning": "Between waking up and falling asleep, between inhaling and exhaling, between one thought and the next — there is a subtle pulse, the delicate throb of being alive. That pulse, when recognized as the very substance of consciousness, is spanda.",
+  "explanation": "Spanda is not a movement in space or time but the intrinsic dynamism of I-consciousness. It is the slightest stirring within the absolute — both the source of all manifestation and the repose of consciousness in its own nature. The Spandaśāstra teaches that this pulsation is the very life of consciousness, the eternal self-affirmation 'aham aham' (I-I). It is not a temporal event but the timeless rhythm of self-awareness. Every cognition, every perception, every moment of awareness is a pulsation of spanda. To recognize this is to recognize oneself as the universal subject.",
+  "image": "/plates/spanda.webp",
+  "plateHotspots": [
+    {
+      "id": "pulse",
+      "x": 45,
+      "y": 35,
+      "type": "explanation",
+      "label": "The pulse of awareness",
+      "panelContent": "Your own awareness is not static — it pulses. Thoughts arise and dissolve. Attention moves. Awareness itself remains, but its content vibrates. That vibrating is spanda."
+    },
+    {
+      "id": "link-prakasha",
+      "x": 30,
+      "y": 65,
+      "type": "concept",
+      "targetId": "prakasha-vimarsha",
+      "label": "The rhythm of light and self-knowing",
+      "panelContent": "Spanda is the dynamic relationship between prakāśa and vimarśa — the pulse of illumination and self-possession that is consciousness itself."
+    }
+  ],
+  "sourcePassages": [
+    {
+      "work": "Spandakārikā",
+      "chapter": "1",
+      "verse": "1",
+      "translation": "Consciousness, though one, appears contracted as the individual soul. When it pulsates (spanda), it reveals its universal nature.",
+      "commentary": "Kṣemarāja comments that the very nature of consciousness is to pulsate — this pulsation is not a quality but its essence."
+    }
+  ],
+  "relations": [
+    { "targetId": "prakasha-vimarsha", "type": "presupposes", "label": "presupposes the polarity of light and self-awareness" },
+    { "targetId": "recognition", "type": "used_in_practice", "label": "recognized in the experience of spanda" }
+  ],
+  "trails": ["infinity-to-individual"],
+  "tags": ["dynamics", "consciousness", "vibration", "heart"]
+}

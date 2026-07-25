@@ -1,0 +1,85 @@
+{
+  "id": "maya",
+  "title": "Māyā",
+  "sanskrit": "माया",
+  "transliteration": "māyā",
+  "summary": "The power through which unlimited consciousness appears as divided subject and object.",
+  "intuitiveMeaning": "Like a single light refracted through a prism into many separate beams, Māyā is the power that makes the one appear as many. In everyday experience, it is the sense that 'I am here' and 'the world is out there' — the feeling of separation that seems so real.",
+  "explanation": "Māyā is the thirty-sixth principle in the Trika ontology, the threshold where pure unity (śuddhādhvan) gives way to the realm of duality (aśuddhādhvan). Unlike the Advaitic māyā (which is illusory), Abhinavagupta's māyā is a real power of Śiva — his śakti of self-limitation. Through it, the one infinite consciousness appears to contract into finite subjects confronting external objects. It is the principle of distinction (bheda) itself. Māyā is not ultimately real in the sense of being independent of consciousness, but it is not unreal either. It is the Lord's own playful self-concealment (tirobhāva). Its five coverings (kañcukas) further fragment awareness into time, space, causality, attachment and limited knowledge. The Trika path does not seek to destroy māyā but to recognize it as Śiva's power — when seen clearly, the prism is not an obstacle but the very means of manifestation.",
+  "image": "/plates/maya.webp",
+  "plateHotspots": [
+    {
+      "id": "felt-separation",
+      "x": 25,
+      "y": 35,
+      "type": "explanation",
+      "label": "The feeling of separation",
+      "panelContent": "The most direct experience of Māyā is the sense that you are inside your body looking out at a world that is not you. This subject-object split is not the nature of reality — it is the effect of Māyā's veiling power. In Tantric meditation, one learns to see through this split by tracing the sense 'I' back to its source."
+    },
+    {
+      "id": "prism-analogy",
+      "x": 50,
+      "y": 20,
+      "type": "explanation",
+      "label": "The prism of consciousness",
+      "panelContent": "One white light passes through a prism and emerges as many colours. Similarly, one consciousness passes through Māyā and appears as many subjects and objects. The prism does not destroy the light — it merely reveals its potential multiplicity."
+    },
+    {
+      "id": "link-kancukas",
+      "x": 72,
+      "y": 60,
+      "type": "concept",
+      "targetId": "kancukas",
+      "label": "The five coverings",
+      "panelContent": "Māyā operates through five coverings (kañcukas) that further fragment awareness: Kāla (time), Niyati (necessity), Rāga (attachment), Vidyā (limited knowledge), and Kalā (limited agency)."
+    },
+    {
+      "id": "link-recognition",
+      "x": 48,
+      "y": 78,
+      "type": "concept",
+      "targetId": "recognition",
+      "label": "Seeing through the veil",
+      "panelContent": "Recognition (pratyabhijñā) is the re-cognition that the veil of Māyā is nothing but Śiva's freedom. When you recognize the prism as your own power, the many colours do not disappear — they are seen as your own radiance."
+    },
+    {
+      "id": "source-ta",
+      "x": 30,
+      "y": 70,
+      "type": "source",
+      "label": "Tantrāloka 9.1-4",
+      "panelContent": "\"Māyā is the power of the Lord by which the one appears as many. It is neither real nor unreal but the inscrutable power of consciousness to assume all forms.\" — Dyczkowski translation"
+    }
+  ],
+  "sourcePassages": [
+    {
+      "work": "Tantrāloka",
+      "chapter": "9",
+      "verse": "1-4",
+      "translation": "Māyā is the power of the Lord by which the one appears as many. It is neither real nor unreal but the inscrutable power of consciousness to assume all forms.",
+      "wordNotes": "Māyā is from √mā — to measure, to limit. It is that which measures out or delimits the unlimited.",
+      "commentary": "Dyczkowski explains that māyā in Trika is not the cosmic illusion of Advaita Vedānta but the creative self-limitation (svātantrya) of Śiva. It is his freedom to appear as finite."
+    },
+    {
+      "work": "Īśvarapratyabhijñākārikā",
+      "chapter": "3",
+      "verse": "1-2",
+      "translation": "The Lord, by his own freedom, conceals his unlimited nature and appears as the limited soul. This concealment is māyā.",
+      "commentary": "Utpaladeva frames māyā as the Lord's autonomous act of veiling — not an external force but his own playful self-limitation."
+    },
+    {
+      "work": "Tantrasāra",
+      "chapter": "7",
+      "translation": "When the yogi pierces through the veil of Māyā and its five coverings, he attains the state of Śiva, free of all limitation.",
+      "commentary": "Piercing through does not mean destroying māyā but understanding it as one's own power."
+    }
+  ],
+  "relations": [
+    { "targetId": "kancukas", "type": "manifests_as", "label": "appears as the five coverings" },
+    { "targetId": "vidya", "type": "contracts_into", "label": "contracts into limited knowing" },
+    { "targetId": "prakasha-vimarsha", "type": "presupposes", "label": "presupposes the light of consciousness" },
+    { "targetId": "recognition", "type": "liberated_as", "label": "recognized as Śiva's freedom" }
+  ],
+  "trails": ["infinity-to-individual", "desire-and-fullness"],
+  "tags": ["tattva", "contraction", "bondage", "threshold"]
+}

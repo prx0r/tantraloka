@@ -1,0 +1,28 @@
+{
+  "id": "recognition",
+  "title": "Pratyabhijñā",
+  "sanskrit": "प्रत्यभिज्ञा",
+  "transliteration": "pratyabhijñā",
+  "summary": "Recognition — the direct re-cognition of one's own identity with Śiva that constitutes liberation in the Trika system.",
+  "explanation": "Pratyabhijñā is the central teaching of Utpaladeva's Īśvarapratyabhijñā and the soteriological core of Abhinavagupta's synthesis. It is not a new knowledge (jñāna) of something previously unknown but a re-cognition (prati + abhijñā) of what has always been true: that one's own consciousness is Śiva. The example given is of someone who has forgotten their own identity and, upon being reminded, recognizes themselves. This 'reminding' is the function of the teacher, scripture, and grace (śaktipāta). Pratyabhijñā is both the means and the goal — it is the recognition itself that liberates, not a practice that leads to liberation. It operates in every moment: whenever one perceives an object and recognizes 'this is consciousness,' that is pratyabhijñā. The entire Tantrāloka, in one sense, is a sustained elaboration of this single insight.",
+  "image": "/plates/recognition.webp",
+  "sourcePassages": [
+    {
+      "work": "Īśvarapratyabhijñākārikā",
+      "chapter": "1",
+      "verse": "1",
+      "translation": "The Lord is recognized as one's own Self by the destruction of the darkness of ignorance. This recognition is liberation.",
+      "commentary": "Dyczkowski notes that pratyabhijñā is not a new attainment but the removal of a mistaken identity. One does not become Śiva — one recognizes that one has always been Śiva."
+    },
+    {
+      "work": "Tantrāloka",
+      "chapter": "1",
+      "verse": "52",
+      "translation": "The supreme reality of the object of perception is Śiva Who is the Light of consciousness. To know this directly is pratyabhijñā.",
+      "commentary": "Abhinavagupta's entire nondual argument culminates in this recognition. The Light that illumines all things — that Light is one's own awareness. To realize this is liberation."
+    }
+  ],
+  "relatedConcepts": ["prakasha-vimarsha", "spanda", "siva-tattva", "saktipata"],
+  "prerequisites": ["prakasha-vimarsha", "maya"],
+  "tags": ["liberation", "recognition", "practice", "goal"]
+}

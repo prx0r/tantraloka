@@ -1,0 +1,47 @@
+{
+  "id": "purusa",
+  "title": "Puruṣa",
+  "sanskrit": "पुरुष",
+  "transliteration": "puruṣa",
+  "summary": "The contracted subject — the individual experiencer who has forgotten its identity with Śiva.",
+  "intuitiveMeaning": "The sense of 'I' that seems to live behind your eyes, inside your head, witnessing the world. This 'I' feels private, limited, like a small awareness inside a large body inside a vast world. That feeling — the undeniable 'I' of your experience that nevertheless feels small — is puruṣa.",
+  "explanation": "In the Trika system, puruṣa is not the transcendental Self (ātman) of Vedānta but the contracted subject — the individual soul that experiences itself as separate, limited and incomplete. It is the result of Śiva's self-limitation through Māyā and the five kañcukas. Where Śiva is the universal subject (pūrṇāhantā) who experiences all as himself, puruṣa is the finite subject who experiences himself as one among many. He is a knower but limited; a desirer but never satisfied; a doer but constrained. Yet puruṣa is not fundamentally different from Śiva — he is Śiva who has forgotten himself. The entire path of the Tantrāloka is the journey of puruṣa recognizing himself as Śiva.",
+  "image": "/plates/purusa.webp",
+  "plateHotspots": [
+    {
+      "id": "the-witness",
+      "x": 45,
+      "y": 30,
+      "type": "explanation",
+      "label": "The witness within",
+      "panelContent": "Who sees? Who hears? Who thinks? Behind each act of perception there is a sense of a witness — a 'someone' to whom experience happens. The Tantrāloka traces this witness back through the layers of contraction to its source as Śiva himself."
+    },
+    {
+      "id": "link-recognition",
+      "x": 60,
+      "y": 68,
+      "type": "concept",
+      "targetId": "recognition",
+      "label": "The return home",
+      "panelContent": "Recognition (pratyabhijñā) is puruṣa's re-cognition of himself as Śiva. Not a becoming but a remembering. Not a transformation but a homecoming."
+    }
+  ],
+  "sourcePassages": [
+    {
+      "work": "Tantrāloka",
+      "chapter": "9",
+      "verse": "12-15",
+      "translation": "The soul (puruṣa), covered by the five kañcukas, experiences itself as limited, separate and bound. When the coverings are recognized as Śiva's powers, the soul is liberated.",
+      "commentary": "Puruṣa is the knot (granthi) of the system — the point where all the coverings converge. Its release is the goal of all sādhana."
+    }
+  ],
+  "relations": [
+    { "targetId": "maya", "type": "presupposes", "label": "presupposes the veil of Māyā" },
+    { "targetId": "kancukas", "type": "conditions", "label": "conditioned by the five coverings" },
+    { "targetId": "vidya", "type": "conditions", "label": "knows through limited knowledge" },
+    { "targetId": "raga", "type": "conditions", "label": "desires through Rāga" },
+    { "targetId": "recognition", "type": "liberated_as", "label": "liberated as recognition of Śiva" }
+  ],
+  "trails": ["infinity-to-individual"],
+  "tags": ["tattva", "subject", "contraction", "individual"]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "kancukas",
+  "title": "Pañca Kañcukas",
+  "sanskrit": "पञ्च कञ्चुक",
+  "transliteration": "pañca kañcuka",
+  "summary": "The five coverings through which unlimited consciousness becomes limited: Kāla (time), Niyati (destiny), Rāga (attachment), Vidyā (limited knowledge), Kalā (limited agency).",
+  "intuitiveMeaning": "Imagine placing five filters over a bright light, each one dimming it further. The light is still the same light, but it now appears as a faint, coloured glow. The kañcukas are these filters — they do not destroy consciousness but cause it to appear as limited, temporal, bound, partial and conditioned.",
+  "explanation": "The five kañcukas are the powers of Māyā that further fragment the already-divided consciousness of puruṣa. Kāla (time) imposes sequentiality on the eternal now. Niyati (necessity) imposes causal law on the absolutely free. Rāga (attachment) creates desire for what is felt as lacking. Vidyā (limited knowledge) restricts omniscience to partial knowing. Kalā (limited agency) confines omnipotence to limited action. Together they constitute the framework of embodied, temporal, finite experience. In the ascent back to source, the yogi strips off these coverings one by one through recognition of their true nature as Śiva's own powers.",
+  "image": "/plates/kancukas.webp",
+  "plateHotspots": [
+    {
+      "id": "kala",
+      "x": 20,
+      "y": 30,
+      "type": "concept",
+      "label": "Kāla — time",
+      "panelContent": "Eternity contracted into past-present-future. The sense that 'time is passing' is a sign that Kāla is active. Behind it is the timeless now of Śiva."
+    },
+    {
+      "id": "niyati",
+      "x": 42,
+      "y": 28,
+      "type": "concept",
+      "label": "Niyati — necessity",
+      "panelContent": "Absolute freedom contracted into cause-and-effect. The sense that 'I have to' — that events follow a fixed order — is Niyati's signature."
+    },
+    {
+      "id": "raga",
+      "x": 62,
+      "y": 32,
+      "type": "concept",
+      "targetId": "raga",
+      "label": "Rāga — attachment",
+      "panelContent": "Fullness contracted into lack and desire. The sense that 'I want' — the ache that no object ever finally satisfies — is Rāga."
+    },
+    {
+      "id": "vidya",
+      "x": 30,
+      "y": 60,
+      "type": "concept",
+      "targetId": "vidya",
+      "label": "Vidyā — limited knowledge",
+      "panelContent": "Omniscience contracted into discursive thought. Knowing things, but partially, through concepts and language."
+    },
+    {
+      "id": "kala2",
+      "x": 68,
+      "y": 62,
+      "type": "concept",
+      "label": "Kalā — limited agency",
+      "panelContent": "Omnipotence contracted into limited action. The sense that 'I can do some things but not others' is the experience of Kalā."
+    }
+  ],
+  "sourcePassages": [
+    {
+      "work": "Tantrāloka",
+      "chapter": "9",
+      "verse": "5-15",
+      "translation": "The five coverings arise from Māyā and together constitute the condition of the bound soul. They are time, destiny, attachment, limited knowledge and limited agency.",
+      "commentary": "Jayaratha explains that each kañcuka is a restriction of one of Śiva's universal powers. Time restricts eternity, destiny restricts freedom, attachment restricts fullness, limited knowledge restricts omniscience, limited agency restricts omnipotence."
+    }
+  ],
+  "relations": [
+    { "targetId": "maya", "type": "manifests_as", "label": "arise from Māyā" },
+    { "targetId": "purusa", "type": "conditions", "label": "condition puruṣa" },
+    { "targetId": "raga", "type": "includes", "label": "includes Rāga" },
+    { "targetId": "vidya", "type": "includes", "label": "includes Vidyā" }
+  ],
+  "trails": ["infinity-to-individual"],
+  "tags": ["tattva", "contraction", "limitation", "bondage"]
+}

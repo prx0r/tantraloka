@@ -1,0 +1,83 @@
+{
+  "description": "Sanskritree corpus — clean IAST texts discovered through GRETIL/SARIT discovery methodology",
+  "methodology": "Before OCRing any text, check GRETIL, SARIT, Sanskrit Documents, and Ambuda. Most 'unavailable' texts exist as clean digital IAST.",
+  "texts": [
+    {
+      "id": "tantraloka",
+      "title": "Tantrāloka (Abhinavagupta)",
+      "source": "GRETIL",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-tantrAloka.txt",
+      "size_chars": 654840,
+      "lines": 17685,
+      "format": "IAST plain text",
+      "notes": "KSTS edition. Contains root verses + Jayaratha commentary interleaved. Dyczkowski English translation exists (11 vols)."
+    },
+    {
+      "id": "tantrasara",
+      "title": "Tantrasāra (Abhinavagupta)",
+      "source": "GRETIL",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-tantrasAra.txt",
+      "size_chars": 110610,
+      "lines": 206,
+      "format": "IAST plain text",
+      "notes": "Abhinavagupta's own prose summary of Tantrāloka. English translation by H.N. Chakravarty (Rudra Press, 2012) available."
+    },
+    {
+      "id": "nyayasutra",
+      "title": "Nyāyasūtra (Gautama)",
+      "source": "GRETIL",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_gautama-nyAyasUtra.txt",
+      "size_chars": 51699,
+      "lines": 495,
+      "format": "IAST plain text",
+      "notes": "5 books, 65 sutras. Classical Nyāya foundation text."
+    },
+    {
+      "id": "nyayabindu",
+      "title": "Nyāyabindu (Dharmakīrti)",
+      "source": "GRETIL",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-nyAyabindu.txt",
+      "size_chars": 24888,
+      "lines": 495,
+      "format": "IAST plain text (database format)",
+      "notes": "3 chapters, 209 sutras. Buddhist logic. Complex format — Motoi Ono database dump."
+    },
+    {
+      "id": "vakyapadiya",
+      "title": "Vākyapadīya (Bhartṛhari)",
+      "source": "GRETIL",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bhartRhari-vAkyapadIya.txt",
+      "size_chars": 256732,
+      "lines": 6041,
+      "format": "IAST plain text",
+      "notes": "3 kāṇḍas, 673 verses. Philosophy of language."
+    },
+    {
+      "id": "tarkasamgraha",
+      "title": "Tarkasaṃgraha (Annaṃbhaṭṭa)",
+      "source": "GRETIL",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_annaMbhatta-tarkasaMgraha.txt",
+      "size_chars": 15915,
+      "lines": 60,
+      "format": "IAST plain text (analytic)",
+      "notes": "76 numbered units. Analytic text with compound splits. Nyāya-Vaiśeṣika manual."
+    }
+  ],
+  "references": [
+    {
+      "id": "vb_lakshmanjoo",
+      "title": "Vijñāna Bhairava (Swami Lakshmanjoo)",
+      "source": "Lakshmanjoo Academy / John Hughes",
+      "format": "JSON (extracted verses + English)",
+      "notes": "145 verses extracted from EPUB. Useful as VB reference."
+    },
+    {
+      "id": "tantrasara_chakravarty",
+      "title": "Tantrasāra (H.N. Chakravarty translation)",
+      "source": "Rudra Press, 2012",
+      "format": "Markdown (reference only, not for redistribution)",
+      "notes": "Complete English translation of Tantrasāra. For evaluation comparison only."
+    }
+  ],
+  "discovery_notes": "All texts were found on GRETIL under sa_Author-work.txt patterns. Tarkasaṃgraha was initially thought to be unavailable as IAST, but was found at sa_annaMbhatta-tarkasaMgraha.txt. Always check GRETIL before OCRing."
+}

@@ -1,0 +1,51 @@
+# you are made of light
+
+Close your eyes. The surface of your skin — where you end and the world begins. The thoughts moving behind your eyes. Whatever is noticing the thoughts.
+
+Three layers. You just moved through three layers of yourself.
+
+The body is light slowed down. The mind is light moving faster. What you call "I" — light moving faster still.
+
+> "What is called 'tattva' is the one universal nature that invariably pervades the world-orders and the rest in every circumstance. Moreover, the one universal nature is of many kinds, as Earth and the rest of the tattvas. Thus, the fundamental state of being of Earth and the rest of the reality levels is said to be a tattva, for the sake of instruction in this way. A metaphysical principle is called a tattva because it extends by virtue of its pervasive state of being, like a universal, throughout its own effect, the multitude of properties, or else also throughout the group of perceivers similar to oneself. These are, in due order, those that range from Earth to Nature, the individual soul and Śiva etc."
+
+*Tattva* means "that-ness." The state of being *that* — where "that" is the reality that runs through everything. Earth is a tattva. A pot made of earth is. The pot is a shape. Earthness is what all shapes of earth share. The same logic runs upward through every level: waterness, fireness, airness, etherness — all the way to Śivaness.
+
+> "The thirty-six principles extend from Śiva to Earth. They are all one consciousness, appearing as many."
+
+The Shaiva masters mapped thirty-six tattvas — eleven above the Sāṁkhya twenty-five — with consciousness itself at the summit.
+
+> "The Śaiva system extends the Sāṁkhya 25 tattvas by adding another eleven reality levels, ending with Śivatattva, above these twenty-five. Thirty-six principles were established by adding the five — Śiva to Śuddha Vidyā — as the pure universe (Śuddhādhvan) above primal matter; so too Māyā, and then the following, with which the Impure universe of thirty-one tattvas begins. These are the reality principles that serve to account for the capacity of the individual soul to know and act, and the attendant circumstances. These are the power the soul possesses for limited action (kalā) and knowledge (vidyā), the attachment (rāga) that instigates them, the time (kāla) in which it takes place, and the necessity (niyati) of karmic consequences that model the content of the soul's experience. Moreover, apart from the nondualist, phenomenological exegesis, drawn from the Pratyabhijñā, of the higher so-called Pure Principles, Abhinava adds two more principles above these thirty-six, which are distinctive of his Trika system; namely, Bhairava or Supreme Śiva, and the feminine Inexplicable (Anākhyā) Kālī, beyond."
+
+The map has a beyond. The thirty-sixth principle opens onto a thirty-seventh, a thirty-eighth that stands beyond naming. The ladder disappears into light — the last rung is a threshold that dissolves as you cross it.
+
+> "Thirty-six principles were established by adding the five — Śiva to Śuddhavidyā — as the pure universe above primal matter."
+
+Five pure tattvas. Five powers: consciousness, bliss, will, knowledge, action. Each the same reality with a different power in the lead.
+
+> "From cit śakti arises the Śivatattva, from ānanda śakti comes the Śaktitattva, from icchā śakti comes forth the Sadāśivatattva, from jñāna śakti emerges the Īśvaratattva and from kriyā śakti arises the Śuddhavidyātattva. This distinction is based on predominance. For instance, one cannot think of cit without the other four. Where cit is the predominant element in Parama Śiva's autonomous nature that is regarded as citśakti; when ānanda is predominant that is ānanda śakti. So Śivatattva is where cit is predominant. Moreover, in each of these tattvas, though each one is full, each one is in fact replete with all these Śaktis."
+
+Below them, the descent. Māyā. Five kañcukas — armor for the soul. Twenty-four principles — intellect, ego, mind, senses, elements. Down to the density of stone. But even in stone, all five powers are present — compressed into a lattice too dense to read.
+
+> "With that projection of Śiva there arise two possibilities which further manifest into two tattvas: Sadāśiva and Īśvara. In both cases the state represented is: aham-idam. In both cases the supreme Lord is manifested in this aspect (objective aspect) represented by idam along with the I aspect (subjective aspect) represented by aham. However, at the Sadāśiva level I is principle and this has a subordinate position while at the Īśvara level, this has a principle position and I is at a subordinate place. At the Sadāśiva level, Śiva is supposed to take as his object the mass of phenomena which are like a picture of which the mere outline has been drawn and that takes the form aham-idam (the aham element is predominant). But when the mass of phenomena has become fully vivid, and he submerges the I element within the This element which has that mass of phenomena as its basis, then there arises Īśvara tattva. The ground of the aham aspect is nothing but pure consciousness."
+
+A pencil sketch versus a finished oil painting — the same shift as "I am this" with the accent on I versus "I am this" with the accent on *this*. Both are already the full truth, facing different directions. One leans into the subject; the other leans into the world the subject beholds. Neither has forgotten that the world and the self are made of the same light.
+
+> "Four cosmic spheres: the sphere of Energy, the sphere of Māyā, the sphere of Nature, and the sphere of Earth. Each contained within the next, all contained within Anuttara."
+
+> "The five kañcukas (coverings) are the principles that contract Śiva's infinite capacities into the finite experience of the bounded soul: kalā (limited agency), vidyā (limited knowledge), rāga (attachment), kāla (time), and niyati (necessity). These emerge from Māyā and together constitute the apparatus of finitude. Māyā itself is the 'knot' (māyāgranthi) — the root principle of differentiation that, when pierced, releases the soul from the impure universe into the pure path. The relation between Māyā and the individual soul is carefully distinguished: Māyā is the principle of obscuration, while the soul is the conscious subject whose innate freedom is veiled by it. The aggregate of obscuring coverings (kañcuka) is made of Māyā, and so too the collection of the instruments of perception and action that constitute the psychophysical organism."
+
+Māyā: the knot that ties the coverings around you. Pull the knot — the whole apparatus falls open. What remains is the pure path, unobstructed. The rope that bound you becomes the rope you climb.
+
+> "As Torella observes: 'the kañcukas (kalā, vidyā, rāga, kāla and niyati) form a foreign body with respect to the Sāṅkhya basis of the tattvas', and further, they give 'the impression of doubles, having an uncertain status, so much so that not only all the Śaiva philosophers but also some of the Śaiva scriptures themselves feel bound to answer the objections they already foresaw in the opponents' minds, and to highlight the specificity, for example, of rāga 'Attachment' and vidyā 'Science', with respect to their seeming doubles, avairāgya and buddhi.' The Śaiva justification for having vidyā as well is that buddhi cannot examine itself, and therefore the soul must have an additional instrument of cognition. As Sadyojyotis argues: 'Without an instrument, an agent is not known to act with respect to an object. Therefore, there must exist an instrument, and that is vidyā, which discriminates among the awarenesses of the intellect.'"
+
+The coverings look like duplicates, but they solve a real problem: the intellect sees everything except itself — a knife cuts everything except its own blade. A meta-cognitive faculty is needed: a light that can turn back on itself, a power of knowing that belongs to the soul itself, veiled and constricted into vidyā.
+
+> "Thus the Supreme Lord renders the individual souls subject to the chain of cause and effect of Fundamental Nature. This is heralded by the progressive operation of the obscuring coverings (kañcuka) Kalā, Vidyā, Rāga, Kāla and Niyati. They are in the form of limited agency, limited noetic subjectivity (jñatva), craving, temporal differentiation, and its emergence due to the necessity of karmic consequence respectively. They consist of the lack of reflective awareness of the essential nature of the soul which does and knows everything, is free of craving, is undifferentiated by time and is all things. The group of principles ranging from the Force of limited agency up to Earth differs for each individual soul. This is clear from the fact that, for example, the joy and suffering each one experiences are different. If the universe were to be a single aggregate of means to worldly experience, the experience of pleasure and the like would be the same for all souls."
+
+Each covering is a forgetting. You forget you can do anything — now you can only do some things. You forget you know everything — now you learn. You forget you are complete — now you want. The coverings are why your life is yours and not anyone else's. They are the ink that draws the outline of your face against the background of the infinite.
+
+> "The Force of limited agency arises from the principle of Māyā, and its characteristic is limited agency (kiñcitkartṛtva). This, the first of the obscuring coverings, not only obscures its essentially omnipotent Śiva nature, it enlivens its limited consciousness. It is not eternal, never destroyed, as a principle amongst the other principles, because it is said that then comes Māyā after the preceding principles. Moreover, that is so also because it will be established that its withdrawal occurs periodically."
+
+Kalā cuts omnipotence down to "I can move this hand." The cut: the condition for having a hand to move at all. The same power that limits is the power that enlivens. Obscuration and animation are the same gesture. The hand moves because the cut made movement possible.
+
+From bone to transparency. Thirty-six layers. You are the full stack. You just live most of your life at the surface, forgetting how far down you go.

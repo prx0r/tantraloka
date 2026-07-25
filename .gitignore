@@ -1,0 +1,15 @@
+.env
+.DS_Store
+*.mp4
+*.zip
+contact_sheet.jpg
+validation.json
+scene_manifest.json
+scene_catalog.json
+concat_list.txt
+*.pdf
+node_modules/
+.next/
+__pycache__/
+*.pyc
+site/node_modules/

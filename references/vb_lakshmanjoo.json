@@ -1,0 +1,733 @@
+{
+  "translator": "Swami Lakshmanjoo",
+  "work": "Vijñāna Bhairava",
+  "edition": "KSTS Volume 8, 1918",
+  "source": "/root/projects/sanskrithelp/data/rag/vijnana-bhairava.txt",
+  "verses": [
+    {
+      "number": 1,
+      "sanskrit": "sārātsāravibhāgaśaḥ",
+      "english": "adyāpi na nivṛtto me saṁśayaḥ parameśvara / 2a You can translate it in both ways: the outcome from the union of two energies (the Lord and Pārvatī) or [from the] Rudrayāmala Tantra."
+    },
+    {
+      "number": 3,
+      "sanskrit": "kiṁ vā śaktitrayātmakam",
+      "english": "nādabindumayaṁ vāpi kiṁ candrārdhanirodhikāḥ cakrārūḍhamanackaṁ vā"
+    },
+    {
+      "number": 4,
+      "sanskrit": "kiṁ vā śaktisvarūpakam",
+      "english": "O Lord (deva), what is the real essence of the way we have to tread (kiṁ rūpaṁ tattvato deva)? This is one sentence, an exclusive sentence. O Lord, what is the real essence of the way we have to march"
+    },
+    {
+      "number": 6,
+      "sanskrit": "sakalatve na bhāvayet⁴²",
+      "english": "This is a misunderstanding of Pārvatī. She wants to clarify it. Na hi varṇa vibhedena deha bhedena vā bhavet, paratvaṁ. Paratvaṁ cannot exist when there is varṇa vibheda or deha bheda, the differentia"
+    },
+    {
+      "number": 10,
+      "sanskrit": "vikalpanihitātmanām⁵²",
+      "english": "Bhrānta buddhīnām, whose intellect is always astray, scattered, and those people who are established in the commencement of actions only (kriyāḍambara vartinām; āḍambara means “commencement”), . . . ."
+    },
+    {
+      "number": 11,
+      "sanskrit": "na ca śaktitrayātmakaḥ",
+      "english": "Tattvato na navātmāsau, in fact, [Bhairava] is not the ninefold way. It is not the fifty-fold way. This Bhairava is not śabda rāśi, this is not the collection of the fifty-fold way (treading the journ"
+    },
+    {
+      "number": 12,
+      "sanskrit": "na ca śaktisvarūpakaḥ",
+      "english": "It is neither nāda, bindu, candra, ardhacandra, nirodhikā, śakti, vyāpinī, samanā, all these. [Bhairava] is not existing [in these]. Na cakra krama saṁbhinna, this is not the establishment of that mov"
+    },
+    {
+      "number": 13,
+      "sanskrit": "pravṛttyarthamudāhṛtam",
+      "english": "Etā, these ways established in the Tantras are bāla vibhīṣikā, just for diverting ignorant boys from bad actions. You terrify those boys by saying that, “If you do such and such action, this ghost wil"
+    },
+    {
+      "number": 14,
+      "sanskrit": "akathyā paramārthataḥ",
+      "english": "antaḥ svānubhavānandā vikalponmuktagocarā / yāvasthā bharitākārā"
+    },
+    {
+      "number": 15,
+      "sanskrit": "bhairavī bhairavātmanaḥ",
+      "english": "tadvapustattvato jñeyaṁ vimalaṁ viśvapūraṇam / 16a This state of Bhairava is beyond the limitation of space, time, and formation. It has no space, It has no time, It has no form–It is beyond that, bey"
+    },
+    {
+      "number": 17,
+      "sanskrit": "parādevī prakīrtitā",
+      "english": "This state of Bhairava that is already sung in the body of the Tantras, yāvasthā parigīyate (parigīyate, sung), that state is in Its supreme way (pararūpena), [and It] is the state of Bhairavī (parā d"
+    },
+    {
+      "number": 18,
+      "sanskrit": "parā śaktiḥ parātmanaḥ",
+      "english": "Just as between energy and the holder of energy there is no differentiation at all to be found–always there is abheda, there is unity, unity between energy and the holder of energy (śakti and Śiva), t"
+    },
+    {
+      "number": 19,
+      "sanskrit": "prārambho’yaṁ praveśane",
+      "english": "Because, when there is a fire (for instance, there is a fire), its energy is dāhikā⁵⁶, [and dāhikā’s] energy is pācikā⁵⁷ [and] prakāśikā⁵⁸. All these energies are owned by fire, but those energies–lig"
+    },
+    {
+      "number": 20,
+      "sanskrit": "śaivī mukhamihocyate",
+      "english": "When you enter in the state of energy and leave your individual state (you have not to enter in the state of energy for always), you have to throw off the individual state and enter in the energy to e"
+    },
+    {
+      "number": 21,
+      "sanskrit": "tadvacchaktyā śivaḥ priye",
+      "english": "O dear Pārvatī, just like with the light of your candle or torch (dīpasya ālokena, by the light of your torch, or candle, or by the rays of the sun), all the differentiated points of deśa (space) are "
+    },
+    {
+      "number": 22,
+      "sanskrit": "vyapadeśavivarjitā",
+      "english": "yāvasthā bharitākārā bhairavasyopalabhyate / kairupāyairmukhaṁ tasya"
+    },
+    {
+      "number": 23,
+      "sanskrit": "parādevī kathaṁ bhavet",
+      "english": "yathā samyagahaṁ vedmi tathā me brūhi bhairava / O Lord of lords, O [You who are] glorified by triśūla⁶² (triśūlāṅka) and kapāla kṛta bhūṣaṇa, glorified with the skull bone, You are glorified with the"
+    },
+    {
+      "number": 24,
+      "sanskrit": "bharaṇādbharītā sthitiḥ",
+      "english": "Ūrdhve means “from upwards”. The movement from upwards (i.e., from the heart to dvādaśānta⁶⁷) is prāṇaḥ (prāṇaḥ means, the outgoing breath). Adhaḥ, from dvādaśānta to hṛdaya (the heart) is jīvaḥ (jīva"
+    },
+    {
+      "number": 25,
+      "sanskrit": "bhairavi vyajyate vapuḥ",
+      "english": "Antar bahir, internally or outwardly (vāpi means “or”), internally or outwardly, marutaḥ, this energy of breath, when [it] is followed by two voids by returning back to two ethers, viyat yugma ānuvart"
+    },
+    {
+      "number": 26,
+      "sanskrit": "tayā bhairavarūpatā",
+      "english": "Now He goes to the more subtle process. Madhye nirvikalpatayā, when You establish onepointedness in the central path, the central vein (suṣumnā; madhye means, in suṣumnā, in the central vein), when Yo"
+    },
+    {
+      "number": 27,
+      "sanskrit": "śaktyā śāntaḥ prakāśate",
+      "english": "This is a practice with a little effort, what you call “haṭha yoga”. When You take Your breath inside, when it reaches the point of the heart, just [retain it] for a while, and take it out afterwards–"
+    },
+    {
+      "number": 28,
+      "sanskrit": "śāmyantīṁ, bhairavodayaḥ",
+      "english": "Bas. After “śāmyantīm”, you should put a comma. Ā mūlat (mūlāt means mūlādhāra⁸³), right from mūlādhāra (ā mūlāt: ā, right from, mūlāt, mūlādhāra), tām cintayet, you should realize Her nature, realize"
+    },
+    {
+      "number": 29,
+      "sanskrit": "tāvadante mahodayaḥ",
+      "english": "This is the pathway of āṇavopāya. Udgacchantīṁ taḍit rūpāṁ (it is another technique), another technique is tadit rūpam (taḍit rūpāṁ, just like lightening), when you feel that it is just like lightenin"
+    },
+    {
+      "number": 30,
+      "sanskrit": "muktvā muktvāntataḥ śivaḥ",
+      "english": "Now, there is a successive way of āṇavopāya. This is a successive way of āṇavopāya, complete āṇavopāya–successive way of āṇavopāya. There are twelve parts of these successive states (krama dvādaśakam)"
+    },
+    {
+      "number": 31,
+      "sanskrit": "sarvordhve sarvagodgamaḥ",
+      "english": "This is the way of āṇavopāya without succession. The former was the way of āṇavopāya with succession. This is the way of āṇavopāya without succession. Tayā¹¹², by that energy of prāṇa (breath), you mu"
+    },
+    {
+      "number": 32,
+      "sanskrit": "praveśo hṛdaye bhavet",
+      "english": "Śikhipakṣair (śikhipakṣair means, the wings or feathers of a peacock), just like the wings or feathers of a peacock (you see, the feathers of a peacock are filled with various colors, multicolored; ci"
+    },
+    {
+      "number": 33,
+      "sanskrit": "svayaṁ līnā varapradā",
+      "english": "By adopting this means (īdṛśena krameṇa), yatra kutrāpi cintanā, wherever you will put this one-pointed thought of awareness–you may put it on voidness, you may put it on some wall, you may put it on "
+    },
+    {
+      "number": 34,
+      "sanskrit": "lakṣayellakṣyamuttamam",
+      "english": "What you have to do next in this next practice? Tiṣṭhan mīlita locanaḥ, you have to sit in some posture with your eyes closed (tiṣṭhan mīlita locanaḥ, sit in some posture and keep your eyes absolutely"
+    },
+    {
+      "number": 35,
+      "sanskrit": "tayā devaḥ prakāśate",
+      "english": "Madhya nāḍī (madhya nāḍī means, the central vein), the central vein suṣumnā, which is madhya saṁsthā, situated in the central path, and this madhya nāḍī should be concentrated [upon] just like taking "
+    },
+    {
+      "number": 36,
+      "sanskrit": "tanmadhye paramā sthitiḥ",
+      "english": "Kara ruddha dṛg astreṇa, ruddha dṛk astreṇa, by closing all the openings of the head, . . . I mean, the eyes, the two nostrils, the two ears, and one mouth. You have to close them by your own hand. Th"
+    },
+    {
+      "number": 37,
+      "sanskrit": "layānte dhyāyato layaḥ",
+      "english": "Dhāmāntaḥ (dhāma means, the pupil of the eye by which we see, perceive form), you must agitate it with pressing, like this [Swamiji demonstrates]. When you agitate the pupils of the eyes by pressing t"
+    },
+    {
+      "number": 38,
+      "sanskrit": "paraṁ brahmādhigacchati",
+      "english": "That sound which is un-struck is called anāhata. Or, if you can’t meditate on the anāhata sound, [then] when any sound is produced without a break (abhagna śabde). Abhagna śabde means, that sound whic"
+    },
+    {
+      "number": 39,
+      "sanskrit": "śūnyatāmeti bhairavi",
+      "english": "Bhairavi, O Pārvatī, praṇavādi samuccārāt, . . . There are three kinds of praṇavas–Vedic praṇava, Śiva praṇava, and Māyā praṇava. Vedic praṇava is ‘oṁ’, Śiva praṇava is ‘hūṁ’, Māyā praṇava is ‘hrīṁ’. "
+    },
+    {
+      "number": 40,
+      "sanskrit": "śūnyākāraḥ pumānbhavet",
+      "english": "At the beginning of uttering any mantra (‘oṁ’ or ‘sauḥ¹⁵⁶’ or any mantra, whatever is found in your thought in Shaivism), at the beginning of utterance of the mantra¹⁵⁷, or at the end of uttering this"
+    },
+    {
+      "number": 42,
+      "sanskrit": "śūnyoccārādbhavecchivaḥ",
+      "english": "bindvardhacandranādāntaḥ śūnyoccārādbhavecchivaḥ //"
+    },
+    {
+      "number": 44,
+      "sanskrit": "śaktyā śūnyamanā bhavet ¹⁷⁰",
+      "english": "This is śāmbhavopāya with the slightest touches of āṇavopāya. Pṛṣṭha śūnyaṁ mūla śūnyaṁ, now you have to imagine first that, “Above me there is voidness, below me there is voidness (below my body)”, a"
+    },
+    {
+      "number": 45,
+      "sanskrit": "nirvikalpodayastataḥ",
+      "english": "Simultaneously (yugapat, simultaneously), one should bhāvayet, one should imagine with firmness (sthiram bhāvayet), simultaneously one should imagine that on the upper side of [their] body, where subj"
+    },
+    {
+      "number": 46,
+      "sanskrit": "nirvikalpasvarūpabhāk",
+      "english": "Actually, samādhi is where there is no mind, when mind does not work. The functioning of mind is just to think of things, which are not concerned with anything. Things which are not concerned with any"
+    },
+    {
+      "number": 47,
+      "sanskrit": "bhāvanā sā sthirā bhavet",
+      "english": "This is also śāktopāya. Just imagine that dravyam, the material, deha gatam, that is existing in your body (flesh, bones, and marrow, those are existing in your body), just imagine there is nothing in"
+    },
+    {
+      "number": 48,
+      "sanskrit": "dhyāyannadhyeyabhāgbhavet",
+      "english": "Or, consider this way. This is one dhāraṇā in the forty-seventh and forty-eighth [verses]. This is only one technique of process. Dehāntare tvag vibhāgaṁ bhitti bhūtaṁ vicintayet. You have to imagine "
+    },
+    {
+      "number": 49,
+      "sanskrit": "paraṁ saubhāgyamāpnuyāt",
+      "english": "Subhage, O Pārvatī, the one whose thought is focused in the ether of the heart (hṛdyākāśe nilīnākṣaḥ, whose thought is focused, centralized, in the ether of the heart, in the voidness of the heart), t"
+    },
+    {
+      "number": 50,
+      "sanskrit": "tattvalakṣyaṁ pravartate",
+      "english": "Sarvataḥ, from all sides, svaśarīrasya dvādaśānte mano, [focus your mind on] one dvādaśānta in your body. It may be between the two eyebrows, it may be in the heart, it may be the throat-pit–anywhere."
+    },
+    {
+      "number": 51,
+      "sanskrit": "vailakṣaṇyaṁ dinairbhavet",
+      "english": "Next, fifty-one. Or, in each and every action, focus your mind in dvādaśānta. Yathā tathā yatra tatra dvādaśānte manaḥ kṣipet, when you are walking or talking, or doing some household work, or doing a"
+    },
+    {
+      "number": 52,
+      "sanskrit": "śāntābhāsastadā bhavet",
+      "english": "When kālāgninā (kālāgninā is the state of kālāgnirudra ¹⁷⁹) . . . The place of kālāgnirudra is the left toe of your foot–the left toe [of your] left foot. JOHN: Left foot. SWAMIJI: Toe of your left fo"
+    },
+    {
+      "number": 53,
+      "sanskrit": "puṁbhāvaḥ paramo bhavet",
+      "english": "In the same way, just imagine (vikalpataḥ, you have to imagine; it is a dhāraṇā [based] on imagination) that this whole universe is burnt to ashes. And this imagination should take place in one-pointe"
+    },
+    {
+      "number": 54,
+      "sanskrit": "dhyātvānte vyajyate parā",
+      "english": "Actually, your world is your body,¹⁸⁴ and it is attached with your own world. Or, jagataḥ; jagataḥ means, you can concentrate on the world of others, not your world. Svadehe jagato vāpi sūkṣma sūkṣmat"
+    },
+    {
+      "number": 55,
+      "sanskrit": "suptaḥ svātantryamāpnuyāt¹⁹²",
+      "english": "“Svapna svātantryam”¹⁹³ is the real reading of Lord Śiva in the Vijñāna Bhairava. This is the Kingdom in the dreaming state, how you attain the Kingdom in the dreaming state. The dreaming state is the"
+    },
+    {
+      "number": 56,
+      "sanskrit": "yāvadante manolayaḥ",
+      "english": "This dhāraṇā is also śāktopāya towards śāmbhavopāya. The gross formation of the world is bhuvanādhva, the subtle formation of the world is tattvādhva, and the subtlest formation of the world is kalādh"
+    },
+    {
+      "number": 57,
+      "sanskrit": "śaivaṁ dhyātvā mahodayaḥ",
+      "english": "This is also another way of dhāraṇā, a supreme dhāraṇā. Just you have to put some addition to it. Just sit or stand outside in your garden and imagine that around you this whole universe is existing, "
+    },
+    {
+      "number": 58,
+      "sanskrit": "tatastallayabhājanam",
+      "english": "O Pārvatī, just imagine, just think, that this universe is with no substance and is only a vacuum. Viśvam etat mahādevi śūnya bhūtaṁ vicintaye, it is only a vacuum, there is nothing (e.g., you perceiv"
+    },
+    {
+      "number": 59,
+      "sanskrit": "tallayāttanmayo bhavet",
+      "english": "SWAMIJI: Just keep one pot before you. JOHN: Pot? SWAMIJI: Some pot, jug, or tumbler, or anything.²¹⁰ Focus your sight on it for a while. Focus your sight on it with one-pointedness and imagine that i"
+    },
+    {
+      "number": 60,
+      "sanskrit": "vṛttikṣīṇaḥ prajāyate",
+      "english": "Or, just go out in some field where there are no trees, no mountains, or nothing; no houses, no roads, no shade, no waterfalls, nothing; only barren, a desert, just like a desert; nirvṛkṣa giri bhitty"
+    },
+    {
+      "number": 61,
+      "sanskrit": "madhye tattvaṁ prakāśate",
+      "english": "Just take any two pots or [any] two things. Meditate on any two objects (ubhayorbhāvayoḥ), e.g., this case of [spectacles] and this paper. Concentrate on these two objects and reside and rest in-betwe"
+    },
+    {
+      "number": 62,
+      "sanskrit": "vikasatyati bhāvanā ²¹³",
+      "english": "There are two readings in this dhāraṇā. One dhāraṇā is, just look at one pot (bhāve atyakte).²¹⁴ When you look on that one pot, go on looking at [that] one pot, don’t think of any other thing. Go on t"
+    },
+    {
+      "number": 63,
+      "sanskrit": "manasā paramodayaḥ",
+      "english": "You have to just imagine that your body is–although it is individual and it seems to be limited–[that] this, your individual body, is actually your universal body (it is why He has put, sarvaṁ dehaṁ j"
+    },
+    {
+      "number": 64,
+      "sanskrit": "samudgamanabhājanam",
+      "english": "Vāyu dvayasya saṁghaṭṭāt, when these two breaths meet, . . . They meet at one place. The beginning of ingress is the ending point of egress; the beginning of prāṇa is the ending point of apāna. That i"
+    },
+    {
+      "number": 65,
+      "sanskrit": "parānandamayo bhavet",
+      "english": "Take the whole universe or your own body (either this whole universe or your own body). You must think that it is filled with one’s own bliss of the Self. Either you imagine that this whole universe i"
+    },
+    {
+      "number": 66,
+      "sanskrit": "yena tattvaṁ prakāśate",
+      "english": "Kuhana prayoga is one kind of trick. This is a trick: By tickling in the armpits, when somebody tickles you in the armpits, both armpits, and you laugh, you laugh wildly without any limit, and there y"
+    },
+    {
+      "number": 68,
+      "sanskrit": "smarānandena yujyate",
+      "english": "Now He puts another process. It is śāktopāya. Make your mind rest between the energy of will and knowledge. Give your mind rest between the energy of will and knowledge (icchā and jñāna; vahni is will"
+    },
+    {
+      "number": 69,
+      "sanskrit": "tatsukhaṁ svākyamucyate",
+      "english": "lehanāmanthanākoṭaiḥ strīsukhasya bharātsmṛteḥ / śaktyabhāve’pi deveśi"
+    },
+    {
+      "number": 70,
+      "sanskrit": "bhavedānandasaṁplavaḥ",
+      "english": "The direct way of the sex act is first (sixty-ninth) and the indirect way of the sex act is the seventieth śloka. JOHN: Direct way is sixty-nine. SWAMIJI: Sixty-nine is the direct way of the sex act. "
+    },
+    {
+      "number": 71,
+      "sanskrit": "tallayastanmanā bhavet",
+      "english": "Now, this is a process. Now, the process of the sex act He will explain to you. Here, [in the previous two verses], there was no process at all. There was only to enjoy the sexual act. The enjoyment o"
+    },
+    {
+      "number": 72,
+      "sanskrit": "mahānandastato bhavet",
+      "english": "Or, take some sweet dish, put some sweet dish before you, or a sweet drink. Jagdhi means, a sweet edible thing. Pāna means, a sweet drink. It will be kṣīra pāna²⁴⁸ or it will be vīrapāna²⁴⁹, anything "
+    },
+    {
+      "number": 73,
+      "sanskrit": "manorūḍhestadātmatā",
+      "english": "Gītādi viṣaya āsvāda. Now take musical instruments, a music performance (gītādi viṣaya; that is also viṣaya, that is also our diet, our diet through the ears, an aural diet).²⁵² Gītādi viṣaya āsvāda, "
+    },
+    {
+      "number": 74,
+      "sanskrit": "svarūpaṁ saṁpravartate",
+      "english": "Wherever your mind becomes peaceful, wherever your mind is situated peacefully, put your mind there. If your mind is situated peacefully in working in the garden, put your mind there; don’t go in the "
+    },
+    {
+      "number": 75,
+      "sanskrit": "parā devī prakāśate",
+      "english": "When sleep has not yet come (anāgatāyāṁ nidrāyāṁ, when sleep has not yet taken place), prāṇaṣṭe bāhya gocare, and when wakefulness is over–wakefulness is over and sleep has not yet come–there, if, by "
+    },
+    {
+      "number": 76,
+      "sanskrit": "svātmarūpaṁ prakāśate",
+      "english": "Just imagine that the whole ākāśa²⁶³ is filled with the effulgent light of the sun. It is outside, it is a dhāraṇā done outside, and [also] a dhāraṇā done in your room at night. Put the bulb on, the l"
+    },
+    {
+      "number": 77,
+      "sanskrit": "parāvāptiḥ prakāśate",
+      "english": "These are the five states of the five saints, five ancient saints, five states of schools, schools of five, . . . DEVOTEE: Schools of thought. SWAMIJI: . . . schools of thought of five ancient [types "
+    },
+    {
+      "number": 78,
+      "sanskrit": "parā pūrṇā matirbhavet",
+      "english": "This is āṇavopāya-cum-śāktopāya.²⁸⁵ Mṛdvāsane, sit on your soft seat (for instance, just a Dunlop cushion, a Dunlop pillow), sit on that soft seat, and then hasta pādau nirāśrayaṁ nidhāya sphijaikena,"
+    },
+    {
+      "number": 79,
+      "sanskrit": "śamamāyāti tallayāḥ",
+      "english": "Upaviśyāsane samyak, be seated on some seat (it may be hard or it may be soft–it is not written there), upaviśyāsane, be seated on some seat, bāhū kṛtvārdha kuñcitau, and keep your arms half-curved, n"
+    },
+    {
+      "number": 80,
+      "sanskrit": "manaḥ kṛtvā śivaṁ vrajet",
+      "english": "Just put before yourself some most well-ornamented, beautiful-shaped lady, or a beautiful-shaped flower vase, or anything [beautiful]. Put some very attractive thing before yourself, and then, . . .* "
+    },
+    {
+      "number": 81,
+      "sanskrit": "stataḥ śānte pralīyate",
+      "english": "Put your tongue in the middle of your mouth, inside, and sphāritāsye, the space of your mouth must become widened, internally, not outwardly, like this [Swamiji demonstrates]. Put your tongue in the c"
+    },
+    {
+      "number": 82,
+      "sanskrit": "kṣaṇāt kṣīṇāśayo bhavet",
+      "english": "Either be seated on some āsana or on your bed (śayane). Āsane śayane vā sthitvā, either be seated on an āsana or on a bed. Svadehaṁ nirādhāraṁ vibhāvayan (put a comma after “svadehaṁ”), svadehaṁ nirād"
+    },
+    {
+      "number": 83,
+      "sanskrit": "devi divyaughamāpnuyāt",
+      "english": "Calāsane sthitasya, the one who is seated on calāsana, that seat which is moving, . . .* It can be on horseback, or a tonga²⁹³ (but not a motorcar), or an inferior motorcar (not a well-tuned motorcar)"
+    },
+    {
+      "number": 84,
+      "sanskrit": "bhairavaṁ vapurāpnuyāt",
+      "english": "When you see sometimes this ākāśa (sky) vimalam, absolutely pure, without any clouds, only blueish, all blueish, kṛtvā dṛṣṭiṁ nirantarām, then you must put your sight on that ākāśa without any pause, "
+    },
+    {
+      "number": 85,
+      "sanskrit": "tejastattvaṁ samāviśet",
+      "english": "Just imagine that the whole ākāśa is situated in your brahmasthāna (in the skull)–this whole ākāśa is situated in the skull. Imagine that your skull is so wide and broad just like the ākāśa, just like"
+    },
+    {
+      "number": 86,
+      "sanskrit": "jñātvānantaprakāśabhṛt",
+      "english": "Kiñcit jñātaṁ dvaitadāyī, that which is full of duality, dvaitadāyī, that gives the cognition of dualism, after knowing that state which gives you the cognition of duality (i.e., the state of wakefuln"
+    },
+    {
+      "number": 87,
+      "sanskrit": "bhairavaṁ rūpameṣyati",
+      "english": "Sometimes you see there is durniśā (durniśā means, that night when it is raining tremendously). And that night must not be with the moon. Kṛṣṇa pakṣāgame, it must be a dark night without a moon, witho"
+    },
+    {
+      "number": 88,
+      "sanskrit": "bhāvayaṁstanmayo bhavet",
+      "english": "Evameva, in this way, nimīlyādau netre, ādau netre nimīlya, first close your eyes. Don’t close [them] by pressing your eyelids. Close [them] calmly without pressing your eyelids. Agrataḥ kṛṣṇābham dhy"
+    },
+    {
+      "number": 89,
+      "sanskrit": "tatraivātmā prakāśate",
+      "english": "Yasya kasyendriyasyāpi vyāghātāt, any organ in your body, if it is struck against some object–when your eye, or your nose, or your ear, or your mouth, or your body³¹⁴ is struck against some other obje"
+    },
+    {
+      "number": 90,
+      "sanskrit": "jñānaughaḥ parameśvaraḥ",
+      "english": "This is śāktopāya with āṇava’s touch in the beginning. Abinduṁ avisargaṁ ca akāraṁ japato mahān. Just take ‘aḥ’, the letter ‘aḥ’, or the letter ‘ṁ’ in any mantra (in some mantras, the letter ‘aḥ’ is r"
+    },
+    {
+      "number": 91,
+      "sanskrit": "spṛśedbrahma sanātanam",
+      "english": "Varṇasya savisargasya, [recite] any letter which has got a visarga in the end, e.g., ‘kaḥ’, ‘khaḥ’, ‘paḥ’, ‘caḥ’–it has got two bindus in the end.³¹⁹ Any letter, take any letter. Recite this, recite t"
+    },
+    {
+      "number": 92,
+      "sanskrit": "svarūpaṁ darśayettadā",
+      "english": "Svamātmānam (here, “ātmānam” does not mean your individual soul; “ātmānam” means your body), just imagine that your body is only a vacuum, it is nothing (vyomākāraṁ svamātmānam). Svamātmānam (svaṁ śar"
+    },
+    {
+      "number": 93,
+      "sanskrit": "bhairave nirmalā gatiḥ",
+      "english": "Kiñcid aṅgaṁ vibhidyādau: ādau, at first, tīkṣṇa sūcyādinā, there must be a needle which is very sharp, with some sharp needle, [and] kiñcid aṅgaṁ, let some limb of your body be stuck with a sharp nee"
+    },
+    {
+      "number": 95,
+      "sanskrit": "kalayannā³²⁶ pṛthagbhavet",
+      "english": "Kalayan, when you imagine and think that the functioning of māyā is to put you in illusion, and the functioning of those five coverings (kalāyāḥ, the five-fold coverings³²⁷) is also functioning in its"
+    },
+    {
+      "number": 96,
+      "sanskrit": "tatastatraiva līyate",
+      "english": "When any desire comes in your mind, let it come, let it flow out. As soon as this desire flows out, put an end to it at once. Don’t let it function at all. As soon as it begins to function, let this f"
+    },
+    {
+      "number": 97,
+      "sanskrit": "tallīnastanmanā bhavet",
+      "english": "“In fact, I have no desire and I have no cognition of any object.” When desire and cognition cease to be, cease to function, then where is that individual being also? The individual being also ceases "
+    },
+    {
+      "number": 98,
+      "sanskrit": "tatastattvārthadarśanam",
+      "english": "Concentrate your mind on your will when it is about to flow out; not when it has flown out, when it is about to flow– icchāyām. Or, concentrate your mind on your knowledge when it is about to flow out"
+    },
+    {
+      "number": 99,
+      "sanskrit": "evaṁbhāvī śivaḥ priye",
+      "english": "It is the next process. This objective cognition (jñānam means, objective cognition), this field of objective cognition, has no cause to rise. How it rises, it is a wonder. This field of objective cog"
+    },
+    {
+      "number": 100,
+      "sanskrit": "bhāvayanbhavajijjanaḥ",
+      "english": "Sarva deheṣu, in all the bodies, [in the body] of an insect, a tiny, feeble insect, and in the body of Brahma–in the body of an insect (kīṭa) and in the body of Brahma–from an insect to Brahma, in all"
+    },
+    {
+      "number": 101,
+      "sanskrit": "tattattvamavaśiṣyate",
+      "english": "When the fire of sex rises in you and the fire of wrath rises in you–when the fire of kāma³³² rises in you and the fire of wrath (krodha)–and the fire of lobha, . . . Lobha is . . . DEVOTEE: Greed. SW"
+    },
+    {
+      "number": 101,
+      "sanskrit": "tattattvamavaśiṣyate",
+      "english": "When [the yogi] puts his un-agitated consciousness on the point of [the rising of] these states, that supreme Lord is revealed (tat tattvaṁ avaśiṣyate, that supreme Lord is revealed to him). This is ś"
+    },
+    {
+      "number": 102,
+      "sanskrit": "paśyataśca sukhodgamaḥ",
+      "english": "This whole universe is a world of magic. This is a magician’s world, this is not the real world. Indrajāla mayaṁ viśvam, just imagine that this whole universe is only magic, a magic trick, [that] it h"
+    },
+    {
+      "number": 103,
+      "sanskrit": "kiṁ tattattvamavaśiṣyate",
+      "english": "Bhairavī, O Pārvatī, don’t put Your mind or awareness in pain or in pleasure. Na cittaṁ nikṣiped duḥkhe, don’t put Your mind in duḥkha (in pain). Na sukhe vā parikṣipet, don’t put Your mind in sukha ("
+    },
+    {
+      "number": 104,
+      "sanskrit": "nānyekṣiṇyā sukhī bhavet",
+      "english": "Take away the I-consciousness of the body (vihāya nija deha āsthām; āsthām means, I-consciousness of nija deha, of your own body). Take away the I-consciousness of the body and perceive (bhāvayan³⁴¹),"
+    },
+    {
+      "number": 105,
+      "sanskrit": "bhāvayanniti sarvagaḥ",
+      "english": "Ghatādau yacca vijñānam icchādyaṁ vā mamāntare. This is a pot. This is a bottle. This bottle is situated in [itself]. This bottle is not situated in my consciousness because, if this bottle would have"
+    },
+    {
+      "number": 106,
+      "sanskrit": "saṁbandhe sāvadhānatā",
+      "english": "The mode of perception of objectivity and subjectivity is the same in each and every being. I mean, the mode, the way, in which we perceive, and the way in which this objective world is perceived, tha"
+    },
+    {
+      "number": 107,
+      "sanskrit": "tyaktvā vyāpī divairbhavet",
+      "english": "Put your consciousness of feeling in other living beings also, in the same way [as for yourself]. As you would feel the prick of a needle in your body paining you, feel the prick of a needle in some o"
+    },
+    {
+      "number": 108,
+      "sanskrit": "bhairavo mṛgalocane",
+      "english": "Sit in some posture and see what your mind wants to do. And when it moves to function, don’t give any place for its existence. Don’t let it exist in any way. Nirādhāraṁ manaḥ kṛtvā, don’t let your min"
+    },
+    {
+      "number": 109,
+      "sanskrit": "iti dārḍhyādbhavecchivaḥ",
+      "english": "In fact, Lord Śiva is all-full of knowledge, full of action, and all-pervading. In fact, Parāmeśvara is sarvajñaḥ (all-knowing), all-doing, and [all-]pervading. Concentrate on that Lord Śiva for a whi"
+    },
+    {
+      "number": 110,
+      "sanskrit": "viśvabhaṅgyo vibheditāḥ",
+      "english": "“As waves and tides are one with water, and the current of flames is one with fire, and the rays of the sun are one with the sun, in the same way, all the universal currents are one with me, rise from"
+    },
+    {
+      "number": 111,
+      "sanskrit": "parā saṁjāyate daśā",
+      "english": "Go on walking and walking and wandering, moving and wandering, without any end. For instance, you go to Amarnath pilgrimage.³⁴⁶ Go on walking on foot. Bhrāntvā bhrāntvā śarīreṇa, after moving and wand"
+    },
+    {
+      "number": 112,
+      "sanskrit": "kṣobhānte bhairavaṁ vapuḥ",
+      "english": "Aśaktya is, not being capable of understanding those objects. Because, [for example], when you are blind, you want to perceive that object, but you can’t perceive that, you can’t see that object, but "
+    },
+    {
+      "number": 113,
+      "sanskrit": "netrayoḥ stabdhamātrayoḥ",
+      "english": "saṁkocaṁ karṇayoḥ kṛtvā hyadhodvāre tathaiva ca / anackamahalaṁ dhyāyan-"
+    },
+    {
+      "number": 114,
+      "sanskrit": "viśedbrahma sanātanam",
+      "english": "These two ślokas refer to śāmbhavopāya. This is a very supreme way of going inside God consciousness, in the state of God consciousness. Saṁpradāyam, this secret (saṁpradāya, secret trick), the techni"
+    },
+    {
+      "number": 115,
+      "sanskrit": "sadyaścittalayaḥ sphuṭam",
+      "english": "This is another technique regarding śāktopāya. This is śāktopāya: Kūpādike mahāgarte, just go and stand on the top of the well, mahāgarte sthitvā, which is a deep well. Upari nirīkṣaṇāt, put your sigh"
+    },
+    {
+      "number": 116,
+      "sanskrit": "vyāpakatvātkva yāsyati",
+      "english": "Or, there is another technique. I will tell you another technique. That is, yatra yatra mano yāti, keep your mind loose, keep your mind absolutely loose; don’t control it, don’t put any effort to cont"
+    },
+    {
+      "number": 117,
+      "sanskrit": "cillayādbharitātmatā",
+      "english": "Or, there is another technique. It is a technique concerned with śāktopāya. Yatra yatrākṣa mārgeṇa, whatever you perceive through the channels of your perceptive organs, yatra yatra vibhoḥ caitanyaṁ v"
+    },
+    {
+      "number": 118,
+      "sanskrit": "brahmasattā samīpagā³⁵¹",
+      "english": "It is śāmbhavopāya. This is another technique of how to find the reality of God consciousness. This is śāmbhavopāya, the technique of śāmbhavopāya. Kṣutādyante, just when you begin to sneeze and when "
+    },
+    {
+      "number": 119,
+      "sanskrit": "kṛtvā prasarati prabhuḥ",
+      "english": "Whenever you get something in your memory, [when] you get something, [when] you remember something of the past (you are at present here and something comes in your memory of the past, that is vastuṣu "
+    },
+    {
+      "number": 120,
+      "sanskrit": "devi śūnyālayo bhavet",
+      "english": "This is another technique of śāktopāya, this one hundred and twentieth śloka. Kvacid vastūni vinyasya śanair dṛṣṭiṁ. Kvacit vastūni dṛṣṭiṁ śanair vinyasya, just on some object, put your sight on that "
+    },
+    {
+      "number": 121,
+      "sanskrit": "bhāvayettām tataḥ śivaḥ",
+      "english": "There is another technique. That is, the intensity of love for God, the intensity [of devotion]–bhakti udrekā. When there is the intensity of love, you can’t understand anything else in this world. Wh"
+    },
+    {
+      "number": 122,
+      "sanskrit": "vidito’pi praśāmyati",
+      "english": "Vastvantare vedyamāne śanair vastuṣu śūnyatā. When you perceive something (e.g., you perceive this stand), at the time of the perception of this stand, don’t think of this stand, think of what you hav"
+    },
+    {
+      "number": 123,
+      "sanskrit": "nirvikalpaḥ sukhī bhavet",
+      "english": "Kiñcit jñair . . . This is another technique. this is śāktopāya. . . . kiñcit jñair yā smṛtā śuddhiḥ, the purification which is observed by kiñcit jñair . . . Kiñcit jñair means, the masters of other "
+    },
+    {
+      "number": 124,
+      "sanskrit": "paro’stītyadvayā gatiḥ",
+      "english": "This is śāktopāya. This is another technique of śāktopāya. Sarvatra, you have to think sarvatra bhairavo bhāvaḥ sāmānyeṣvapi gocaraḥ, [that] in ordinary (sāmānyeṣu means, in ordinary, ignorant persons"
+    },
+    {
+      "number": 125,
+      "sanskrit": "iti jñātvā sukhī bhavet",
+      "english": "This is another śāktopāya technique, that samaḥ śatrau, when you reside in sameness, the cycle of sameness, everywhere. If anybody shoots you, kills you, you laugh, [and] if anybody embraces you, you "
+    },
+    {
+      "number": 127,
+      "sanskrit": "tadante bodhasaṁbhavaḥ",
+      "english": "You see, the definition of śāmbhava is just when you put your mind, when you meditate, on nothingness, absolute nothingness. That is the śāmbhava state. When there is some object to be meditated upon,"
+    },
+    {
+      "number": 128,
+      "sanskrit": "nirākāśaṁ samāviśet",
+      "english": "This is the state where you begin with śāktopāya and end in śāmbhavopāya. This technique, the one hundred and twenty-eighth [verse], is just to begin with śāktopāya and end in the śāmbhava state. Nity"
+    },
+    {
+      "number": 130,
+      "sanskrit": "saṁtatoccāraṇācchivaḥ",
+      "english": "Just find out the meaning of “bhairava”. When you want to find out the meaning of “bhairava”, you have to explain these three letters of “bhairava”: “bha”, “ra”, and “va”. “Bha” means, threat, fear. “"
+    },
+    {
+      "number": 131,
+      "sanskrit": "taddhyānapreraṇācchamī",
+      "english": "This is śāktopāya ending in the śāmbhava [state]. Ending in śāmbhava is, tad dhyāna preraṇāt śamī, when you get that blissful sound state of appeasement, perfect appeasement, where you have nothing to"
+    },
+    {
+      "number": 132,
+      "sanskrit": "kṛtārtho’rthānurūpataḥ",
+      "english": "Nityo vibhuḥ nirādhāraḥ vyāpakaḥ ca akhilādhipaḥ. God is eternal, God is all-pervading, God is support-less, God is vyāpakaḥ, everywhere found, akhilādhipaḥ, He is the ruler of each and every object o"
+    },
+    {
+      "number": 133,
+      "sanskrit": "iti dārḍhyācchamaṁ vrajet",
+      "english": "There is another technique. This is a technique of śāmbhava. And that technique, the previous one, was śāktopāya. This is śāmbhava [upāya]. When there is nothingness, it is śāmbhava–I told you once, w"
+    },
+    {
+      "number": 134,
+      "sanskrit": "ataḥ śūnyamidaṁ jagat",
+      "english": "“I know it.” “I don’t know it.” “I know it.” For instance, I tell you to read it and explain it to him. Can you do that? [If] you won’t do it, so it is not knowing, it is not knowing. I will tell Nila"
+    },
+    {
+      "number": 135,
+      "sanskrit": "jaleṣviva vivasvataḥ",
+      "english": "“Na me bandho, I have no bondage.” “Na me mokṣo, I am not liberated.” “I am neither bound nor liberated.” This liberation and bondage is just attributed to the jīva, the individual soul, and to him, t"
+    },
+    {
+      "number": 136,
+      "sanskrit": "svasthaḥ svātmani vartate",
+      "english": "This is the technique of śāktopāya ending in the śāmbhava [state]. Indriya dvārakaṁ sarvaṁ sukha duḥkhādi saṁgamam. When you find pleasure, you find pain. All these things happen in this world–pain, p"
+    },
+    {
+      "number": 137,
+      "sanskrit": "jñānī jñāne vibhāvyate ³⁶⁹",
+      "english": "Jñānaṁ prakāśakaṁ loke, in this world, knowledge is that thing which makes you understand things. Jñānaṁ prakāśakaṁ loke, knowledge is the only thing that makes you understand things in this world. Āt"
+    },
+    {
+      "number": 138,
+      "sanskrit": "tadā tadbhairavaṁ vapuḥ",
+      "english": "Mānasam (mind), cetanā, śakti, and ātmā–these four–iti catuṣṭayam, these are four substances. One is the mind. The mind is the organ of differentiated thoughts. The organ of the differentiated cycle o"
+    },
+    {
+      "number": 139,
+      "sanskrit": "yajjñātvā jñānavijjanaḥ",
+      "english": "This way I have explained to You, O Pārvatī, upadeśa (upadeśa means, these techniques), which are nistaraṅga techniques, techniques of the tide-less state (you know, where there are no tides, where th"
+    },
+    {
+      "number": 140,
+      "sanskrit": "śāpānugrahakārakaḥ",
+      "english": "In these one hundred and twelve ways that have been already described, explained, any person attached to one of these processes (atra ca ekatame yuktaḥ, the person who is attached to one of these proc"
+    },
+    {
+      "number": 141,
+      "sanskrit": "sarvamelāpakādhipaḥ",
+      "english": "jīvannapi vimukto’sau kurvannapi ca ceṣṭitam³⁷⁰/ 142a Saḥ (he) achieves that state where there is neither birth nor death (ajara amaratām eti) and he becomes attached with all the eight great yogic po"
+    },
+    {
+      "number": 144,
+      "sanskrit": "sthūleṣveva mṛgekṣaṇe",
+      "english": "bhūyo bhūyaḥ pare bhāve bhāvanā bhāvyate hi yā / japaḥ so’tra svayaṁ nādo"
+    },
+    {
+      "number": 145,
+      "sanskrit": "mantrātmā japya īdṛśaḥ",
+      "english": "I think you must put these two lines also attached with this śloka, with this one hundred and forty-fourth [verse]: bhāvanā bhāvyate hi yā / japaḥ so’tra svayaṁ nādo"
+    },
+    {
+      "number": 145,
+      "sanskrit": "mantrātmā japya īdṛśaḥ",
+      "english": "One and a half ślokas to be kept together. O Devī, this is the outward tradition of japa, dhyāna, pūjā, worship, all, etc. This is the outward tradition meant only for gross sādhakas (sthūleṣu eva sād"
+    },
+    {
+      "number": 146,
+      "sanskrit": "mukhahastādikalpanā",
+      "english": "Meditation means when your intellectual awareness becomes one-pointed and attached to formlessness; not only formlessness but support-less-ness (nirāśrayā, without any support). If you contemplate wit"
+    },
+    {
+      "number": 147,
+      "sanskrit": "sā pūjā hyādarāllayaḥ",
+      "english": "Pūjā nāma na puṣpādyair, worship is not done with flowers, with ghee³⁷³, with all those things that you gather from the market and the garden. That way you can’t do the real pūjā, the real worship. Re"
+    },
+    {
+      "number": 148,
+      "sanskrit": "tṛptiratyantapūrṇatā",
+      "english": "In these one hundred and twelve ways, anyone who is attached to one of these (atra ekatama yuktisthe), to him, any state, whatever is found to him, whatever is experienced by him, that state is filled"
+    },
+    {
+      "number": 149,
+      "sanskrit": "sa homaścetanāsrucā ³⁷⁴",
+      "english": "Mahā śūnyālaye, when in that agni, when in that fire, the fire which is situated or established in the great voidness, in the fire of the great voidness, in that fire, when all the five elements of yo"
+    },
+    {
+      "number": 152,
+      "sanskrit": "svātmanaḥ snānamīritam",
+      "english": "First, you must feel and experience that your own Self– which is not your individual self but it is universal because of its freedom, because of its felicity, blissfulness, and because of its consciou"
+    },
+    {
+      "number": 153,
+      "sanskrit": "sa evaikaḥ kva pūjanam",
+      "english": "Take your garden where flowers are there. You cut these flowers just to offer them at the feet of your Lord; or you get dhūpa³⁷⁹, dīpa³⁸⁰, and guggul³⁸¹ from the market and offer it before the feet of"
+    },
+    {
+      "number": 154,
+      "sanskrit": "parakṣetraṁ parāparā",
+      "english": "When your breath flows out (vrajet prāṇo, when your breath flows out), [and] viśet jīvaḥ, when your ingoing, intaking breath, enters in, and kuṭilākṛtiḥ, in the way of crooked movement (because from t"
+    },
+    {
+      "number": 156,
+      "sanskrit": "prāṇasyānte sudurlabhaḥ",
+      "english": "And this japa is . . . this automatic recitation of breath in twenty-four hours takes place twenty-one thousand and six hundred times–śaṭ śatāni, six hundred, divā rātrau, in the day and night, sahasr"
+    },
+    {
+      "number": 157,
+      "sanskrit": "prakāśyaṁ tu kadācana",
+      "english": "paraśiṣye khale krūre abhakte gurupādayoḥ / nirvikalpamatīnāṁ tu"
+    },
+    {
+      "number": 158,
+      "sanskrit": "vīrāṇāmunnatātmanām",
+      "english": "Ityetat kathitaṁ devi param āmṛtam uttamam. O Devī, I have put before You the supreme way where You will get Yourself nectarized. This is the supreme nectar I have put before You. You should never rev"
+    },
+    {
+      "number": 162,
+      "sanskrit": "hṛdayaṁ jñātamadya ca",
+      "english": "Adya rudrayāmala tantrasya sāram avadhāritam. Today I have understood the essence of the Tantra of Rudrayāmala. The essence of the Rudrayāmala Tantra I have today understood. And sarva śakti prabhedān"
+    },
+    {
+      "number": 163,
+      "sanskrit": "kaṇṭhe lagnā śivasya tu",
+      "english": "And, in this way, Pārvatī was filled with bliss, and She embraced Lord Śiva and became one with Lord Śiva. So, there ends the language of transcendental love. This is the language of transcendental lo"
+    }
+  ]
+}
