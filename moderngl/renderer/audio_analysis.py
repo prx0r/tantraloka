@@ -21,15 +21,38 @@ from pathlib import Path
 import numpy as np
 
 
-def analyze(audio_path: Path, fps: int = 24, smooth: float = 0.5) -> dict:
-    """Extract per-frame audio features from a WAV file."""
+def analyze(audio_path: Path, fps: int = 24, smooth: float = 0.5, normalize_loudness: bool = True) -> dict:
+    """Extract per-frame audio features from a WAV file.
+    
+    If normalize_loudness is True, applies EBU R128 loudness normalization
+    (-23 LUFS) before analysis so u_audioVolume behaves consistently across
+    different TTS voices and takes without re-tuning shader response curves.
+    """
     try:
         import librosa
     except ImportError:
         raise RuntimeError("librosa required: pip install librosa")
 
     print(f"Analyzing: {audio_path}")
+
+    # Load raw audio
     y, sr = librosa.load(str(audio_path), sr=None, mono=True)
+
+    # Loudness normalization (EBU R128) for consistent volume envelope
+    if normalize_loudness:
+        try:
+            import pyloudnorm as pyln
+            meter = pyln.Meter(sr)
+            loudness = meter.integrated_loudness(y)
+            y = pyln.normalize.loudness(y, loudness, -23.0)
+            print(f"  Loudness normalized: {loudness:.1f} LUFS → -23 LUFS")
+        except ImportError:
+            # Fallback: simple RMS normalization
+            rms = np.sqrt(np.mean(y**2))
+            if rms > 0:
+                y = y * (0.1 / rms)
+            print(f"  RMS normalized (pyloudnorm not available)")
+
     dur = len(y) / sr
     n_frames = max(2, round(dur * fps))
 
