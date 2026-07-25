@@ -18,6 +18,8 @@ import moderngl
 import numpy as np
 from PIL import Image
 
+from renderer.text_overlay import compose_label
+
 
 ROOT = Path(__file__).resolve().parent.parent
 PACKS_DIR = ROOT / "goldrender"
@@ -105,7 +107,7 @@ class GPUEngine:
         img = img.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
         return img
 
-    def render_frame(self, shader: str, u: float, t: float) -> Image.Image:
+    def render_frame(self, shader: str, u: float, t: float, scene_meta: dict | None = None) -> Image.Image:
         src = load_shader_source(shader)
         prog = self.ctx.program(
             vertex_shader='#version 330 core\nin vec2 p;in vec2 u;out vec2 v;void main(){v=u;gl_Position=vec4(p,0,1);}',
@@ -139,7 +141,16 @@ class GPUEngine:
         # GPU path: use framebuffer blit with separate blur shaders
         # (implemented when GPU box is available)
         
-        return self.read_pixels()
+        img = self.read_pixels()
+        
+        # Sparse label overlays only (no bottom seal bar)
+        if scene_meta:
+            for label in scene_meta.get('labels', []):
+                img = compose_label(img, label['text'], label['x'], label['y'],
+                                   color=label.get('color', (30, 32, 36)),
+                                   size=label.get('size'))
+        
+        return img
 
 
 def render_pack(pack_path: Path, args):
@@ -163,20 +174,71 @@ def render_pack(pack_path: Path, args):
 
     print(f"\n=== {slug} ({len(scenes)} scenes) ===")
 
+    scene_labels = {
+        'classical_wall': [],
+        'tunnelling': [],
+        'width': [{'text': 'relative probability', 'x': 0.50, 'y': 0.75, 'size': 14}],
+        'mass': [],
+        'landscape': [],
+        'enzyme': [],
+        'isotope': [],
+        'evidence': [
+            {'text': 'MASS', 'x': 0.328, 'y': 0.298, 'color': (191,154,73)},
+            {'text': 'DISTANCE', 'x': 0.672, 'y': 0.298, 'color': (67,157,180)},
+            {'text': 'ELECTROSTATICS', 'x': 0.320, 'y': 0.576, 'color': (56,76,124)},
+            {'text': 'PROTEIN MOTION', 'x': 0.680, 'y': 0.576, 'color': (72,135,101)},
+            {'text': 'BARRIER SHAPE', 'x': 0.500, 'y': 0.630, 'color': (158,57,66)},
+        ],
+        'evolution': [],
+        'form': [],
+        'rates': [],
+        'gate': [],
+        'noise': [],
+        'architecture': [
+            {'text': 'BIRD', 'x': 0.20, 'y': 0.42, 'size': 16, 'color': (30,32,36)},
+            {'text': 'CELL', 'x': 0.40, 'y': 0.42, 'size': 16, 'color': (30,32,36)},
+            {'text': 'EMBRYO', 'x': 0.60, 'y': 0.42, 'size': 16, 'color': (30,32,36)},
+            {'text': 'ENZYME', 'x': 0.80, 'y': 0.42, 'size': 16, 'color': (30,32,36)},
+            {'text': 'spin chem', 'x': 0.20, 'y': 0.60, 'size': 12, 'color': (191,154,73)},
+            {'text': 'voltage', 'x': 0.40, 'y': 0.60, 'size': 12, 'color': (191,154,73)},
+            {'text': 'geometry', 'x': 0.60, 'y': 0.60, 'size': 12, 'color': (191,154,73)},
+            {'text': 'tunnelling', 'x': 0.80, 'y': 0.60, 'size': 12, 'color': (191,154,73)},
+        ],
+        'warning': [
+            {'text': 'MASS · WIDTH · COUPLING', 'x': 0.25, 'y': 0.475, 'size': 10, 'color': (67,157,180)},
+            {'text': 'MEASURABLE RATE EFFECT', 'x': 0.25, 'y': 0.415, 'size': 10, 'color': (72,135,101)},
+            {'text': 'THOUGHT TUNNELS', 'x': 0.75, 'y': 0.38, 'size': 10, 'color': (158,57,66)},
+            {'text': 'QUANTUM INTENTION', 'x': 0.75, 'y': 0.44, 'size': 10, 'color': (158,57,66)},
+            {'text': 'SPIRITUAL JUMP', 'x': 0.75, 'y': 0.50, 'size': 10, 'color': (158,57,66)},
+        ],
+        'psychology': [
+            {'text': 'support', 'x': 0.30, 'y': 0.50, 'size': 10, 'color': (86,89,94)},
+            {'text': 'regulation', 'x': 0.48, 'y': 0.26, 'size': 10, 'color': (86,89,94)},
+            {'text': 'new evidence', 'x': 0.73, 'y': 0.27, 'size': 10, 'color': (86,89,94)},
+        ],
+        'final': [],
+    }
+
     for i, scene in enumerate(scenes, 1):
         visual = getattr(scene, 'visual', None) if not isinstance(scene, dict) else scene.get('visual')
         dur = getattr(scene, 'duration', 6.0) if not isinstance(scene, dict) else scene.get('duration', 6.0)
         title = getattr(scene, 'title', f'S{i}') if not isinstance(scene, dict) else scene.get('title', f'S{i}')
+        narration = getattr(scene, 'narration', '') if not isinstance(scene, dict) else scene.get('narration', '')
 
         shader_name = visual or slug_text
         if not (SHADER_DIR / f"{shader_name}.glsl").exists():
             print(f"  [{i:02d}/{len(scenes):02d}] SKIP {title} — no shader {shader_name}.glsl")
             continue
 
+        # Sparse labels only — no subtitle bars
+        scene_meta = {
+            'labels': scene_labels.get(shader_name, []),
+        }
+
         if args.preview:
             # Render 4 keyframes (matching PIL's preview convention)
             for si, u in enumerate([0.0, 0.35, 0.72, 0.99]):
-                img = eng.render_frame(shader_name, u, u * dur)
+                img = eng.render_frame(shader_name, u, u * dur, scene_meta)
                 img = img.resize((args.width, args.height), Image.LANCZOS)
                 img.save(out_dir / "frames" / f"scene_{i:03d}_preview_{si:02d}.png")
             print(f"  [{i:02d}/{len(scenes):02d}] Preview {title}")
@@ -190,7 +252,7 @@ def render_pack(pack_path: Path, args):
                 fpath = scene_dir / f"{fi:05d}.png"
                 if fpath.exists() and args.resume:
                     continue
-                img = eng.render_frame(shader_name, u, u * dur)
+                img = eng.render_frame(shader_name, u, u * dur, scene_meta)
                 img = img.resize((args.width, args.height), Image.LANCZOS)
                 img.save(fpath)
             # ffmpeg encode
