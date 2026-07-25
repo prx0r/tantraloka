@@ -194,16 +194,7 @@ def render_pack(pack_path: Path, args):
         'rates': [],
         'gate': [],
         'noise': [],
-        'architecture': [
-            {'text': 'BIRD', 'x': 0.20, 'y': 0.42, 'size': 16, 'color': (30,32,36)},
-            {'text': 'CELL', 'x': 0.40, 'y': 0.42, 'size': 16, 'color': (30,32,36)},
-            {'text': 'EMBRYO', 'x': 0.60, 'y': 0.42, 'size': 16, 'color': (30,32,36)},
-            {'text': 'ENZYME', 'x': 0.80, 'y': 0.42, 'size': 16, 'color': (30,32,36)},
-            {'text': 'spin chem', 'x': 0.20, 'y': 0.60, 'size': 12, 'color': (191,154,73)},
-            {'text': 'voltage', 'x': 0.40, 'y': 0.60, 'size': 12, 'color': (191,154,73)},
-            {'text': 'geometry', 'x': 0.60, 'y': 0.60, 'size': 12, 'color': (191,154,73)},
-            {'text': 'tunnelling', 'x': 0.80, 'y': 0.60, 'size': 12, 'color': (191,154,73)},
-        ],
+        'architecture': [],
         'warning': [
             {'text': 'MASS · WIDTH · COUPLING', 'x': 0.25, 'y': 0.475, 'size': 10, 'color': (67,157,180)},
             {'text': 'MEASURABLE RATE EFFECT', 'x': 0.25, 'y': 0.415, 'size': 10, 'color': (72,135,101)},
@@ -211,11 +202,7 @@ def render_pack(pack_path: Path, args):
             {'text': 'QUANTUM INTENTION', 'x': 0.75, 'y': 0.44, 'size': 10, 'color': (158,57,66)},
             {'text': 'SPIRITUAL JUMP', 'x': 0.75, 'y': 0.50, 'size': 10, 'color': (158,57,66)},
         ],
-        'psychology': [
-            {'text': 'support', 'x': 0.30, 'y': 0.50, 'size': 10, 'color': (86,89,94)},
-            {'text': 'regulation', 'x': 0.48, 'y': 0.26, 'size': 10, 'color': (86,89,94)},
-            {'text': 'new evidence', 'x': 0.73, 'y': 0.27, 'size': 10, 'color': (86,89,94)},
-        ],
+        'psychology': [],
         'final': [],
     }
 
