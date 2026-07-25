@@ -1,70 +1,79 @@
-// classical_wall.glsl — A proton reaches a classical barrier
-// Audio-reactive: proton pulse = voice rhythm, spark intensity = onset strength
+// classical_wall.glsl
+// A proton reaches a classical barrier. Audio modulates pulse, spark, glow.
 #version 330 core
 
 uniform vec2 iResolution;
 uniform float u;
 uniform float t;
-uniform float u_audioVolume;  // 0-1 RMS energy envelope
-uniform float u_audioBeat;    // 0-1 onset/beat likelihood
+uniform float u_audioVolume;
+uniform float u_audioBeat;
 
 #include "primitives.glsl"
 
 out vec4 fragColor;
 
+// Cosine palette for this scene: warm golds, cool silvers, ink blacks
+const vec3 PAL_A = vec3(0.5, 0.5, 0.5);
+const vec3 PAL_B = vec3(0.5, 0.5, 0.5);
+const vec3 PAL_C = vec3(1.0, 1.0, 1.0);
+const vec3 PAL_D = vec3(0.0, 0.33, 0.67);
+
 void main() {
     vec2 uv = gl_FragCoord.xy / iResolution;
-    vec2 p = vec2(uv.x, uv.y);
+    vec2 p = uv;
 
-    // Background — audio subtly modulates noise field energy
+    // --- Background ---
     vec3 bg = vec3(0.973, 0.969, 0.953);
-    vec3 col = fieldBackground(uv, iResolution, t + u_audioVolume * 0.3, bg);
+    vec3 col = fieldBackground(uv, iResolution, t, bg);
 
-    // Wall
+    // --- Wall (classical barrier) ---
     float cy = 0.45;
-    float wall_x = 0.56;
-    float wall_w = 0.12;
-    float wall_top = 0.18;
-    float wall_bottom = 0.69;
-    float wall_cx = wall_x;
-    float wall_cy = (wall_top + wall_bottom) * 0.5;
-    vec2 wall_half = vec2(wall_w * 0.5, (wall_bottom - wall_top) * 0.5);
-    vec2 wall_p = (p - vec2(wall_cx, wall_cy)) * iResolution;
-    vec2 wall_b = wall_half * iResolution;
-    float wall_r = 12.0;
-    float dWall = sdRoundedBox(wall_p, wall_b, wall_r);
+    float wall_cx = 0.56;
+    float wall_hw = 0.06;
+    float wall_top = 0.18, wall_bot = 0.69;
 
-    vec3 WALL_FILL = vec3(0.878, 0.890, 0.898);
-    vec3 WALL_OUTLINE = vec3(0.118, 0.125, 0.141);
-    col = mix(col, WALL_FILL, fill(dWall - 2.0));
-    col = mix(col, WALL_OUTLINE, stroke(dWall, 2.0));
+    vec2 wallP = (p - vec2(wall_cx, (wall_top + wall_bot) * 0.5)) * iResolution;
+    vec2 wallB = vec2(wall_hw, (wall_bot - wall_top) * 0.5) * iResolution;
+    float dWall = sdRoundedBox(wallP, wallB, 12.0);
 
-    // Proton — pulse amplitude follows voice volume
-    float stopX = wall_x - wall_w * 0.5 - 0.02;
+    vec3 wallFill = vec3(0.878, 0.890, 0.898);
+    vec3 wallEdge = vec3(0.118, 0.125, 0.141);
+    col = mix(col, wallFill, fill(dWall - 2.0));
+    col = mix(col, wallEdge, stroke(dWall, 2.0) * 0.7);
+
+    // Wall edge pulses with audio beat
+    col += scenePalette(u_audioBeat * 0.5, PAL_A, PAL_B, PAL_C, PAL_D) * stroke(dWall, 3.0) * u_audioBeat * 0.12;
+
+    // --- Proton ---
+    float stopX = wall_cx - wall_hw - 0.02;
     float approach = ease(min(1.0, u * 1.3));
-    float proton_x = mix(0.12, stopX, approach);
-    float proton_y = cy;
+    float px = mix(0.12, stopX, approach);
+    float py = cy;
 
-    // Proton radius pulses with audio volume + beat
-    float pulseRadius = 0.025 + 0.015 * u_audioVolume + 0.010 * u_audioBeat;
-    float protonGlow = glowSoft(p, vec2(proton_x, proton_y), pulseRadius);
-    col += vec3(0.749, 0.604, 0.286) * protonGlow * (0.5 + 0.5 * u_audioVolume);
+    // Proton radius pulses with voice + beat
+    float radius = 0.025 + 0.012 * u_audioVolume + 0.008 * u_audioBeat;
+    float intensity = 0.5 + 0.4 * u_audioVolume + 0.2 * u_audioBeat;
 
-    // Impact sparks — intensity follows onset strength
+    // Core glow (additive — feeds bloom)
+    vec3 gold = scenePalette(u * 0.1 + u_audioVolume * 0.3, PAL_A, PAL_B, PAL_C, PAL_D);
+    col += gold * glowSoft(p, vec2(px, py), radius) * intensity * 0.7;
+
+    // Tight core
+    col += gold * glowSoft(p, vec2(px, py), radius * 0.3) * intensity * 1.2;
+
+    // --- Impact sparks on word onsets ---
     float impact = smoothstep(0.65, 0.82, u);
-    float sparkIntensity = impact * (0.5 + 0.5 * u_audioBeat);
-    if (sparkIntensity > 0.01) {
-        for (int i = 0; i < 5; i++) {
-            float angle = -0.8 + float(i) * 0.4;
-            vec2 sparkDir = vec2(cos(angle), sin(angle));
-            vec2 sparkPos = vec2(proton_x, proton_y) + sparkDir * 0.04 * sparkIntensity;
-            float spark = glowSoft(p, sparkPos, 0.008);
-            col += vec3(0.620, 0.224, 0.259) * spark * sparkIntensity * 0.7;
+    float sparkEnergy = impact * (0.4 + 0.6 * u_audioBeat);
+    if (sparkEnergy > 0.01) {
+        for (int i = 0; i < 6; i++) {
+            float a = -0.9 + float(i) * 0.36 + u_audioBeat * 0.5;
+            vec2 dir = vec2(cos(a), sin(a));
+            float dist = 0.035 + 0.02 * u_audioVolume;
+            vec2 sp = vec2(px, py) + dir * dist * sparkEnergy;
+            vec3 sparkCol = scenePalette(0.7 + sparkEnergy * 0.3, PAL_A, PAL_B, PAL_C, PAL_D);
+            col += sparkCol * glowSoft(p, sp, 0.006 + 0.004 * u_audioVolume) * sparkEnergy * 0.9;
         }
     }
-
-    // Wall outline pulses with beat
-    col += vec3(0.749, 0.604, 0.286) * stroke(dWall, 3.0) * u_audioBeat * 0.15;
 
     fragColor = vec4(col, 1.0);
 }
