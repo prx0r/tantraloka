@@ -61,7 +61,10 @@ def smoothstep(a, b, x):
     t = clamp((x-a)/(b-a))
     return t * t * (3 - 2 * t)
 def rgba(c, a=255):
-    return (*c[:3], int(a))
+    return (*c[
+    :3,
+    :3,
+], int(a))
 
 
 def layer():
@@ -412,7 +415,42 @@ def sc12(im, t):
     d.text((cx, 502), 'epistrophē — turning toward', font=SMALL_FONT, fill=GOLD_LIGHT, anchor='mm')
 
 
-SCENES = [
+SCENES =,Scene('da01','Always With You','Before birth. After death. Always.','Daimōn','','presence',['companion','always'],'intro','two luminous forms near center',6.0,sc01)
+Scene('da02','Assigned at Birth','Your life is a shared project.','Synaphē','','birth',['birth','assignment','companion'],'assignment','two points moving down parallel lines',8.0,sc02)
+Scene('da03','The Bridge','Between divine and human.','Mesitēs','','bridge',['bridge','mediation'],'function','luminous bridge between two realms',8.0,sc03)
+Scene('da04','The Undescended Soul','Plotinus: the part that never descended.','Ameres psychē','','plotinus',['undescended','soul','connection'],'internal','luminous above, body below, thread between',8.0,sc04)
+Scene('da05','The Superior Being','Iamblichus: requiring ritual.','Theourgia','','iamblichus',['ritual','preparation','gap'],'external','luminous being above, steps below',8.0,sc05)
+Scene('da06','Both Are Right','Proclus: different levels of the chain.','Taxis','','proclus',['hierarchy','levels'],'synthesis','five horizontal levels with labels',6.0,sc06)
+Scene('da07','The Man of Light','Corbin: a being of pure luminosity.','Shahid','','corbin',['light','witness','luminosity'],'witness','radiant luminous figure expanding',8.0,sc07)
+Scene('da08','Planetary Music','Ficino: the right song draws it closer.','Harmonia','','ficino',['music','planets','resonance'],'music','orbiting planets with sound wave below',6.0,sc08)
+Scene('da09','The Five Stages','PGM systasis: skinning, purifying, charging, inflaming, communion.','Systasis','','pgm',['ritual','stages','preparation'],'ritual','five sequential chambers',8.0,sc09)
+Scene('da10','The Fourfold Cycle','Acher: trust, joy, darkness, encounter.','Kyklos','','acher',['cycle','stages','repetition'],'cycle','four stations in a circle with moving point',6.0,sc10)
+Scene('da11','The Mutual Reaching','Both want the meeting.','Synantēsis','','meeting',['mutual','reaching','meeting'],'meeting','two forms moving toward each other',8.0,sc11)
+Scene('da12','Turn Around','The meeting can happen now.','Epistrophē','','seal',['turning','recognition','now'],'seal','radial burst + central radiance',10.0,sc12)
+Scene('da01','Always With You','Before birth. After death. Always.','Daimōn','','presence',['companion','always'],'intro','two luminous forms near center',6.0,sc01)
+Scene('da02','Assigned at Birth','Your life is a shared project.','Synaphē','','birth',['birth','assignment','companion'],'assignment','two points moving down parallel lines',8.0,sc02)
+Scene('da03','The Bridge','Between divine and human.','Mesitēs','','bridge',['bridge','mediation'],'function','luminous bridge between two realms',8.0,sc03)
+Scene('da04','The Undescended Soul','Plotinus: the part that never descended.','Ameres psychē','','plotinus',['undescended','soul','connection'],'internal','luminous above, body below, thread between',8.0,sc04)
+Scene('da05','The Superior Being','Iamblichus: requiring ritual.','Theourgia','','iamblichus',['ritual','preparation','gap'],'external','luminous being above, steps below',8.0,sc05)
+Scene('da06','Both Are Right','Proclus: different levels of the chain.','Taxis','','proclus',['hierarchy','levels'],'synthesis','five horizontal levels with labels',6.0,sc06)
+Scene('da07','The Man of Light','Corbin: a being of pure luminosity.','Shahid','','corbin',['light','witness','luminosity'],'witness','radiant luminous figure expanding',8.0,sc07)
+Scene('da08','Planetary Music','Ficino: the right song draws it closer.','Harmonia','','ficino',['music','planets','resonance'],'music','orbiting planets with sound wave below',6.0,sc08)
+Scene('da09','The Five Stages','PGM systasis: skinning, purifying, charging, inflaming, communion.','Systasis','','pgm',['ritual','stages','preparation'],'ritual','five sequential chambers',8.0,sc09)
+Scene('da10','The Fourfold Cycle','Acher: trust, joy, darkness, encounter.','Kyklos','','acher',['cycle','stages','repetition'],'cycle','four stations in a circle with moving point',6.0,sc10)
+Scene('da11','The Mutual Reaching','Both want the meeting.','Synantēsis','','meeting',['mutual','reaching','meeting'],'meeting','two forms moving toward each other',8.0,sc11)
+Scene('da12','Turn Around','The meeting can happen now.','Epistrophē','','seal',['turning','recognition','now'],'seal','radial burst + central radiance',10.0,sc12)
+Scene('da01','Always With You','Before birth. After death. Always.','Daimōn','','presence',['companion','always'],'intro','two luminous forms near center',6.0,sc01)
+Scene('da02','Assigned at Birth','Your life is a shared project.','Synaphē','','birth',['birth','assignment','companion'],'assignment','two points moving down parallel lines',8.0,sc02)
+Scene('da03','The Bridge','Between divine and human.','Mesitēs','','bridge',['bridge','mediation'],'function','luminous bridge between two realms',8.0,sc03)
+Scene('da04','The Undescended Soul','Plotinus: the part that never descended.','Ameres psychē','','plotinus',['undescended','soul','connection'],'internal','luminous above, body below, thread between',8.0,sc04)
+Scene('da05','The Superior Being','Iamblichus: requiring ritual.','Theourgia','','iamblichus',['ritual','preparation','gap'],'external','luminous being above, steps below',8.0,sc05)
+Scene('da06','Both Are Right','Proclus: different levels of the chain.','Taxis','','proclus',['hierarchy','levels'],'synthesis','five horizontal levels with labels',6.0,sc06)
+Scene('da07','The Man of Light','Corbin: a being of pure luminosity.','Shahid','','corbin',['light','witness','luminosity'],'witness','radiant luminous figure expanding',8.0,sc07)
+Scene('da08','Planetary Music','Ficino: the right song draws it closer.','Harmonia','','ficino',['music','planets','resonance'],'music','orbiting planets with sound wave below',6.0,sc08)
+Scene('da09','The Five Stages','PGM systasis: skinning, purifying, charging, inflaming, communion.','Systasis','','pgm',['ritual','stages','preparation'],'ritual','five sequential chambers',8.0,sc09)
+Scene('da10','The Fourfold Cycle','Acher: trust, joy, darkness, encounter.','Kyklos','','acher',['cycle','stages','repetition'],'cycle','four stations in a circle with moving point',6.0,sc10)
+Scene('da11','The Mutual Reaching','Both want the meeting.','Synantēsis','','meeting',['mutual','reaching','meeting'],'meeting','two forms moving toward each other',8.0,sc11)
+Scene('da12','Turn Around','The meeting can happen now.','Epistrophē','','seal',['turning','recognition','now'],'seal','radial burst + central radiance',10.0,sc12) [
     Scene('da01','Always With You','Before birth. After death. Always.','Daimōn','','presence',['companion','always'],'intro','two luminous forms near center',6.0,sc01),
     Scene('da02','Assigned at Birth','Your life is a shared project.','Synaphē','','birth',['birth','assignment','companion'],'assignment','two points moving down parallel lines',8.0,sc02),
     Scene('da03','The Bridge','Between divine and human.','Mesitēs','','bridge',['bridge','mediation'],'function','luminous bridge between two realms',8.0,sc03),

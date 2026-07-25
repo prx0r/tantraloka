@@ -34,7 +34,26 @@ SLATE = (100, 110, 132)
 MIST = (164, 172, 192)
 MURK = (80, 75, 55)
 BLOOD = (120, 30, 30)
-RASA_COLS = [SLATE, BLOOD, MURK, CRIMSON, GOLD, CORAL, TEAL, ROSE, WHITE]
+RASA_COLS = [
+    SLATE,
+    BLOOD,
+    MURK,
+    CRIMSON,
+    GOLD,
+    CORAL,
+    TEAL,
+    ROSE,
+    WHITE,
+    SLATE,
+    BLOOD,
+    MURK,
+    CRIMSON,
+    GOLD,
+    CORAL,
+    TEAL,
+    ROSE,
+    WHITE,
+]
 RASA_NAMES = ['śoka', 'bhaya', 'jugupsā', 'raudra', 'adbhuta', 'hāsya', 'vīra', 'śṛṅgāra', 'śānta']
 
 FONT_SERIF = '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'
@@ -414,7 +433,30 @@ def sc12(im, t):
     d.text((cx, 488), 'you are the ocean, not the wave', font=SUB_FONT, fill=MIST, anchor='mm')
 
 
-SCENES = [
+SCENES =,Scene('ra01','The Song You Can\'t Turn Off','Painful beauty draws you in.','Vedanā','','hook',['beauty','pain'],'intro','three circling forms',6.0,sc01)
+Scene('ra02','Nine Flavors','Grief, terror, disgust, wrath, wonder, laughter, courage, tenderness, peace.','Nava-rasa','','rasas',['nine','rasa'],'doctrine','nine colored drops in a ring',8.0,sc02)
+Scene('ra03','The Same Vitality','Tears and flowers — one juice.','Saṃvit','','vitality',['vitality','tears','flowers'],'doctrine','tear becoming flower',8.0,sc03)
+Scene('ra04','Grief Like a Stone','Let it sit. From fist to cup.','Śoka','','grief',['grief','stone','opening'],'emotion','stone in chest transforming',6.0,sc04)
+Scene('ra05','Camatkāra','The goddess is aesthetic rapture.','Camatkāra','','wonder',['wonder','rapture','goddess'],'doctrine','radiant goddess form',8.0,sc05)
+Scene('ra06','Tasting vs Consuming','The emotion is wine. The witness is tasting.','Āsvādana','','tasting',['taste','witness','wine'],'practice','wine cup with glow above',6.0,sc06)
+Scene('ra07','The Self Tasting Itself','Beyond objects, beyond poetry.','Ātmananda','','self-taste',['self','taste','bliss'],'doctrine','self-enclosed luminous ring',8.0,sc07)
+Scene('ra08','Rest in the Feeling','Not fighting. Not holding. Just resting.','Viśrānti','','rest',['rest','surrender','water'],'practice','floating in warm water glow',6.0,sc08)
+Scene('ra09','I Am Sad → There Is Sadness','The shift that turns grief to rasa.','Sākṣin','','witness',['witness','shift','grief'],'transformation','phrase transform + grief to gold',8.0,sc09)
+Scene('ra10','The Witness Becomes the Bliss','Resting in the power of bliss.','Tadātmya','','identity',['identity','bliss','witness'],'culmination','form dissolving into golden light',8.0,sc10)
+Scene('ra11','Fire Cannot Burn It','Grief still hurts. The witness is untouched.','Avikriya','','untouched',['witness','fire','untouched'],'nature','flames around an untouched center',6.0,sc11)
+Scene('ra12','The Wave','Crest. Crash. Dissolve. Another forms.','Ūrmi','','wave',['wave','ocean','cycle'],'seal','six colored waves + still center',8.0,sc12)
+Scene('ra01','The Song You Can\'t Turn Off','Painful beauty draws you in.','Vedanā','','hook',['beauty','pain'],'intro','three circling forms',6.0,sc01)
+Scene('ra02','Nine Flavors','Grief, terror, disgust, wrath, wonder, laughter, courage, tenderness, peace.','Nava-rasa','','rasas',['nine','rasa'],'doctrine','nine colored drops in a ring',8.0,sc02)
+Scene('ra03','The Same Vitality','Tears and flowers — one juice.','Saṃvit','','vitality',['vitality','tears','flowers'],'doctrine','tear becoming flower',8.0,sc03)
+Scene('ra04','Grief Like a Stone','Let it sit. From fist to cup.','Śoka','','grief',['grief','stone','opening'],'emotion','stone in chest transforming',6.0,sc04)
+Scene('ra05','Camatkāra','The goddess is aesthetic rapture.','Camatkāra','','wonder',['wonder','rapture','goddess'],'doctrine','radiant goddess form',8.0,sc05)
+Scene('ra06','Tasting vs Consuming','The emotion is wine. The witness is tasting.','Āsvādana','','tasting',['taste','witness','wine'],'practice','wine cup with glow above',6.0,sc06)
+Scene('ra07','The Self Tasting Itself','Beyond objects, beyond poetry.','Ātmananda','','self-taste',['self','taste','bliss'],'doctrine','self-enclosed luminous ring',8.0,sc07)
+Scene('ra08','Rest in the Feeling','Not fighting. Not holding. Just resting.','Viśrānti','','rest',['rest','surrender','water'],'practice','floating in warm water glow',6.0,sc08)
+Scene('ra09','I Am Sad → There Is Sadness','The shift that turns grief to rasa.','Sākṣin','','witness',['witness','shift','grief'],'transformation','phrase transform + grief to gold',8.0,sc09)
+Scene('ra10','The Witness Becomes the Bliss','Resting in the power of bliss.','Tadātmya','','identity',['identity','bliss','witness'],'culmination','form dissolving into golden light',8.0,sc10)
+Scene('ra11','Fire Cannot Burn It','Grief still hurts. The witness is untouched.','Avikriya','','untouched',['witness','fire','untouched'],'nature','flames around an untouched center',6.0,sc11)
+Scene('ra12','The Wave','Crest. Crash. Dissolve. Another forms.','Ūrmi','','wave',['wave','ocean','cycle'],'seal','six colored waves + still center',8.0,sc12) [
     Scene('ra01','The Song You Can\'t Turn Off','Painful beauty draws you in.','Vedanā','','hook',['beauty','pain'],'intro','three circling forms',6.0,sc01),
     Scene('ra02','Nine Flavors','Grief, terror, disgust, wrath, wonder, laughter, courage, tenderness, peace.','Nava-rasa','','rasas',['nine','rasa'],'doctrine','nine colored drops in a ring',8.0,sc02),
     Scene('ra03','The Same Vitality','Tears and flowers — one juice.','Saṃvit','','vitality',['vitality','tears','flowers'],'doctrine','tear becoming flower',8.0,sc03),

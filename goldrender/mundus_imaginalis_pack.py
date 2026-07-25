@@ -62,7 +62,10 @@ def smoothstep(a, b, x):
     t = clamp((x-a)/(b-a))
     return t * t * (3 - 2 * t)
 def rgba(c, a=255):
-    return (*c[:3], int(a))
+    return (*c[
+    :3,
+    :3,
+], int(a))
 
 
 def layer():
@@ -373,7 +376,39 @@ def sc11(im, t):
     d.text((640, 485), 'the mundus imaginalis is more real than the physical. it does not pass away.', font=SUB_FONT, fill=MIST, anchor='mm')
 
 
-SCENES = [
+SCENES =,Scene('mi01','The World Between Worlds','Neither physical nor spiritual — somewhere in between.','Mundus imaginalis','','threshold',['threshold','imaginal','between'],'intro','crack of light in twilight',6.0,sc01)
+Scene('mi02','Active Imagination','An organ of perception tuned to a real world.','Imaginatio vera','','perception',['imagination','perception','organ'],'faculty','inner eye opening to another world',8.0,sc02)
+Scene('mi03','The Cosmic North','The suprasensory orient — where you came from.','Al-mashriq','','orientation',['north','orient','origin'],'orientation','compass needle settling on new direction',8.0,sc03)
+Scene('mi04','The Person of Light','The perfect nature — with you since before birth.','Shakhs nurani','','guide',['guide','light','nature'],'guide','luminous figure of pure light approaching',10.0,sc04)
+Scene('mi05','1x1','The spider\'s thread — cut and re-joined.','Unus-ambo','','formula',['thread','unity','difference'],'formula','glowing thread cut and restored with 1x1',8.0,sc05)
+Scene('mi06','Two Faces','Your face becomes light — then another appears.','Shakhs nurani','','encounter',['face','light','recognition'],'encounter','two luminous faces recognizing each other',8.0,sc06)
+Scene('mi07','The Dhikr','Fire that burns away what separates you.','Dhikr','','practice',['fire','dhikr','burning'],'practice','rising flame consuming obstacles',8.0,sc07)
+Scene('mi08','Light Upon Light','Your light meets its light — they combine.','Nurun \'ala nur','','union',['light','union','combine'],'union','two lights approaching and combining',8.0,sc08)
+Scene('mi09','The Chinvat Bridge','"Who art thou?" "I am your own celestial counterpart."','Daena','','bridge',['bridge','meeting','daena'],'bridge','two figures meeting on a bridge of light',8.0,sc09)
+Scene('mi10','Mutual Creation','The guide is both parent and child — you give birth to each other.','Syzygy','','relationship',['mutual','creation','recursive'],'relationship','two figures connected by heart-thread',6.0,sc10)
+Scene('mi11','The Open Door','The door is always open. The guide is always waiting.','Janua','','seal',['door','waiting','open'],'seal','door of light standing open, guide at threshold',8.0,sc11)
+Scene('mi01','The World Between Worlds','Neither physical nor spiritual — somewhere in between.','Mundus imaginalis','','threshold',['threshold','imaginal','between'],'intro','crack of light in twilight',6.0,sc01)
+Scene('mi02','Active Imagination','An organ of perception tuned to a real world.','Imaginatio vera','','perception',['imagination','perception','organ'],'faculty','inner eye opening to another world',8.0,sc02)
+Scene('mi03','The Cosmic North','The suprasensory orient — where you came from.','Al-mashriq','','orientation',['north','orient','origin'],'orientation','compass needle settling on new direction',8.0,sc03)
+Scene('mi04','The Person of Light','The perfect nature — with you since before birth.','Shakhs nurani','','guide',['guide','light','nature'],'guide','luminous figure of pure light approaching',10.0,sc04)
+Scene('mi05','1x1','The spider\'s thread — cut and re-joined.','Unus-ambo','','formula',['thread','unity','difference'],'formula','glowing thread cut and restored with 1x1',8.0,sc05)
+Scene('mi06','Two Faces','Your face becomes light — then another appears.','Shakhs nurani','','encounter',['face','light','recognition'],'encounter','two luminous faces recognizing each other',8.0,sc06)
+Scene('mi07','The Dhikr','Fire that burns away what separates you.','Dhikr','','practice',['fire','dhikr','burning'],'practice','rising flame consuming obstacles',8.0,sc07)
+Scene('mi08','Light Upon Light','Your light meets its light — they combine.','Nurun \'ala nur','','union',['light','union','combine'],'union','two lights approaching and combining',8.0,sc08)
+Scene('mi09','The Chinvat Bridge','"Who art thou?" "I am your own celestial counterpart."','Daena','','bridge',['bridge','meeting','daena'],'bridge','two figures meeting on a bridge of light',8.0,sc09)
+Scene('mi10','Mutual Creation','The guide is both parent and child — you give birth to each other.','Syzygy','','relationship',['mutual','creation','recursive'],'relationship','two figures connected by heart-thread',6.0,sc10)
+Scene('mi11','The Open Door','The door is always open. The guide is always waiting.','Janua','','seal',['door','waiting','open'],'seal','door of light standing open, guide at threshold',8.0,sc11)
+Scene('mi01','The World Between Worlds','Neither physical nor spiritual — somewhere in between.','Mundus imaginalis','','threshold',['threshold','imaginal','between'],'intro','crack of light in twilight',6.0,sc01)
+Scene('mi02','Active Imagination','An organ of perception tuned to a real world.','Imaginatio vera','','perception',['imagination','perception','organ'],'faculty','inner eye opening to another world',8.0,sc02)
+Scene('mi03','The Cosmic North','The suprasensory orient — where you came from.','Al-mashriq','','orientation',['north','orient','origin'],'orientation','compass needle settling on new direction',8.0,sc03)
+Scene('mi04','The Person of Light','The perfect nature — with you since before birth.','Shakhs nurani','','guide',['guide','light','nature'],'guide','luminous figure of pure light approaching',10.0,sc04)
+Scene('mi05','1x1','The spider\'s thread — cut and re-joined.','Unus-ambo','','formula',['thread','unity','difference'],'formula','glowing thread cut and restored with 1x1',8.0,sc05)
+Scene('mi06','Two Faces','Your face becomes light — then another appears.','Shakhs nurani','','encounter',['face','light','recognition'],'encounter','two luminous faces recognizing each other',8.0,sc06)
+Scene('mi07','The Dhikr','Fire that burns away what separates you.','Dhikr','','practice',['fire','dhikr','burning'],'practice','rising flame consuming obstacles',8.0,sc07)
+Scene('mi08','Light Upon Light','Your light meets its light — they combine.','Nurun \'ala nur','','union',['light','union','combine'],'union','two lights approaching and combining',8.0,sc08)
+Scene('mi09','The Chinvat Bridge','"Who art thou?" "I am your own celestial counterpart."','Daena','','bridge',['bridge','meeting','daena'],'bridge','two figures meeting on a bridge of light',8.0,sc09)
+Scene('mi10','Mutual Creation','The guide is both parent and child — you give birth to each other.','Syzygy','','relationship',['mutual','creation','recursive'],'relationship','two figures connected by heart-thread',6.0,sc10)
+Scene('mi11','The Open Door','The door is always open. The guide is always waiting.','Janua','','seal',['door','waiting','open'],'seal','door of light standing open, guide at threshold',8.0,sc11) [
     Scene('mi01','The World Between Worlds','Neither physical nor spiritual — somewhere in between.','Mundus imaginalis','','threshold',['threshold','imaginal','between'],'intro','crack of light in twilight',6.0,sc01),
     Scene('mi02','Active Imagination','An organ of perception tuned to a real world.','Imaginatio vera','','perception',['imagination','perception','organ'],'faculty','inner eye opening to another world',8.0,sc02),
     Scene('mi03','The Cosmic North','The suprasensory orient — where you came from.','Al-mashriq','','orientation',['north','orient','origin'],'orientation','compass needle settling on new direction',8.0,sc03),

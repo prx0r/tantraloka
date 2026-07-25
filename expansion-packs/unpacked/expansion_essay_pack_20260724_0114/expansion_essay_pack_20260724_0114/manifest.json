@@ -1,0 +1,140 @@
+{
+  "pack_id": "expansion_essay_pack_20260724_0114",
+  "generated_at": "2026-07-24T01:20:20.229239+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7547,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_knowledge_binds_by_making_the_world_small_enough_to_use.md",
+      "title": "knowledge binds by making the world small enough to use",
+      "slug": "01_knowledge_binds_by_making_the_world_small_enough_to_use",
+      "primary_domain": "Kashmir Śaivism × information theory",
+      "secondary_domain": "Śiva Sūtras, information bottlenecks, and conceptual compression",
+      "word_count": 1460,
+      "key_concepts": [
+        "jñānaṃ bandhaḥ",
+        "information bottleneck",
+        "lossy compression",
+        "predictive processing",
+        "concepts",
+        "recognition"
+      ],
+      "source_categories": [
+        "Shiva Shakti Mandalam corpus",
+        "primary Tantric or yogic texts",
+        "recognized scholarship",
+        "peer-reviewed science",
+        "arXiv research"
+      ],
+      "epistemic_status": "formal science compared with Śaiva metaphysics",
+      "hook": "A living organism cannot perceive everything."
+    },
+    {
+      "number": 2,
+      "filename": "02_you_cannot_manufacture_the_state_the_whole_must_become.md",
+      "title": "you cannot manufacture the state the whole must become",
+      "slug": "02_you_cannot_manufacture_the_state_the_whole_must_become",
+      "primary_domain": "Nātha/Kaula × complexity science",
+      "secondary_domain": "Akulavīra, sahaja, order parameters, and causal emergence",
+      "word_count": 1492,
+      "key_concepts": [
+        "Akulavīra",
+        "sahaja",
+        "samarasa",
+        "order parameter",
+        "collective variables",
+        "causal emergence"
+      ],
+      "source_categories": [
+        "Shiva Shakti Mandalam corpus",
+        "primary Tantric or yogic texts",
+        "recognized scholarship",
+        "peer-reviewed science",
+        "arXiv research"
+      ],
+      "epistemic_status": "historical Tantra compared with current emergence research",
+      "hook": "A magnet does not become magnetized because one atom receives an inspiring instruction."
+    },
+    {
+      "number": 3,
+      "filename": "03_the_universe_changes_scale_without_changing_its_grammar.md",
+      "title": "the universe changes scale without changing its grammar",
+      "slug": "03_the_universe_changes_scale_without_changing_its_grammar",
+      "primary_domain": "Nātha cosmology × multiscale science",
+      "secondary_domain": "six Piṇḍas, coarse-graining, and scale-dependent causation",
+      "word_count": 1533,
+      "key_concepts": [
+        "Piṇḍa",
+        "Siddha Siddhānta Paddhati",
+        "renormalization",
+        "coarse-graining",
+        "multiscale causation",
+        "identity"
+      ],
+      "source_categories": [
+        "Shiva Shakti Mandalam corpus",
+        "primary Tantric or yogic texts",
+        "recognized scholarship",
+        "peer-reviewed science",
+        "arXiv research"
+      ],
+      "epistemic_status": "metaphysical scale hierarchy compared with formal multiscale models",
+      "hook": "A cell is not a small animal."
+    },
+    {
+      "number": 4,
+      "filename": "04_a_symbol_becomes_real_when_several_worlds_compile_to_the_same_form.md",
+      "title": "a symbol becomes real when several worlds compile to the same form",
+      "slug": "04_a_symbol_becomes_real_when_several_worlds_compile_to_the_same_form",
+      "primary_domain": "Śrīvidyā × compositional biology",
+      "secondary_domain": "vidyā, form, yantra, genotype–phenotype, and compilation across media",
+      "word_count": 1503,
+      "key_concepts": [
+        "Śrī Vidyā Ratna Sūtras",
+        "vidyā",
+        "yantra",
+        "compositionality",
+        "genotype-phenotype",
+        "interfaces"
+      ],
+      "source_categories": [
+        "Shiva Shakti Mandalam corpus",
+        "primary Tantric or yogic texts",
+        "recognized scholarship",
+        "peer-reviewed science",
+        "arXiv research"
+      ],
+      "epistemic_status": "ritual ontology compared with compositional science",
+      "hook": "A mantra can be written."
+    },
+    {
+      "number": 5,
+      "filename": "05_the_same_state_can_feel_like_birth_from_one_direction_and_death_from_the_other.md",
+      "title": "the same state can feel like birth from one direction and death from the other",
+      "slug": "05_the_same_state_can_feel_like_birth_from_one_direction_and_death_from_the_other",
+      "primary_domain": "Kālīkula/Śrīkula × affective dynamics",
+      "secondary_domain": "waxing and waning Nityās, trajectory, and dynamic valence",
+      "word_count": 1559,
+      "key_concepts": [
+        "Kālī Nityās",
+        "Lalitā Nityās",
+        "valence",
+        "arousal",
+        "trajectory",
+        "path dependence",
+        "opponent process"
+      ],
+      "source_categories": [
+        "Shiva Shakti Mandalam corpus",
+        "primary Tantric or yogic texts",
+        "recognized scholarship",
+        "peer-reviewed science",
+        "arXiv research"
+      ],
+      "epistemic_status": "ritual time compared with computational affective models",
+      "hook": "Half-moon."
+    }
+  ]
+}

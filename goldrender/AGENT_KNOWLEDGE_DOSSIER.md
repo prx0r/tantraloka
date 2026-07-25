@@ -1,15 +1,21 @@
-# AGENT KNOWLEDGE DOSSIER — Sthiti-Vyutthāna
+# AGENT KNOWLEDGE DOSSIER — Self and World Hold Each Other Upright
 
-Visualize sthiti and vyutthāna: rest in the self and emergence into activity as the two modes of the liberated one.
+## Aim
+Visualize the co-arising of self and world through Ñāṇananda's image of two bundles of reeds.
 
-## Structure
-1. Two modes of one consciousness
-2. Sthiti — rest in the self
-3. Vyutthāna — emergence into act
-4. One rhythm
-5. The seal: rest and emergence as one
+## Core arc
+1. Two reeds leaning — neither stands alone
+2. Consciousness and name-and-form braid together
+3. Perception is active engagement, not passive reception
+4. Self-model and world-model mirror each other
+5. Grasping tightens the loop into a vortex
+6. Practice loosens it — light enters
+7. Both poles appear within one awareness-field
+8. The reeds become light — the structure is revealed as luminous
 
 ## Visual rules
-- Teal for sthiti (cool, stable), cardinal for vyutthāna (warm, active).
-- Dual Devanagari as primary composition.
-- Stable forms for rest, radiating forms for emergence.
+- Parchment ground for opening and closing — dark night for the vortex.
+- Rose (self) and teal (world) as the two pole colors.
+- Gold for the ground of awareness.
+- No figures — abstract geometric diagrams only.
+- The reeds motif returns at the end transformed into light.

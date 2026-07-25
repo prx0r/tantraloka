@@ -49,7 +49,10 @@ def ease_in_out(t): t=clamp(t); return 0.5-0.5*math.cos(math.pi*t)
 def smoothstep(a,b,x):
     if a==b: return 1.0 if x>=b else 0.0
     t=clamp((x-a)/(b-a)); return t*t*(3-2*t)
-def rgba(c,a=255): return (*c[:3],int(a))
+def rgba(c,a=255): return (*c[
+    :3,
+    :3,
+],int(a))
 
 def layer(): return Image.new('RGBA',(W,H),(0,0,0,0))
 
@@ -303,7 +306,42 @@ def sc12(im,t):
         x=cx+math.cos(a)*r; y=cy+math.sin(a)*r*0.5
         draw_line_glow(im,[(cx,cy),(int(x),int(y))],mix(GOLD_LIGHT,EMERALD_LIGHT,i/12),1,50,4)
 
-SCENES=[
+SCENES=[,Scene('ir01','Light Sees Itself','Visible by itself — needs nothing else.','Nūr','','opening',['light','self-luminous'],'intro','self-illuminating point',6.0,sc01)
+Scene('ir02','The World Between','Mundus imaginalis — between pure light and sensory world.','Mundus imaginalis','','threshold',['threshold','imaginal','between'],'threshold','shimmering corridor between two realms',8.0,sc02)
+Scene('ir03','Emerald Cities','Hurqalya on the cosmic mountain Qaf.','Hurqalya','','city',['emerald','city','mountain'],'geography','crystalline green city on mountain peak',8.0,sc03)
+Scene('ir04','The Land That Is Nowhere','Na-koja-abad — the cosmic north within you.','Na-koja-abad','','center',['nowhere','center','north'],'geography','compass pointing inward to center',6.0,sc04)
+Scene('ir05','Perfect Nature','The Guide of Light — with you since before birth.','Al-tiba\' al-tamm','','guide',['guide','light','nature'],'guide','luminous figure of pure light',8.0,sc05)
+Scene('ir06','Parent and Child','Thou gavest birth to me — I give birth to thee.','Syzygy','','mutual',['mutual','birth','reciprocal'],'relationship','two figures connected by light-thread',8.0,sc06)
+Scene('ir07','The Midnight Sun','At the darkest point of the night, the sun shines.','Nisf al-layl','','sun',['midnight','sun','darkness'],'illumination','radiance expanding from absolute dark',8.0,sc07)
+Scene('ir08','Light Upon Light','Every being has a fravarti — a counterpart above.','Fravarti','','paired',['paired','counterpart','above'],'syzygy','pairs of lights in vertical column',8.0,sc08)
+Scene('ir09','Two Knowings','Evening knowledge — morning knowledge.','Cognitio matutina','','knowledge',['knowledge','observer','participant'],'epistemology','observer vs participant side by side',8.0,sc09)
+Scene('ir10','The Emerald Rock','Translucent, luminous — the goal of the journey.','Zarqā\'','','rock',['emerald','rock','goal'],'goal','crystalline rock glowing from within',6.0,sc10)
+Scene('ir11','The Chinvat Bridge','You decide which self you will be.','Chinvat','','bridge',['bridge','threshold','decision'],'bridge','figure crossing bridge of light',8.0,sc11)
+Scene('ir12','A Candle Forgetting It Is Fire','The seeker and the sought are the same luminosity.','Ishrāq','','seal',['light','recognition','self'],'seal','candle-flame with radial recognition rays',8.0,sc12)
+Scene('ir01','Light Sees Itself','Visible by itself — needs nothing else.','Nūr','','opening',['light','self-luminous'],'intro','self-illuminating point',6.0,sc01)
+Scene('ir02','The World Between','Mundus imaginalis — between pure light and sensory world.','Mundus imaginalis','','threshold',['threshold','imaginal','between'],'threshold','shimmering corridor between two realms',8.0,sc02)
+Scene('ir03','Emerald Cities','Hurqalya on the cosmic mountain Qaf.','Hurqalya','','city',['emerald','city','mountain'],'geography','crystalline green city on mountain peak',8.0,sc03)
+Scene('ir04','The Land That Is Nowhere','Na-koja-abad — the cosmic north within you.','Na-koja-abad','','center',['nowhere','center','north'],'geography','compass pointing inward to center',6.0,sc04)
+Scene('ir05','Perfect Nature','The Guide of Light — with you since before birth.','Al-tiba\' al-tamm','','guide',['guide','light','nature'],'guide','luminous figure of pure light',8.0,sc05)
+Scene('ir06','Parent and Child','Thou gavest birth to me — I give birth to thee.','Syzygy','','mutual',['mutual','birth','reciprocal'],'relationship','two figures connected by light-thread',8.0,sc06)
+Scene('ir07','The Midnight Sun','At the darkest point of the night, the sun shines.','Nisf al-layl','','sun',['midnight','sun','darkness'],'illumination','radiance expanding from absolute dark',8.0,sc07)
+Scene('ir08','Light Upon Light','Every being has a fravarti — a counterpart above.','Fravarti','','paired',['paired','counterpart','above'],'syzygy','pairs of lights in vertical column',8.0,sc08)
+Scene('ir09','Two Knowings','Evening knowledge — morning knowledge.','Cognitio matutina','','knowledge',['knowledge','observer','participant'],'epistemology','observer vs participant side by side',8.0,sc09)
+Scene('ir10','The Emerald Rock','Translucent, luminous — the goal of the journey.','Zarqā\'','','rock',['emerald','rock','goal'],'goal','crystalline rock glowing from within',6.0,sc10)
+Scene('ir11','The Chinvat Bridge','You decide which self you will be.','Chinvat','','bridge',['bridge','threshold','decision'],'bridge','figure crossing bridge of light',8.0,sc11)
+Scene('ir12','A Candle Forgetting It Is Fire','The seeker and the sought are the same luminosity.','Ishrāq','','seal',['light','recognition','self'],'seal','candle-flame with radial recognition rays',8.0,sc12)
+Scene('ir01','Light Sees Itself','Visible by itself — needs nothing else.','Nūr','','opening',['light','self-luminous'],'intro','self-illuminating point',6.0,sc01)
+Scene('ir02','The World Between','Mundus imaginalis — between pure light and sensory world.','Mundus imaginalis','','threshold',['threshold','imaginal','between'],'threshold','shimmering corridor between two realms',8.0,sc02)
+Scene('ir03','Emerald Cities','Hurqalya on the cosmic mountain Qaf.','Hurqalya','','city',['emerald','city','mountain'],'geography','crystalline green city on mountain peak',8.0,sc03)
+Scene('ir04','The Land That Is Nowhere','Na-koja-abad — the cosmic north within you.','Na-koja-abad','','center',['nowhere','center','north'],'geography','compass pointing inward to center',6.0,sc04)
+Scene('ir05','Perfect Nature','The Guide of Light — with you since before birth.','Al-tiba\' al-tamm','','guide',['guide','light','nature'],'guide','luminous figure of pure light',8.0,sc05)
+Scene('ir06','Parent and Child','Thou gavest birth to me — I give birth to thee.','Syzygy','','mutual',['mutual','birth','reciprocal'],'relationship','two figures connected by light-thread',8.0,sc06)
+Scene('ir07','The Midnight Sun','At the darkest point of the night, the sun shines.','Nisf al-layl','','sun',['midnight','sun','darkness'],'illumination','radiance expanding from absolute dark',8.0,sc07)
+Scene('ir08','Light Upon Light','Every being has a fravarti — a counterpart above.','Fravarti','','paired',['paired','counterpart','above'],'syzygy','pairs of lights in vertical column',8.0,sc08)
+Scene('ir09','Two Knowings','Evening knowledge — morning knowledge.','Cognitio matutina','','knowledge',['knowledge','observer','participant'],'epistemology','observer vs participant side by side',8.0,sc09)
+Scene('ir10','The Emerald Rock','Translucent, luminous — the goal of the journey.','Zarqā\'','','rock',['emerald','rock','goal'],'goal','crystalline rock glowing from within',6.0,sc10)
+Scene('ir11','The Chinvat Bridge','You decide which self you will be.','Chinvat','','bridge',['bridge','threshold','decision'],'bridge','figure crossing bridge of light',8.0,sc11)
+Scene('ir12','A Candle Forgetting It Is Fire','The seeker and the sought are the same luminosity.','Ishrāq','','seal',['light','recognition','self'],'seal','candle-flame with radial recognition rays',8.0,sc12)
     Scene('ir01','Light Sees Itself','Visible by itself — needs nothing else.','Nūr','','opening',['light','self-luminous'],'intro','self-illuminating point',6.0,sc01),
     Scene('ir02','The World Between','Mundus imaginalis — between pure light and sensory world.','Mundus imaginalis','','threshold',['threshold','imaginal','between'],'threshold','shimmering corridor between two realms',8.0,sc02),
     Scene('ir03','Emerald Cities','Hurqalya on the cosmic mountain Qaf.','Hurqalya','','city',['emerald','city','mountain'],'geography','crystalline green city on mountain peak',8.0,sc03),

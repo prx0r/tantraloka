@@ -62,7 +62,10 @@ def smoothstep(a, b, x):
     t = clamp((x-a)/(b-a))
     return t * t * (3 - 2 * t)
 def rgba(c, a=255):
-    return (*c[:3], int(a))
+    return (*c[
+    :3,
+    :3,
+], int(a))
 
 
 def layer():
@@ -404,7 +407,42 @@ def sc12(im, t):
     d.text((640, 485), 'the lucid one — dreaming freely', font=SUB_FONT, fill=MIST, anchor='mm')
 
 
-SCENES = [
+SCENES =,Scene('yv01','What If You Are Dreaming?','This room, this body — no more solid than a dream.','Svapna','','opening',['dream','question','reality'],'intro','rippling room with soft edges',6.0,sc01)
+Scene('yv02','What Is This World?','Rāma\'s existential question — who am I?','Vairāgya','','question',['existential','question','self'],'question','questioning figure with dissolving edges',8.0,sc02)
+Scene('yv03','Stories Within Stories','Nested like Russian dolls — each frame is a level of the dream.','Upāya','','narrative',['stories','nested','frames'],'method','five nested frames with diminishing size',10.0,sc03)
+Scene('yv04','Another Universe','A queen visited another world through the power of her mind.','Dṛṣṭi-sṛṣṭi','','threshold',['threshold','other world','mind'],'threshold','figure stepping through cracked reality',8.0,sc04)
+Scene('yv05','King and Beggar','Each dreaming the other — neither is real.','Bhrānti','','reversal',['king','beggar','dream'],'reversal','two silhouettes exchanging places',8.0,sc05)
+Scene('yv06','The Long Dream','No world apart from the mind — perception is creation.','Dṛṣṭi-sṛṣṭi','','dissolution',['dream','world','dissolving'],'dissolution','landscape dissolving into stillness',8.0,sc06)
+Scene('yv07','Seven Stages of Wisdom','From desire to absorption — the ascent through the tattvas.','Sapta bhūmika','','ascent',['stages','wisdom','ascent'],'ascent','seven-step ladder with glowing fourth step',8.0,sc07)
+Scene('yv08','Still Mind, Still World','When the mind is still, the world ceases to exist.','Citta','','stillness',['mind','stillness','cessation'],'stillness','concentric rings dissolving to still center',8.0,sc08)
+Scene('yv09','The Jīvanmukta','A lamp that flickers after the oil is gone.','Jīvanmukta','','liberation',['liberated','lamp','oil'],'liberation','flame burning without fuel',8.0,sc09)
+Scene('yv10','Two Branches, One Tree','The breath is the handle of the mind.','Prāṇa-samrodha','','practice',['breath','mind','tree'],'practice','tree branching into prāṇa and citta',8.0,sc10)
+Scene('yv11','No Creation, No Destruction','Neither dream nor waking — ajāti-vāda.','Ajāti','','non-origination',['non-origination','stillness','presence'],'culmination','bare presence with dissolving rings',8.0,sc11)
+Scene('yv12','You Are the Dreamer','The dream becomes transparent. It was never a prison.','Jīvanmukti','','seal',['dreamer','recognition','freedom'],'seal','radial dream-mandala with recognizing self',6.0,sc12)
+Scene('yv01','What If You Are Dreaming?','This room, this body — no more solid than a dream.','Svapna','','opening',['dream','question','reality'],'intro','rippling room with soft edges',6.0,sc01)
+Scene('yv02','What Is This World?','Rāma\'s existential question — who am I?','Vairāgya','','question',['existential','question','self'],'question','questioning figure with dissolving edges',8.0,sc02)
+Scene('yv03','Stories Within Stories','Nested like Russian dolls — each frame is a level of the dream.','Upāya','','narrative',['stories','nested','frames'],'method','five nested frames with diminishing size',10.0,sc03)
+Scene('yv04','Another Universe','A queen visited another world through the power of her mind.','Dṛṣṭi-sṛṣṭi','','threshold',['threshold','other world','mind'],'threshold','figure stepping through cracked reality',8.0,sc04)
+Scene('yv05','King and Beggar','Each dreaming the other — neither is real.','Bhrānti','','reversal',['king','beggar','dream'],'reversal','two silhouettes exchanging places',8.0,sc05)
+Scene('yv06','The Long Dream','No world apart from the mind — perception is creation.','Dṛṣṭi-sṛṣṭi','','dissolution',['dream','world','dissolving'],'dissolution','landscape dissolving into stillness',8.0,sc06)
+Scene('yv07','Seven Stages of Wisdom','From desire to absorption — the ascent through the tattvas.','Sapta bhūmika','','ascent',['stages','wisdom','ascent'],'ascent','seven-step ladder with glowing fourth step',8.0,sc07)
+Scene('yv08','Still Mind, Still World','When the mind is still, the world ceases to exist.','Citta','','stillness',['mind','stillness','cessation'],'stillness','concentric rings dissolving to still center',8.0,sc08)
+Scene('yv09','The Jīvanmukta','A lamp that flickers after the oil is gone.','Jīvanmukta','','liberation',['liberated','lamp','oil'],'liberation','flame burning without fuel',8.0,sc09)
+Scene('yv10','Two Branches, One Tree','The breath is the handle of the mind.','Prāṇa-samrodha','','practice',['breath','mind','tree'],'practice','tree branching into prāṇa and citta',8.0,sc10)
+Scene('yv11','No Creation, No Destruction','Neither dream nor waking — ajāti-vāda.','Ajāti','','non-origination',['non-origination','stillness','presence'],'culmination','bare presence with dissolving rings',8.0,sc11)
+Scene('yv12','You Are the Dreamer','The dream becomes transparent. It was never a prison.','Jīvanmukti','','seal',['dreamer','recognition','freedom'],'seal','radial dream-mandala with recognizing self',6.0,sc12)
+Scene('yv01','What If You Are Dreaming?','This room, this body — no more solid than a dream.','Svapna','','opening',['dream','question','reality'],'intro','rippling room with soft edges',6.0,sc01)
+Scene('yv02','What Is This World?','Rāma\'s existential question — who am I?','Vairāgya','','question',['existential','question','self'],'question','questioning figure with dissolving edges',8.0,sc02)
+Scene('yv03','Stories Within Stories','Nested like Russian dolls — each frame is a level of the dream.','Upāya','','narrative',['stories','nested','frames'],'method','five nested frames with diminishing size',10.0,sc03)
+Scene('yv04','Another Universe','A queen visited another world through the power of her mind.','Dṛṣṭi-sṛṣṭi','','threshold',['threshold','other world','mind'],'threshold','figure stepping through cracked reality',8.0,sc04)
+Scene('yv05','King and Beggar','Each dreaming the other — neither is real.','Bhrānti','','reversal',['king','beggar','dream'],'reversal','two silhouettes exchanging places',8.0,sc05)
+Scene('yv06','The Long Dream','No world apart from the mind — perception is creation.','Dṛṣṭi-sṛṣṭi','','dissolution',['dream','world','dissolving'],'dissolution','landscape dissolving into stillness',8.0,sc06)
+Scene('yv07','Seven Stages of Wisdom','From desire to absorption — the ascent through the tattvas.','Sapta bhūmika','','ascent',['stages','wisdom','ascent'],'ascent','seven-step ladder with glowing fourth step',8.0,sc07)
+Scene('yv08','Still Mind, Still World','When the mind is still, the world ceases to exist.','Citta','','stillness',['mind','stillness','cessation'],'stillness','concentric rings dissolving to still center',8.0,sc08)
+Scene('yv09','The Jīvanmukta','A lamp that flickers after the oil is gone.','Jīvanmukta','','liberation',['liberated','lamp','oil'],'liberation','flame burning without fuel',8.0,sc09)
+Scene('yv10','Two Branches, One Tree','The breath is the handle of the mind.','Prāṇa-samrodha','','practice',['breath','mind','tree'],'practice','tree branching into prāṇa and citta',8.0,sc10)
+Scene('yv11','No Creation, No Destruction','Neither dream nor waking — ajāti-vāda.','Ajāti','','non-origination',['non-origination','stillness','presence'],'culmination','bare presence with dissolving rings',8.0,sc11)
+Scene('yv12','You Are the Dreamer','The dream becomes transparent. It was never a prison.','Jīvanmukti','','seal',['dreamer','recognition','freedom'],'seal','radial dream-mandala with recognizing self',6.0,sc12) [
     Scene('yv01','What If You Are Dreaming?','This room, this body — no more solid than a dream.','Svapna','','opening',['dream','question','reality'],'intro','rippling room with soft edges',6.0,sc01),
     Scene('yv02','What Is This World?','Rāma\'s existential question — who am I?','Vairāgya','','question',['existential','question','self'],'question','questioning figure with dissolving edges',8.0,sc02),
     Scene('yv03','Stories Within Stories','Nested like Russian dolls — each frame is a level of the dream.','Upāya','','narrative',['stories','nested','frames'],'method','five nested frames with diminishing size',10.0,sc03),

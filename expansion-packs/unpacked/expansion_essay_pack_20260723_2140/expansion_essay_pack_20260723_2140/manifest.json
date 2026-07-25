@@ -1,0 +1,121 @@
+{
+  "pack_id": "expansion_essay_pack_20260723_2140",
+  "generated_at": "2026-07-23T21:40:49.037923+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7827,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_your_voice_existed_before_language.md",
+      "title": "your voice existed before language",
+      "slug": "01_your_voice_existed_before_language",
+      "primary_domain": "Kashmir Śaivism",
+      "secondary_domain": "mantra and phonemic cosmology",
+      "word_count": 1603,
+      "key_concepts": [
+        "mantra",
+        "citta",
+        "mātṛkā",
+        "speech",
+        "phoneme",
+        "recognition"
+      ],
+      "source_categories": [
+        "primary texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical-philosophical",
+      "hook": "Before you speak, the sentence is already moving."
+    },
+    {
+      "number": 2,
+      "filename": "02_an_organism_survives_by_predicting_itself.md",
+      "title": "an organism survives by predicting itself",
+      "slug": "02_an_organism_survives_by_predicting_itself",
+      "primary_domain": "Frontier cognitive science",
+      "secondary_domain": "active inference and morphogenesis",
+      "word_count": 1646,
+      "key_concepts": [
+        "active inference",
+        "prediction error",
+        "precision",
+        "agency",
+        "morphogenesis"
+      ],
+      "source_categories": [
+        "peer-reviewed research"
+      ],
+      "epistemic_status": "formal framework and active scientific research",
+      "hook": "Your body is constantly failing to encounter the world exactly as it expected."
+    },
+    {
+      "number": 3,
+      "filename": "03_music_is_medicine_for_the_invisible_body.md",
+      "title": "music is medicine for the invisible body",
+      "slug": "03_music_is_medicine_for_the_invisible_body",
+      "primary_domain": "Renaissance Neoplatonism",
+      "secondary_domain": "Ficino, music, and spiritus",
+      "word_count": 1573,
+      "key_concepts": [
+        "Ficino",
+        "music",
+        "spiritus",
+        "melancholy",
+        "natural magic"
+      ],
+      "source_categories": [
+        "primary texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical-philosophical and medical",
+      "hook": "A room can change before anything visible moves."
+    },
+    {
+      "number": 4,
+      "filename": "04_you_are_only_one_of_your_possible_selves.md",
+      "title": "you are only one of your possible selves",
+      "slug": "04_you_are_only_one_of_your_possible_selves",
+      "primary_domain": "Channeled esotericism",
+      "secondary_domain": "Seth probable realities",
+      "word_count": 1462,
+      "key_concepts": [
+        "Seth Material",
+        "probable selves",
+        "point of power",
+        "identity",
+        "counterfactuals"
+      ],
+      "source_categories": [
+        "channeled source texts",
+        "official corpus resources"
+      ],
+      "epistemic_status": "claimed communication analyzed as text",
+      "hook": "Somewhere inside every decision is a person who did not choose it."
+    },
+    {
+      "number": 5,
+      "filename": "05_the_future_can_move_you_without_existing_yet.md",
+      "title": "the future can move you without existing yet",
+      "slug": "05_the_future_can_move_you_without_existing_yet",
+      "primary_domain": "Bridge essay",
+      "secondary_domain": "active inference and final causation",
+      "word_count": 1543,
+      "key_concepts": [
+        "goal",
+        "future",
+        "active inference",
+        "final cause",
+        "morphogenesis",
+        "return"
+      ],
+      "source_categories": [
+        "peer-reviewed research",
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "structural comparison",
+      "hook": "You begin walking toward a door before the door has opened."
+    }
+  ]
+}

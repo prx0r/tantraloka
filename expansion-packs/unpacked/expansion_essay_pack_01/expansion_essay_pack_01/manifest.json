@@ -1,0 +1,31 @@
+{
+  "pack_id": "expansion-essay-pack-01",
+  "essay_count": 5,
+  "files": [
+    {
+      "filename": "01_the_universe_is_hiding_inside_your_attention.md",
+      "title": "the universe is hiding inside your attention",
+      "word_count": 1775
+    },
+    {
+      "filename": "02_the_place_that_exists_nowhere.md",
+      "title": "the place that exists nowhere",
+      "word_count": 1741
+    },
+    {
+      "filename": "03_everything_is_trying_to_return.md",
+      "title": "everything is trying to return",
+      "word_count": 1632
+    },
+    {
+      "filename": "04_the_fire_is_not_destroying_you.md",
+      "title": "the fire is not destroying you",
+      "word_count": 1674
+    },
+    {
+      "filename": "05_god_looks_through_your_face.md",
+      "title": "god looks through your face",
+      "word_count": 1877
+    }
+  ]
+}

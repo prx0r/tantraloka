@@ -1,0 +1,123 @@
+{
+  "pack_id": "expansion_essay_pack_20260723_2355",
+  "generated_at": "2026-07-24T00:01:47.663279+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7532,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_the_self_appears_wherever_two_moments_belong_to_one_life.md",
+      "title": "the self appears wherever two moments belong to one life",
+      "slug": "01_the_self_appears_wherever_two_moments_belong_to_one_life",
+      "primary_domain": "Pratyabhijñā philosophy",
+      "secondary_domain": "memory, recognition, and continuity of the subject",
+      "word_count": 1494,
+      "key_concepts": [
+        "Utpaladeva",
+        "memory",
+        "recognition",
+        "momentariness",
+        "vimarśa"
+      ],
+      "source_categories": [
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical-philosophical",
+      "hook": "You remember a room that no longer exists."
+    },
+    {
+      "number": 2,
+      "filename": "02_a_markov_blanket_is_not_the_skin_of_the_self.md",
+      "title": "a markov blanket is not the skin of the self",
+      "slug": "02_a_markov_blanket_is_not_the_skin_of_the_self",
+      "primary_domain": "Theoretical biology",
+      "secondary_domain": "Markov blankets and active inference",
+      "word_count": 1478,
+      "key_concepts": [
+        "Markov blanket",
+        "conditional independence",
+        "active inference",
+        "autonomy",
+        "nested boundaries"
+      ],
+      "source_categories": [
+        "peer-reviewed theoretical biology",
+        "critical philosophy",
+        "arXiv"
+      ],
+      "epistemic_status": "formal framework with active philosophical debate",
+      "hook": "A cell membrane is visible."
+    },
+    {
+      "number": 3,
+      "filename": "03_awareness_is_not_inside_the_system_that_predicts_the_world.md",
+      "title": "awareness is not inside the system that predicts the world",
+      "slug": "03_awareness_is_not_inside_the_system_that_predicts_the_world",
+      "primary_domain": "Recognition philosophy × active inference",
+      "secondary_domain": "self-luminosity versus predictive mediation",
+      "word_count": 1570,
+      "key_concepts": [
+        "prakāśa",
+        "vimarśa",
+        "Markov blanket",
+        "self-model",
+        "consciousness"
+      ],
+      "source_categories": [
+        "peer-reviewed theoretical biology",
+        "critical philosophy",
+        "arXiv"
+      ],
+      "epistemic_status": "structural comparison",
+      "hook": "A living system must remain partly hidden from the world to remain itself."
+    },
+    {
+      "number": 4,
+      "filename": "04_a_mutation_may_begin_when_a_proton_changes_the_alphabet.md",
+      "title": "a mutation may begin when a proton changes the alphabet",
+      "slug": "04_a_mutation_may_begin_when_a_proton_changes_the_alphabet",
+      "primary_domain": "Quantum biology",
+      "secondary_domain": "DNA proton tunnelling and tautomeric mutation",
+      "word_count": 1439,
+      "key_concepts": [
+        "proton tunnelling",
+        "tautomerism",
+        "DNA replication",
+        "helicase",
+        "mismatch repair"
+      ],
+      "source_categories": [
+        "peer-reviewed primary research",
+        "scientific reviews",
+        "arXiv/preprints"
+      ],
+      "epistemic_status": "developing quantum-chemical mechanism",
+      "hook": "DNA is copied through recognition."
+    },
+    {
+      "number": 5,
+      "filename": "05_a_leaf_uses_noise_to_keep_light_from_getting_lost.md",
+      "title": "a leaf uses noise to keep light from getting lost",
+      "slug": "05_a_leaf_uses_noise_to_keep_light_from_getting_lost",
+      "primary_domain": "Quantum biology",
+      "secondary_domain": "photosynthetic excitons, coherence, and dissipation",
+      "word_count": 1551,
+      "key_concepts": [
+        "photosynthesis",
+        "exciton",
+        "coherence",
+        "vibronic coupling",
+        "dissipation"
+      ],
+      "source_categories": [
+        "peer-reviewed primary research",
+        "scientific reviews",
+        "arXiv/preprints"
+      ],
+      "epistemic_status": "empirical quantum biophysics with contested functional interpretation",
+      "hook": "A photon disappears into a leaf."
+    }
+  ]
+}

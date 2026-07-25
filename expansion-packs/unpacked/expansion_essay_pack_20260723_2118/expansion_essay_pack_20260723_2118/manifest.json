@@ -1,0 +1,53 @@
+{
+  "pack_id": "expansion_essay_pack_20260723_2118",
+  "generated_at": "2026-07-23T14:18:39.408237+00:00",
+  "essay_count": 5,
+  "total_word_count": 9540,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_the_world_arrives_before_you_name_it.md",
+      "title": "the world arrives before you name it",
+      "slug": "01_the_world_arrives_before_you_name_it",
+      "primary_domain": "Kashmir Śaivism",
+      "secondary_domain": "Pratyabhijñā and perceptual manifestation",
+      "word_count": 1865
+    },
+    {
+      "number": 2,
+      "filename": "02_a_bird_may_see_the_earths_magnetic_field.md",
+      "title": "a bird may see the earth’s magnetic field",
+      "slug": "02_a_bird_may_see_the_earths_magnetic_field",
+      "primary_domain": "Frontier science",
+      "secondary_domain": "Quantum biology and magnetoreception",
+      "word_count": 1753
+    },
+    {
+      "number": 3,
+      "filename": "03_matter_remembers_the_gods.md",
+      "title": "matter remembers the gods",
+      "slug": "03_matter_remembers_the_gods",
+      "primary_domain": "Neoplatonism",
+      "secondary_domain": "Proclean metaphysics",
+      "word_count": 1864
+    },
+    {
+      "number": 4,
+      "filename": "04_the_universe_speaks_in_borrowed_voices.md",
+      "title": "the universe speaks in borrowed voices",
+      "slug": "04_the_universe_speaks_in_borrowed_voices",
+      "primary_domain": "Channeled literature",
+      "secondary_domain": "Comparative channeling and source criticism",
+      "word_count": 1926
+    },
+    {
+      "number": 5,
+      "filename": "05_your_cells_may_be_solving_a_problem_called_you.md",
+      "title": "your cells may be solving a problem called you",
+      "slug": "05_your_cells_may_be_solving_a_problem_called_you",
+      "primary_domain": "Bridge essay",
+      "secondary_domain": "Bioelectric morphogenesis and Kashmir Śaivism",
+      "word_count": 2132
+    }
+  ]
+}

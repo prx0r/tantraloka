@@ -1,0 +1,120 @@
+{
+  "pack_id": "expansion_essay_pack_20260723_2259",
+  "generated_at": "2026-07-23T23:04:50.626368+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7615,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_grace_breaks_the_law_that_brought_you_here.md",
+      "title": "grace breaks the law that brought you here",
+      "slug": "01_grace_breaks_the_law_that_brought_you_here",
+      "primary_domain": "Kashmir Śaivism",
+      "secondary_domain": "Tantrāloka Chapter 13 and śaktipāta",
+      "word_count": 1593,
+      "key_concepts": [
+        "śaktipāta",
+        "anugraha",
+        "svātantrya",
+        "karma",
+        "initiation"
+      ],
+      "source_categories": [
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical-philosophical and theological",
+      "hook": "Most spiritual systems make awakening sound like a fair transaction."
+    },
+    {
+      "number": 2,
+      "filename": "02_the_embryo_flashes_before_it_has_a_brain.md",
+      "title": "the embryo flashes before it has a brain",
+      "slug": "02_the_embryo_flashes_before_it_has_a_brain",
+      "primary_domain": "Frontier developmental biology",
+      "secondary_domain": "pre-neural calcium signaling",
+      "word_count": 1450,
+      "key_concepts": [
+        "calcium waves",
+        "BMP",
+        "embryonic polarity",
+        "gap junctions",
+        "collective teratogen resistance"
+      ],
+      "source_categories": [
+        "peer-reviewed primary research",
+        "scientific reviews"
+      ],
+      "epistemic_status": "peer-reviewed experimental science",
+      "hook": "Before the embryo has a nervous system, it already produces waves of electrical life."
+    },
+    {
+      "number": 3,
+      "filename": "03_the_soul_needs_a_second_body.md",
+      "title": "the soul needs a second body",
+      "slug": "03_the_soul_needs_a_second_body",
+      "primary_domain": "Neoplatonism",
+      "secondary_domain": "ochēma-pneuma and soul mediation",
+      "word_count": 1565,
+      "key_concepts": [
+        "Iamblichus",
+        "Proclus",
+        "soul vehicle",
+        "pneuma",
+        "imagination"
+      ],
+      "source_categories": [
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical metaphysics",
+      "hook": "A soul without matter should pass through matter untouched."
+    },
+    {
+      "number": 4,
+      "filename": "04_the_dead_were_buried_with_instructions.md",
+      "title": "the dead were buried with instructions",
+      "slug": "04_the_dead_were_buried_with_instructions",
+      "primary_domain": "Revelatory funerary religion",
+      "secondary_domain": "Orphic/Bacchic gold tablets",
+      "word_count": 1448,
+      "key_concepts": [
+        "Mnemosyne",
+        "gold tablets",
+        "passwords",
+        "initiation",
+        "afterlife"
+      ],
+      "source_categories": [
+        "archaeological primary texts",
+        "classical scholarship"
+      ],
+      "epistemic_status": "archaeological and textual history",
+      "hook": "Some ancient Greeks were sent into the grave carrying a script."
+    },
+    {
+      "number": 5,
+      "filename": "05_the_whole_can_act_before_any_part_understands_it.md",
+      "title": "the whole can act before any part understands it",
+      "slug": "05_the_whole_can_act_before_any_part_understands_it",
+      "primary_domain": "Platonic biology bridge",
+      "secondary_domain": "downward causation in morphogenesis",
+      "word_count": 1559,
+      "key_concepts": [
+        "downward causation",
+        "constraints",
+        "morphogenesis",
+        "participation",
+        "nested agency"
+      ],
+      "source_categories": [
+        "peer-reviewed research",
+        "primary philosophical texts",
+        "philosophy of biology"
+      ],
+      "epistemic_status": "structural comparison with empirical biology",
+      "hook": "No cell in an embryo understands the body."
+    }
+  ]
+}

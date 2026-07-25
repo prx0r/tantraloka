@@ -68,7 +68,10 @@ def smoothstep(a, b, x):
     t = clamp((x-a)/(b-a))
     return t * t * (3 - 2 * t)
 def rgba(c, a=255):
-    return (*c[:3], int(a))
+    return (*c[
+    :3,
+    :3,
+], int(a))
 
 
 def layer():
@@ -476,7 +479,51 @@ def sc15(im, t):
         d.text((cx, cy+170), 'recognize it, and liberation is immediate', font=SMALL_FONT, fill=rgba(GOLD, int(200*p)), anchor='mm')
 
 
-SCENES = [
+SCENES =,Scene('bd01','No One Remembers Dying','You have died before. Many times.','Punarmṛtyu','','hook',['death','memory','many lives'],'intro','faint figures with after-images',6.0,sc01)
+Scene('bd02','Four Witnesses','Tibetan, Egyptian, Tantric, Steiner — the same river.','Catur-āgama','','witnesses',['traditions','river','agreement'],'traditions','four symbols with river below',8.0,sc02)
+Scene('bd03','Elements Dissolve','Earth — water — fire — wind. Each in sequence.','Bhūta-kṣaya','','dissolution',['elements','dissolution','body'],'process','four elements dissolving sequentially',10.0,sc03)
+Scene('bd04','Three Visions','Redness. Whiteness. Blackness. Then radiance.','Raktādi','','visions',['red','white','black','radiance'],'threshold','three full-field colors then light',6.0,sc04)
+Scene('bd05','The Clear Light','The radiance of your own true nature.','Prabhāsvara','','clear light',['clear light','radiance','nature'],'recognition','full-field radiance expanding',10.0,sc05)
+Scene('bd06','Life in an Instant','Every face. Every word. Every wound. As presence.','Jīvita-smṛti','','life review',['life','instant','presence'],'review','rushing panorama of moments',6.0,sc06)
+Scene('bd07','Peaceful Deities','Forty-two — center and four directions, five colors.','Śānta-devatā','','peaceful',['deities','peaceful','directions'],'visions','five-point luminous mandala',10.0,sc07)
+Scene('bd08','Wrathful Deities','Fifty-eight — crowned with skulls, wielding weapons.','Krodha-devatā','','wrathful',['deities','wrathful','intense'],'visions','flaming fierce forms in five directions',8.0,sc08)
+Scene('bd09','All Is Yourself','Every being is a part of you not yet recognized.','Svātmāvabhāsa','','recognition',['self','recognition','unity'],'recognition','deities converging into center',8.0,sc09)
+Scene('bd10','The Hall of Two Truths','The heart weighed against the feather of Ma\'at.','Psychostasia','','judgment',['heart','feather','balance'],'judgment','scale with heart and feather',8.0,sc10)
+Scene('bd11','Yama\'s Mirror','You judge yourself. The mirror shows all.','Ādarśa','','mirror',['mirror','self-judgment','reflection'],'judgment','mirror showing actions of a life',8.0,sc11)
+Scene('bd12','The Twelve Kālīs','They consume objectivity, then knowing, then self.','Kalī-saṃhāra','','kalis',['kalis','dissolution','awareness'],'tantric','three concentric dissolving waves',8.0,sc12)
+Scene('bd13','Six Lights — Six Realms','The soul gravitates toward its tendency.','Gati','','rebirth',['realms','lights','tendency'],'rebirth','six colored orbs with drifting point',8.0,sc13)
+Scene('bd14','The Crossing','A boat on dark water. Emerges at sunrise.','Tarī','','crossing',['boat','water','sunrise'],'crossing','small boat crossing toward dawn',6.0,sc14)
+Scene('bd15','Recognize It','This is the radiance of your own true nature.','Pratyabhijñā','','seal',['recognition','radiance','freedom'],'seal','clear light with figure recognizing it',8.0,sc15)
+Scene('bd01','No One Remembers Dying','You have died before. Many times.','Punarmṛtyu','','hook',['death','memory','many lives'],'intro','faint figures with after-images',6.0,sc01)
+Scene('bd02','Four Witnesses','Tibetan, Egyptian, Tantric, Steiner — the same river.','Catur-āgama','','witnesses',['traditions','river','agreement'],'traditions','four symbols with river below',8.0,sc02)
+Scene('bd03','Elements Dissolve','Earth — water — fire — wind. Each in sequence.','Bhūta-kṣaya','','dissolution',['elements','dissolution','body'],'process','four elements dissolving sequentially',10.0,sc03)
+Scene('bd04','Three Visions','Redness. Whiteness. Blackness. Then radiance.','Raktādi','','visions',['red','white','black','radiance'],'threshold','three full-field colors then light',6.0,sc04)
+Scene('bd05','The Clear Light','The radiance of your own true nature.','Prabhāsvara','','clear light',['clear light','radiance','nature'],'recognition','full-field radiance expanding',10.0,sc05)
+Scene('bd06','Life in an Instant','Every face. Every word. Every wound. As presence.','Jīvita-smṛti','','life review',['life','instant','presence'],'review','rushing panorama of moments',6.0,sc06)
+Scene('bd07','Peaceful Deities','Forty-two — center and four directions, five colors.','Śānta-devatā','','peaceful',['deities','peaceful','directions'],'visions','five-point luminous mandala',10.0,sc07)
+Scene('bd08','Wrathful Deities','Fifty-eight — crowned with skulls, wielding weapons.','Krodha-devatā','','wrathful',['deities','wrathful','intense'],'visions','flaming fierce forms in five directions',8.0,sc08)
+Scene('bd09','All Is Yourself','Every being is a part of you not yet recognized.','Svātmāvabhāsa','','recognition',['self','recognition','unity'],'recognition','deities converging into center',8.0,sc09)
+Scene('bd10','The Hall of Two Truths','The heart weighed against the feather of Ma\'at.','Psychostasia','','judgment',['heart','feather','balance'],'judgment','scale with heart and feather',8.0,sc10)
+Scene('bd11','Yama\'s Mirror','You judge yourself. The mirror shows all.','Ādarśa','','mirror',['mirror','self-judgment','reflection'],'judgment','mirror showing actions of a life',8.0,sc11)
+Scene('bd12','The Twelve Kālīs','They consume objectivity, then knowing, then self.','Kalī-saṃhāra','','kalis',['kalis','dissolution','awareness'],'tantric','three concentric dissolving waves',8.0,sc12)
+Scene('bd13','Six Lights — Six Realms','The soul gravitates toward its tendency.','Gati','','rebirth',['realms','lights','tendency'],'rebirth','six colored orbs with drifting point',8.0,sc13)
+Scene('bd14','The Crossing','A boat on dark water. Emerges at sunrise.','Tarī','','crossing',['boat','water','sunrise'],'crossing','small boat crossing toward dawn',6.0,sc14)
+Scene('bd15','Recognize It','This is the radiance of your own true nature.','Pratyabhijñā','','seal',['recognition','radiance','freedom'],'seal','clear light with figure recognizing it',8.0,sc15)
+Scene('bd01','No One Remembers Dying','You have died before. Many times.','Punarmṛtyu','','hook',['death','memory','many lives'],'intro','faint figures with after-images',6.0,sc01)
+Scene('bd02','Four Witnesses','Tibetan, Egyptian, Tantric, Steiner — the same river.','Catur-āgama','','witnesses',['traditions','river','agreement'],'traditions','four symbols with river below',8.0,sc02)
+Scene('bd03','Elements Dissolve','Earth — water — fire — wind. Each in sequence.','Bhūta-kṣaya','','dissolution',['elements','dissolution','body'],'process','four elements dissolving sequentially',10.0,sc03)
+Scene('bd04','Three Visions','Redness. Whiteness. Blackness. Then radiance.','Raktādi','','visions',['red','white','black','radiance'],'threshold','three full-field colors then light',6.0,sc04)
+Scene('bd05','The Clear Light','The radiance of your own true nature.','Prabhāsvara','','clear light',['clear light','radiance','nature'],'recognition','full-field radiance expanding',10.0,sc05)
+Scene('bd06','Life in an Instant','Every face. Every word. Every wound. As presence.','Jīvita-smṛti','','life review',['life','instant','presence'],'review','rushing panorama of moments',6.0,sc06)
+Scene('bd07','Peaceful Deities','Forty-two — center and four directions, five colors.','Śānta-devatā','','peaceful',['deities','peaceful','directions'],'visions','five-point luminous mandala',10.0,sc07)
+Scene('bd08','Wrathful Deities','Fifty-eight — crowned with skulls, wielding weapons.','Krodha-devatā','','wrathful',['deities','wrathful','intense'],'visions','flaming fierce forms in five directions',8.0,sc08)
+Scene('bd09','All Is Yourself','Every being is a part of you not yet recognized.','Svātmāvabhāsa','','recognition',['self','recognition','unity'],'recognition','deities converging into center',8.0,sc09)
+Scene('bd10','The Hall of Two Truths','The heart weighed against the feather of Ma\'at.','Psychostasia','','judgment',['heart','feather','balance'],'judgment','scale with heart and feather',8.0,sc10)
+Scene('bd11','Yama\'s Mirror','You judge yourself. The mirror shows all.','Ādarśa','','mirror',['mirror','self-judgment','reflection'],'judgment','mirror showing actions of a life',8.0,sc11)
+Scene('bd12','The Twelve Kālīs','They consume objectivity, then knowing, then self.','Kalī-saṃhāra','','kalis',['kalis','dissolution','awareness'],'tantric','three concentric dissolving waves',8.0,sc12)
+Scene('bd13','Six Lights — Six Realms','The soul gravitates toward its tendency.','Gati','','rebirth',['realms','lights','tendency'],'rebirth','six colored orbs with drifting point',8.0,sc13)
+Scene('bd14','The Crossing','A boat on dark water. Emerges at sunrise.','Tarī','','crossing',['boat','water','sunrise'],'crossing','small boat crossing toward dawn',6.0,sc14)
+Scene('bd15','Recognize It','This is the radiance of your own true nature.','Pratyabhijñā','','seal',['recognition','radiance','freedom'],'seal','clear light with figure recognizing it',8.0,sc15) [
     Scene('bd01','No One Remembers Dying','You have died before. Many times.','Punarmṛtyu','','hook',['death','memory','many lives'],'intro','faint figures with after-images',6.0,sc01),
     Scene('bd02','Four Witnesses','Tibetan, Egyptian, Tantric, Steiner — the same river.','Catur-āgama','','witnesses',['traditions','river','agreement'],'traditions','four symbols with river below',8.0,sc02),
     Scene('bd03','Elements Dissolve','Earth — water — fire — wind. Each in sequence.','Bhūta-kṣaya','','dissolution',['elements','dissolution','body'],'process','four elements dissolving sequentially',10.0,sc03),

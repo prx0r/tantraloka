@@ -1,0 +1,122 @@
+{
+  "pack_id": "expansion_essay_pack_20260723_2244",
+  "generated_at": "2026-07-23T22:49:04.697237+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7558,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_look_outward_without_leaving_the_heart.md",
+      "title": "look outward without leaving the heart",
+      "slug": "01_look_outward_without_leaving_the_heart",
+      "primary_domain": "Kashmir Śaivism",
+      "secondary_domain": "kramamudrā and integrated gaze",
+      "word_count": 1480,
+      "key_concepts": [
+        "kramamudrā",
+        "bhairavīmudrā",
+        "pratimīlana",
+        "nimīlana",
+        "unmīlana"
+      ],
+      "source_categories": [
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical-philosophical and contemplative",
+      "hook": "Open your eyes."
+    },
+    {
+      "number": 2,
+      "filename": "02_your_senses_are_already_eating_the_universe.md",
+      "title": "your senses are already eating the universe",
+      "slug": "02_your_senses_are_already_eating_the_universe",
+      "primary_domain": "Kashmir Śaivism",
+      "secondary_domain": "internal sacrifice and sensory divinization",
+      "word_count": 1409,
+      "key_concepts": [
+        "Tantrāloka 3.262–264",
+        "internal sacrifice",
+        "senses",
+        "aesthetic perception",
+        "Bhairava"
+      ],
+      "source_categories": [
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical-philosophical and ritual",
+      "hook": "Every perception consumes something."
+    },
+    {
+      "number": 3,
+      "filename": "03_nature_builds_bodies_by_looking_inward.md",
+      "title": "nature builds bodies by looking inward",
+      "slug": "03_nature_builds_bodies_by_looking_inward",
+      "primary_domain": "Neoplatonism × biology",
+      "secondary_domain": "Plotinian Nature and morphogenesis",
+      "word_count": 1569,
+      "key_concepts": [
+        "Plotinus",
+        "Nature",
+        "contemplation",
+        "morphogenesis",
+        "bioelectricity"
+      ],
+      "source_categories": [
+        "primary philosophical texts",
+        "peer-reviewed research",
+        "scholarship"
+      ],
+      "epistemic_status": "structural comparison with current biology",
+      "hook": "A plant does not stand outside itself and inspect a blueprint."
+    },
+    {
+      "number": 4,
+      "filename": "04_life_is_the_loop_that_makes_the_loop.md",
+      "title": "life is the loop that makes the loop",
+      "slug": "04_life_is_the_loop_that_makes_the_loop",
+      "primary_domain": "Neoplatonism × systems biology",
+      "secondary_domain": "Proclean self-constitution and autopoiesis",
+      "word_count": 1524,
+      "key_concepts": [
+        "Proclus",
+        "authypostaton",
+        "autopoiesis",
+        "self-reference",
+        "boundary"
+      ],
+      "source_categories": [
+        "primary philosophical texts",
+        "peer-reviewed research",
+        "scholarship"
+      ],
+      "epistemic_status": "structural comparison",
+      "hook": "A living cell builds the membrane that allows it to keep building the membrane."
+    },
+    {
+      "number": 5,
+      "filename": "05_form_needs_a_place_that_has_no_form.md",
+      "title": "form needs a place that has no form",
+      "slug": "05_form_needs_a_place_that_has_no_form",
+      "primary_domain": "Platonism × developmental biology",
+      "secondary_domain": "chōra and morphospace",
+      "word_count": 1576,
+      "key_concepts": [
+        "Plato",
+        "chōra",
+        "morphospace",
+        "development",
+        "possibility"
+      ],
+      "source_categories": [
+        "primary philosophical texts",
+        "peer-reviewed research",
+        "scholarship"
+      ],
+      "epistemic_status": "structural comparison",
+      "hook": "Before anything can change shape, there must be somewhere for one shape to stop and another to appear."
+    }
+  ]
+}

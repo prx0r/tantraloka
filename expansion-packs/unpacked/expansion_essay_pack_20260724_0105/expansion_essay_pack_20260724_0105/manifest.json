@@ -1,0 +1,142 @@
+{
+  "pack_id": "expansion_essay_pack_20260724_0105",
+  "generated_at": "2026-07-24T01:09:36.259289+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7852,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_pleasure_is_what_happens_when_experience_stops_fighting_itself.md",
+      "title": "pleasure is what happens when experience stops fighting itself",
+      "slug": "01_pleasure_is_what_happens_when_experience_stops_fighting_itself",
+      "primary_domain": "QRI valence theory × Abhinavagupta aesthetics",
+      "secondary_domain": "Symmetry Theory of Valence, rasa, sāmarasya, and camatkāra",
+      "word_count": 1678,
+      "key_concepts": [
+        "qualia formalism",
+        "valence realism",
+        "STV",
+        "CDNS",
+        "rasa",
+        "sāmarasya",
+        "camatkāra"
+      ],
+      "source_categories": [
+        "QRI primary research essays",
+        "peer-reviewed scientific research",
+        "arXiv theoretical papers",
+        "primary or classical Tantric texts",
+        "recognized scholarship"
+      ],
+      "epistemic_status": "QRI hypothesis tested against narrower empirical findings and historical aesthetics",
+      "hook": "A chord can contain tension without becoming unpleasant."
+    },
+    {
+      "number": 2,
+      "filename": "02_the_brain_has_an_alphabet_before_it_has_a_thought.md",
+      "title": "the brain has an alphabet before it has a thought",
+      "slug": "02_the_brain_has_an_alphabet_before_it_has_a_thought",
+      "primary_domain": "Connectome harmonics × Tantric phonemic theory",
+      "secondary_domain": "graph eigenmodes, mātṛkā, mantra, and spanda",
+      "word_count": 1535,
+      "key_concepts": [
+        "connectome harmonics",
+        "graph Laplacian",
+        "eigenmodes",
+        "mātṛkā",
+        "mantra",
+        "spanda"
+      ],
+      "source_categories": [
+        "QRI primary research essays",
+        "peer-reviewed scientific research",
+        "arXiv theoretical papers",
+        "primary or classical Tantric texts",
+        "recognized scholarship"
+      ],
+      "epistemic_status": "peer-reviewed neural representation compared with ritual metaphysics",
+      "hook": "A violin does not contain every melody."
+    },
+    {
+      "number": 3,
+      "filename": "03_awakening_is_not_the_heat_but_what_survives_the_cooling.md",
+      "title": "awakening is not the heat but what survives the cooling",
+      "slug": "03_awakening_is_not_the_heat_but_what_survives_the_cooling",
+      "primary_domain": "Neural annealing × Tantric transformation",
+      "secondary_domain": "entropy, criticality, śaktipāta, saṃskāra, samāveśa, and kramamudrā",
+      "word_count": 1508,
+      "key_concepts": [
+        "neural annealing",
+        "criticality",
+        "entropy",
+        "śaktipāta",
+        "saṃskāra",
+        "samāveśa",
+        "kramamudrā"
+      ],
+      "source_categories": [
+        "QRI primary research essays",
+        "peer-reviewed scientific research",
+        "arXiv theoretical papers",
+        "primary or classical Tantric texts",
+        "recognized scholarship"
+      ],
+      "epistemic_status": "integrative QRI model compared with neuroscience and Tantric transformation theory",
+      "hook": "Heat a metal."
+    },
+    {
+      "number": 4,
+      "filename": "04_a_boundary_can_create_a_person_without_creating_consciousness.md",
+      "title": "a boundary can create a person without creating consciousness",
+      "slug": "04_a_boundary_can_create_a_person_without_creating_consciousness",
+      "primary_domain": "QRI boundary theory × kañcukas",
+      "secondary_domain": "topological segmentation, individuation, māyā, and contraction",
+      "word_count": 1496,
+      "key_concepts": [
+        "boundary problem",
+        "topological segmentation",
+        "EM field",
+        "māyā",
+        "kañcukas",
+        "partiality"
+      ],
+      "source_categories": [
+        "QRI primary research essays",
+        "peer-reviewed scientific research",
+        "arXiv theoretical papers",
+        "primary or classical Tantric texts",
+        "recognized scholarship"
+      ],
+      "epistemic_status": "hypothesis-and-theory neuroscience compared with Śaiva metaphysics",
+      "hook": "Draw a circle around a flame."
+    },
+    {
+      "number": 5,
+      "filename": "05_time_feels_forward_because_the_present_contains_a_fading_past.md",
+      "title": "time feels forward because the present contains a fading past",
+      "slug": "05_time_feels_forward_because_the_present_contains_a_fading_past",
+      "primary_domain": "Phenomenal time × Krama",
+      "secondary_domain": "pseudo-time arrow, fading traces, Kālī sequence, and recognition",
+      "word_count": 1635,
+      "key_concepts": [
+        "pseudo-time arrow",
+        "phenomenal time",
+        "retention",
+        "Krama",
+        "Kālīs",
+        "time-consumption",
+        "recognition"
+      ],
+      "source_categories": [
+        "QRI primary research essays",
+        "peer-reviewed scientific research",
+        "arXiv theoretical papers",
+        "primary or classical Tantric texts",
+        "recognized scholarship"
+      ],
+      "epistemic_status": "QRI toy model compared with current formal theories and historical phenomenology",
+      "hook": "A melody does not exist in one note."
+    }
+  ]
+}

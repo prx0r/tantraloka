@@ -1,0 +1,94 @@
+{
+  "pack_id": "expansion_essay_pack_20260723_2222",
+  "generated_at": "2026-07-23T22:26:33.191835+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7523,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_desire_is_not_proof_that_you_are_incomplete.md",
+      "title": "desire is not proof that you are incomplete",
+      "slug": "01_desire_is_not_proof_that_you_are_incomplete",
+      "primary_domain": "Kashmir Śaivism",
+      "secondary_domain": "icchā-śakti and desire",
+      "word_count": 1606,
+      "key_concepts": [
+        "icchā",
+        "svātantrya",
+        "desire",
+        "contraction",
+        "fulfillment"
+      ],
+      "epistemic_status": "historical-philosophical"
+    },
+    {
+      "number": 2,
+      "filename": "02_a_tumor_may_be_a_cell_that_forgot_the_body.md",
+      "title": "a tumor may be a cell that forgot the body",
+      "slug": "02_a_tumor_may_be_a_cell_that_forgot_the_body",
+      "primary_domain": "Frontier biology",
+      "secondary_domain": "bioelectricity and cancer",
+      "word_count": 1465,
+      "key_concepts": [
+        "bioelectricity",
+        "cancer",
+        "membrane potential",
+        "normalization",
+        "multicellular coordination"
+      ],
+      "epistemic_status": "preclinical scientific research"
+    },
+    {
+      "number": 3,
+      "filename": "03_part_of_you_never_entered_the_body.md",
+      "title": "part of you never entered the body",
+      "slug": "03_part_of_you_never_entered_the_body",
+      "primary_domain": "Neoplatonism",
+      "secondary_domain": "Plotinus and the undescended soul",
+      "word_count": 1444,
+      "key_concepts": [
+        "Plotinus",
+        "soul",
+        "Intellect",
+        "descent",
+        "return"
+      ],
+      "epistemic_status": "historical metaphysics"
+    },
+    {
+      "number": 4,
+      "filename": "04_the_warning_can_become_the_trap.md",
+      "title": "the warning can become the trap",
+      "slug": "04_the_warning_can_become_the_trap",
+      "primary_domain": "Channeled esotericism",
+      "secondary_domain": "Cassiopaean epistemology",
+      "word_count": 1462,
+      "key_concepts": [
+        "channeling",
+        "disinformation",
+        "discernment",
+        "self-sealing belief",
+        "verification"
+      ],
+      "epistemic_status": "claimed communication analyzed as text"
+    },
+    {
+      "number": 5,
+      "filename": "05_a_body_may_remember_an_idea.md",
+      "title": "a body may remember an idea",
+      "slug": "05_a_body_may_remember_an_idea",
+      "primary_domain": "Bridge essay",
+      "secondary_domain": "morphospace and Platonic Form",
+      "word_count": 1546,
+      "key_concepts": [
+        "target morphology",
+        "morphospace",
+        "Platonic Forms",
+        "regeneration",
+        "pattern memory"
+      ],
+      "epistemic_status": "structural comparison"
+    }
+  ]
+}

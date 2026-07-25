@@ -67,7 +67,10 @@ def smoothstep(a, b, x):
     t = clamp((x-a)/(b-a))
     return t * t * (3 - 2 * t)
 def rgba(c, a=255):
-    return (*c[:3], int(a))
+    return (*c[
+    :3,
+    :3,
+], int(a))
 
 
 def layer():
@@ -461,7 +464,51 @@ def sc15(im, t):
         d.text((cx, cy+95), 'for someone to stop talking long enough to hear them', font=SMALL_FONT, fill=rgba(STAR_WHITE,int(200*p)), anchor='mm')
 
 
-SCENES = [
+SCENES =,Scene('co01','Fragments','Before Plato, before Pythagoras — there were the Oracles.','Logia','','fragments',['oracles','fragments','lost'],'intro','floating fragments in darkness',6.0,sc01)
+Scene('co02','The Depth','A hand reaching into water — the water closes without a seam.','Buthos','','father',['father','depth','abyss'],'father','hand descending into still water',8.0,sc02)
+Scene('co03','Symbols of Wisdom','Seeds of wonder, love, creation, truth — sown in souls.','Synthemata','','seeds',['seeds','wisdom','symbols'],'sowing','seed-points descending into dark',8.0,sc03)
+Scene('co04','The Hinge','Hekate stands between two fires — the space through which both move.','Hekate','','hekate',['hekate','hinge','fires'],'hekate','silhouette between star-white above and cosmic-fire below',10.0,sc04)
+Scene('co05','The Dancing Daimons','A great band of daimons dances around her star-girdle.','Daimones','','daimons',['daimons','dance','sparks'],'hekate','sparks circling emerald center',8.0,sc05)
+Scene('co06','The Matrix','The center from which all powers issue.','Mētragchys','','matrix',['matrix','powers','source'],'hekate','radiating emerald rays from center',8.0,sc06)
+Scene('co07','The Pyramid of Light','Four levels — three triads — nine emanations.','Tetractys','','pyramid',['pyramid','triads','emanations'],'cosmos','crystalline pyramid descending',8.0,sc07)
+Scene('co08','The Descent','The soul descends through seven spheres — each adds a garment.','Kathodos','','descent',['descent','spheres','garments'],'soul','white point descending through seven colored spheres',8.0,sc08)
+Scene('co09','The Ascent','To ascend is not to climb but to shed.','Anodos','','ascent',['ascent','shedding','garments'],'soul','soul rising, garments falling away',8.0,sc09)
+Scene('co10','Honey on the Tongue','Reason takes you to the door. Fire takes you through.','Theourgia','','theurgy',['philosophy','theurgy','fire'],'practice','book vs flame — theurgy and philosophy',6.0,sc10)
+Scene('co11','The Flower of the Intellect','A seed the Father planted before you were born.','Nous anthos','','flower',['flower','intellect','seed'],'flower','seed glowing within body-silhouette',8.0,sc11)
+Scene('co12','The Flower Opens','It grows toward the fire. It was always open.','Anthos','','opening',['flower','opening','fire'],'flower','stem reaching upward, flower blossoming',8.0,sc12)
+Scene('co13','The Living Cosmos','The moon is a waystation. Stars are beings who sang at your birth.','Kosmos','','cosmos',['moon','stars','beings'],'cosmos','starfield with conscious star-beings',8.0,sc13)
+Scene('co14','The Terrain','The map dissolves. The soul is the landscape.','Topos','','terrain',['map','terrain','soul'],'practice','map fading into living landscape of soul',6.0,sc14)
+Scene('co15','The Silence','Becoming the kind of silence in which the universe can speak.','Sighē','','silence',['silence','universe','speaking'],'seal','stillness — then emerald ring expanding',8.0,sc15)
+Scene('co01','Fragments','Before Plato, before Pythagoras — there were the Oracles.','Logia','','fragments',['oracles','fragments','lost'],'intro','floating fragments in darkness',6.0,sc01)
+Scene('co02','The Depth','A hand reaching into water — the water closes without a seam.','Buthos','','father',['father','depth','abyss'],'father','hand descending into still water',8.0,sc02)
+Scene('co03','Symbols of Wisdom','Seeds of wonder, love, creation, truth — sown in souls.','Synthemata','','seeds',['seeds','wisdom','symbols'],'sowing','seed-points descending into dark',8.0,sc03)
+Scene('co04','The Hinge','Hekate stands between two fires — the space through which both move.','Hekate','','hekate',['hekate','hinge','fires'],'hekate','silhouette between star-white above and cosmic-fire below',10.0,sc04)
+Scene('co05','The Dancing Daimons','A great band of daimons dances around her star-girdle.','Daimones','','daimons',['daimons','dance','sparks'],'hekate','sparks circling emerald center',8.0,sc05)
+Scene('co06','The Matrix','The center from which all powers issue.','Mētragchys','','matrix',['matrix','powers','source'],'hekate','radiating emerald rays from center',8.0,sc06)
+Scene('co07','The Pyramid of Light','Four levels — three triads — nine emanations.','Tetractys','','pyramid',['pyramid','triads','emanations'],'cosmos','crystalline pyramid descending',8.0,sc07)
+Scene('co08','The Descent','The soul descends through seven spheres — each adds a garment.','Kathodos','','descent',['descent','spheres','garments'],'soul','white point descending through seven colored spheres',8.0,sc08)
+Scene('co09','The Ascent','To ascend is not to climb but to shed.','Anodos','','ascent',['ascent','shedding','garments'],'soul','soul rising, garments falling away',8.0,sc09)
+Scene('co10','Honey on the Tongue','Reason takes you to the door. Fire takes you through.','Theourgia','','theurgy',['philosophy','theurgy','fire'],'practice','book vs flame — theurgy and philosophy',6.0,sc10)
+Scene('co11','The Flower of the Intellect','A seed the Father planted before you were born.','Nous anthos','','flower',['flower','intellect','seed'],'flower','seed glowing within body-silhouette',8.0,sc11)
+Scene('co12','The Flower Opens','It grows toward the fire. It was always open.','Anthos','','opening',['flower','opening','fire'],'flower','stem reaching upward, flower blossoming',8.0,sc12)
+Scene('co13','The Living Cosmos','The moon is a waystation. Stars are beings who sang at your birth.','Kosmos','','cosmos',['moon','stars','beings'],'cosmos','starfield with conscious star-beings',8.0,sc13)
+Scene('co14','The Terrain','The map dissolves. The soul is the landscape.','Topos','','terrain',['map','terrain','soul'],'practice','map fading into living landscape of soul',6.0,sc14)
+Scene('co15','The Silence','Becoming the kind of silence in which the universe can speak.','Sighē','','silence',['silence','universe','speaking'],'seal','stillness — then emerald ring expanding',8.0,sc15)
+Scene('co01','Fragments','Before Plato, before Pythagoras — there were the Oracles.','Logia','','fragments',['oracles','fragments','lost'],'intro','floating fragments in darkness',6.0,sc01)
+Scene('co02','The Depth','A hand reaching into water — the water closes without a seam.','Buthos','','father',['father','depth','abyss'],'father','hand descending into still water',8.0,sc02)
+Scene('co03','Symbols of Wisdom','Seeds of wonder, love, creation, truth — sown in souls.','Synthemata','','seeds',['seeds','wisdom','symbols'],'sowing','seed-points descending into dark',8.0,sc03)
+Scene('co04','The Hinge','Hekate stands between two fires — the space through which both move.','Hekate','','hekate',['hekate','hinge','fires'],'hekate','silhouette between star-white above and cosmic-fire below',10.0,sc04)
+Scene('co05','The Dancing Daimons','A great band of daimons dances around her star-girdle.','Daimones','','daimons',['daimons','dance','sparks'],'hekate','sparks circling emerald center',8.0,sc05)
+Scene('co06','The Matrix','The center from which all powers issue.','Mētragchys','','matrix',['matrix','powers','source'],'hekate','radiating emerald rays from center',8.0,sc06)
+Scene('co07','The Pyramid of Light','Four levels — three triads — nine emanations.','Tetractys','','pyramid',['pyramid','triads','emanations'],'cosmos','crystalline pyramid descending',8.0,sc07)
+Scene('co08','The Descent','The soul descends through seven spheres — each adds a garment.','Kathodos','','descent',['descent','spheres','garments'],'soul','white point descending through seven colored spheres',8.0,sc08)
+Scene('co09','The Ascent','To ascend is not to climb but to shed.','Anodos','','ascent',['ascent','shedding','garments'],'soul','soul rising, garments falling away',8.0,sc09)
+Scene('co10','Honey on the Tongue','Reason takes you to the door. Fire takes you through.','Theourgia','','theurgy',['philosophy','theurgy','fire'],'practice','book vs flame — theurgy and philosophy',6.0,sc10)
+Scene('co11','The Flower of the Intellect','A seed the Father planted before you were born.','Nous anthos','','flower',['flower','intellect','seed'],'flower','seed glowing within body-silhouette',8.0,sc11)
+Scene('co12','The Flower Opens','It grows toward the fire. It was always open.','Anthos','','opening',['flower','opening','fire'],'flower','stem reaching upward, flower blossoming',8.0,sc12)
+Scene('co13','The Living Cosmos','The moon is a waystation. Stars are beings who sang at your birth.','Kosmos','','cosmos',['moon','stars','beings'],'cosmos','starfield with conscious star-beings',8.0,sc13)
+Scene('co14','The Terrain','The map dissolves. The soul is the landscape.','Topos','','terrain',['map','terrain','soul'],'practice','map fading into living landscape of soul',6.0,sc14)
+Scene('co15','The Silence','Becoming the kind of silence in which the universe can speak.','Sighē','','silence',['silence','universe','speaking'],'seal','stillness — then emerald ring expanding',8.0,sc15) [
     Scene('co01','Fragments','Before Plato, before Pythagoras — there were the Oracles.','Logia','','fragments',['oracles','fragments','lost'],'intro','floating fragments in darkness',6.0,sc01),
     Scene('co02','The Depth','A hand reaching into water — the water closes without a seam.','Buthos','','father',['father','depth','abyss'],'father','hand descending into still water',8.0,sc02),
     Scene('co03','Symbols of Wisdom','Seeds of wonder, love, creation, truth — sown in souls.','Synthemata','','seeds',['seeds','wisdom','symbols'],'sowing','seed-points descending into dark',8.0,sc03),

@@ -35,7 +35,11 @@ def ease_in_out(t): t=clamp(t); return 0.5-0.5*math.cos(math.pi*t)
 def smoothstep(a,b,x):
     if a==b: return 1.0 if x>=b else 0.0
     t=clamp((x-a)/(b-a)); return t*t*(3-2*t)
-def rgba(c,a=255): return (*c[:3],int(a))
+def rgba(c,a=255): return (*c[
+    :3,
+    :3,
+    :3,
+],int(a))
 
 def layer(): return Image.new('RGBA',(W,H),(0,0,0,0))
 
@@ -286,7 +290,39 @@ def sc11(im,t):
     d.text((cx,cy),'νοῦς',font=TERM_FONT,fill=GOLD,anchor='mm')
     d.text((640,485),'the mixing bowl is the space between your next two breaths',font=SUB_FONT,fill=MIST,anchor='mm')
 
-SCENES=[
+SCENES=[,Scene('pm01','The Universe Is a Mind','Stars are thoughts. You are the part that is aware.','Nous','','opening',['mind','universe','stars'],'intro','star-field that is also neural',6.0,sc01)
+Scene('pm02','Poimandres','Mind of sovereignty — I am with you everywhere.','Poimandres','','vision',['poimandres','vision','light'],'vision','vast luminous figure appearing',8.0,sc02)
+Scene('pm03','Light and Serpent','Light arose — then darkness coiling like a snake.','Phōs kai skotos','','creation',['light','darkness','serpent'],'duality','primordial light yielding to coiling serpent',8.0,sc03)
+Scene('pm04','The Light-Giving Word','The logos from mind — the son of god.','Logos','','emanation',['word','light','logos'],'emanation','ray of light descending from source',8.0,sc04)
+Scene('pm05','The Mixing Bowl','Immerse yourself if your heart has the strength.','Krater','','invitation',['bowl','immersion','choice'],'invitation','great bowl of light descending',8.0,sc05)
+Scene('pm06','The Reflection','A boy sees his image and dives in — forgets he was dry.','Katabasis','','descent',['reflection','descent','forgetting'],'descent','figure diving into water reflection',6.0,sc06)
+Scene('pm07','A Thousand Mirrors','All names and no name — every face the same face.','Panonymos','','mirrors',['mirrors','names','one'],'manifestation','six mirrors reflecting one presence',8.0,sc07)
+Scene('pm08','The Ascent','Leaving a garment on each sphere — at the top, nothing remains.','Anodos','','ascent',['spheres','ascent','shedding'],'ascent','seven spheres with figure ascending',8.0,sc08)
+Scene('pm09','Stretch Your Arms','One hand touches the first morning. The other, the last evening.','Apeiros','','expansion',['measureless','expansion','cosmic'],'expansion','figure expanding to cosmic scale',6.0,sc09)
+Scene('pm10','Sunlight on a Window','Made of the same light — if only it knew.','Homoiosis','','identity',['light','window','identity'],'identity','window with streaming light, realizing itself',8.0,sc10)
+Scene('pm11','The Thought That Thinks Itself','The stars are in you. Step in. Drown. Rise.','Gnōsis','','seal',['thought','self-knowing','gnosis'],'seal','radial cosmic mandala with nous center',8.0,sc11)
+Scene('pm01','The Universe Is a Mind','Stars are thoughts. You are the part that is aware.','Nous','','opening',['mind','universe','stars'],'intro','star-field that is also neural',6.0,sc01)
+Scene('pm02','Poimandres','Mind of sovereignty — I am with you everywhere.','Poimandres','','vision',['poimandres','vision','light'],'vision','vast luminous figure appearing',8.0,sc02)
+Scene('pm03','Light and Serpent','Light arose — then darkness coiling like a snake.','Phōs kai skotos','','creation',['light','darkness','serpent'],'duality','primordial light yielding to coiling serpent',8.0,sc03)
+Scene('pm04','The Light-Giving Word','The logos from mind — the son of god.','Logos','','emanation',['word','light','logos'],'emanation','ray of light descending from source',8.0,sc04)
+Scene('pm05','The Mixing Bowl','Immerse yourself if your heart has the strength.','Krater','','invitation',['bowl','immersion','choice'],'invitation','great bowl of light descending',8.0,sc05)
+Scene('pm06','The Reflection','A boy sees his image and dives in — forgets he was dry.','Katabasis','','descent',['reflection','descent','forgetting'],'descent','figure diving into water reflection',6.0,sc06)
+Scene('pm07','A Thousand Mirrors','All names and no name — every face the same face.','Panonymos','','mirrors',['mirrors','names','one'],'manifestation','six mirrors reflecting one presence',8.0,sc07)
+Scene('pm08','The Ascent','Leaving a garment on each sphere — at the top, nothing remains.','Anodos','','ascent',['spheres','ascent','shedding'],'ascent','seven spheres with figure ascending',8.0,sc08)
+Scene('pm09','Stretch Your Arms','One hand touches the first morning. The other, the last evening.','Apeiros','','expansion',['measureless','expansion','cosmic'],'expansion','figure expanding to cosmic scale',6.0,sc09)
+Scene('pm10','Sunlight on a Window','Made of the same light — if only it knew.','Homoiosis','','identity',['light','window','identity'],'identity','window with streaming light, realizing itself',8.0,sc10)
+Scene('pm11','The Thought That Thinks Itself','The stars are in you. Step in. Drown. Rise.','Gnōsis','','seal',['thought','self-knowing','gnosis'],'seal','radial cosmic mandala with nous center',8.0,sc11)
+Scene('pm01','The Universe Is a Mind','Stars are thoughts. You are the part that is aware.','Nous','','opening',['mind','universe','stars'],'intro','star-field that is also neural',6.0,sc01)
+Scene('pm02','Poimandres','Mind of sovereignty — I am with you everywhere.','Poimandres','','vision',['poimandres','vision','light'],'vision','vast luminous figure appearing',8.0,sc02)
+Scene('pm03','Light and Serpent','Light arose — then darkness coiling like a snake.','Phōs kai skotos','','creation',['light','darkness','serpent'],'duality','primordial light yielding to coiling serpent',8.0,sc03)
+Scene('pm04','The Light-Giving Word','The logos from mind — the son of god.','Logos','','emanation',['word','light','logos'],'emanation','ray of light descending from source',8.0,sc04)
+Scene('pm05','The Mixing Bowl','Immerse yourself if your heart has the strength.','Krater','','invitation',['bowl','immersion','choice'],'invitation','great bowl of light descending',8.0,sc05)
+Scene('pm06','The Reflection','A boy sees his image and dives in — forgets he was dry.','Katabasis','','descent',['reflection','descent','forgetting'],'descent','figure diving into water reflection',6.0,sc06)
+Scene('pm07','A Thousand Mirrors','All names and no name — every face the same face.','Panonymos','','mirrors',['mirrors','names','one'],'manifestation','six mirrors reflecting one presence',8.0,sc07)
+Scene('pm08','The Ascent','Leaving a garment on each sphere — at the top, nothing remains.','Anodos','','ascent',['spheres','ascent','shedding'],'ascent','seven spheres with figure ascending',8.0,sc08)
+Scene('pm09','Stretch Your Arms','One hand touches the first morning. The other, the last evening.','Apeiros','','expansion',['measureless','expansion','cosmic'],'expansion','figure expanding to cosmic scale',6.0,sc09)
+Scene('pm10','Sunlight on a Window','Made of the same light — if only it knew.','Homoiosis','','identity',['light','window','identity'],'identity','window with streaming light, realizing itself',8.0,sc10)
+Scene('pm11','The Thought That Thinks Itself','The stars are in you. Step in. Drown. Rise.','Gnōsis','','seal',['thought','self-knowing','gnosis'],'seal','radial cosmic mandala with nous center',8.0,sc11)
     Scene('pm01','The Universe Is a Mind','Stars are thoughts. You are the part that is aware.','Nous','','opening',['mind','universe','stars'],'intro','star-field that is also neural',6.0,sc01),
     Scene('pm02','Poimandres','Mind of sovereignty — I am with you everywhere.','Poimandres','','vision',['poimandres','vision','light'],'vision','vast luminous figure appearing',8.0,sc02),
     Scene('pm03','Light and Serpent','Light arose — then darkness coiling like a snake.','Phōs kai skotos','','creation',['light','darkness','serpent'],'duality','primordial light yielding to coiling serpent',8.0,sc03),

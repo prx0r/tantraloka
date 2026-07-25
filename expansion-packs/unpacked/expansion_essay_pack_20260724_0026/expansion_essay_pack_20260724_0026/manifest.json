@@ -1,0 +1,124 @@
+{
+  "pack_id": "expansion_essay_pack_20260724_0026",
+  "generated_at": "2026-07-24T00:30:07.784101+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7415,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_a_bit_begins_when_a_difference_can_wound_something.md",
+      "title": "a bit begins when a difference can wound something",
+      "slug": "01_a_bit_begins_when_a_difference_can_wound_something",
+      "primary_domain": "semantic information × Kashmir Śaivism",
+      "secondary_domain": "normativity, viability, multiscale agency, and kañcukas",
+      "word_count": 1549,
+      "key_concepts": [
+        "semantic information",
+        "normativity",
+        "viability",
+        "agency",
+        "kañcukas"
+      ],
+      "source_categories": [
+        "arXiv research",
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "functional science compared with Śaiva metaphysics",
+      "hook": "A stone can be struck by light without receiving information."
+    },
+    {
+      "number": 2,
+      "filename": "02_matter_remembers_by_becoming_easier_to_change_again.md",
+      "title": "matter remembers by becoming easier to change again",
+      "slug": "02_matter_remembers_by_becoming_easier_to_change_again",
+      "primary_domain": "material memory × Buddhist conditioning",
+      "secondary_domain": "hysteresis, self-reference, saṃskāra, and recognition",
+      "word_count": 1510,
+      "key_concepts": [
+        "material memory",
+        "hysteresis",
+        "saṃskāra",
+        "self-reference",
+        "reconstruction"
+      ],
+      "source_categories": [
+        "arXiv research",
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "empirical material science plus philosophical comparison",
+      "hook": "Bend a paperclip."
+    },
+    {
+      "number": 3,
+      "filename": "03_you_are_what_remains_recognisable_after_the_parts_have_changed.md",
+      "title": "you are what remains recognisable after the parts have changed",
+      "slug": "03_you_are_what_remains_recognisable_after_the_parts_have_changed",
+      "primary_domain": "process identity × Recognition philosophy",
+      "secondary_domain": "invariance under transformation and layered selfhood",
+      "word_count": 1403,
+      "key_concepts": [
+        "invariance",
+        "identity",
+        "homeostasis",
+        "persistence",
+        "recognition"
+      ],
+      "source_categories": [
+        "arXiv research",
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "scientific process models compared with Buddhist and Śaiva philosophy",
+      "hook": "A flame survives by losing its material."
+    },
+    {
+      "number": 4,
+      "filename": "04_self_and_world_hold_each_other_upright.md",
+      "title": "self and world hold each other upright",
+      "slug": "04_self_and_world_hold_each_other_upright",
+      "primary_domain": "enactive cognition × dependent arising",
+      "secondary_domain": "reciprocal self/world construction and grasping",
+      "word_count": 1500,
+      "key_concepts": [
+        "enaction",
+        "active inference",
+        "nāma-rūpa",
+        "viññāṇa",
+        "self-evidencing"
+      ],
+      "source_categories": [
+        "arXiv research",
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "structural comparison",
+      "hook": "Place two bundles of reeds together."
+    },
+    {
+      "number": 5,
+      "filename": "05_sakti_draws_the_line_that_turns_physics_into_information.md",
+      "title": "śakti draws the line that turns physics into information",
+      "slug": "05_sakti_draws_the_line_that_turns_physics_into_information",
+      "primary_domain": "information theory × Pratyabhijñā",
+      "secondary_domain": "distinction, interpretability, manifestation, and reflexivity",
+      "word_count": 1453,
+      "key_concepts": [
+        "it from bit",
+        "Śakti",
+        "prakāśa",
+        "vimarśa",
+        "semantic information"
+      ],
+      "source_categories": [
+        "arXiv research",
+        "primary philosophical texts",
+        "scholarship"
+      ],
+      "epistemic_status": "philosophical synthesis with explicit scientific limits",
+      "hook": "Before a bit can be zero or one, something must distinguish the alternatives."
+    }
+  ]
+}

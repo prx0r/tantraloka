@@ -61,7 +61,10 @@ def smoothstep(a, b, x):
     t = clamp((x-a)/(b-a))
     return t * t * (3 - 2 * t)
 def rgba(c, a=255):
-    return (*c[:3], int(a))
+    return (*c[
+    :3,
+    :3,
+], int(a))
 
 
 def layer():
@@ -523,7 +526,57 @@ def sc17(im, t):
     d.text((cx, 478), 'unarmored. unbound. uninjured. always have been.', font=SUB_FONT, fill=MIST, anchor='mm')
 
 
-SCENES = [
+SCENES =,Scene('ka01', 'You Can Only Do So Much', 'Time moves whether you want it to or not.', 'Pariccheda', '', 'limits', ['limitation'], 'intro', 'five rings wrapping a center', 6.0, sc01)
+Scene('ka02', 'Five Pieces of Armor', 'Between you and freedom.', 'Kañcuka', '', 'armor', ['kancuka','covering'], 'intro', 'five named rings', 8.0, sc02)
+Scene('ka03', 'The Knot of Māyā', 'Pull tighter the more you wrestle it.', 'Māyāgranthi', '', 'knot', ['maya','knot','tighten'], 'doctrine', 'knot that tightens/loosens', 6.0, sc03)
+Scene('ka04', 'Kalā — Limited Agency', 'You can only lift so much.', 'Kalā', '', 'agency', ['kala','agency'], 'kancuka', 'lifting arm with ceiling breaking', 8.0, sc04)
+Scene('ka05', 'Vidyā — Limited Knowledge', 'You only see a sliver.', 'Vidyā', '', 'knowledge', ['vidya','sliver'], 'kancuka', 'narrow beam expanding to full field', 8.0, sc05)
+Scene('ka06', 'Rāga — Craving', 'You reach for what you lack.', 'Rāga', '', 'craving', ['raga','desire'], 'kancuka', 'reaching arm toward an object', 8.0, sc06)
+Scene('ka07', 'Kāla — Time', 'You move from A to B.', 'Kāla', '', 'time', ['kala','time'], 'kancuka', 'timeline with moving point + still now', 8.0, sc07)
+Scene('ka08', 'Niyati — Necessity', 'You reap what you sow.', 'Niyati', '', 'necessity', ['niyati','karma'], 'kancuka', 'chain of links with free hand', 8.0, sc08)
+Scene('ka09', 'The Mirror of Vidyā', 'An eye cannot see itself without a mirror.', 'Vimarśa', '', 'mirror', ['vidya','mirror','self-knowledge'], 'reflection', 'two eyes facing each other with mirror', 6.0, sc09)
+Scene('ka10', 'The Cage of Time', 'The words "just now" are a cage.', 'Kāla-pañjara', '', 'cage', ['time','cage','now'], 'reflection', '"just now" dissolving into cage bars', 6.0, sc10)
+Scene('ka11', 'The Fist That Closes', 'Contraction generates the heat of life.', 'Saṃkoca', '', 'fist', ['contraction','heat','life'], 'paradox', 'hand closing into fist with glow at center', 8.0, sc11)
+Scene('ka12', 'The Seven Perceivers', 'Each state configures the five differently.', 'Saptapramātṛ', '', 'perceivers', ['states','perceivers','configurations'], 'states', 'five states with different ring configs', 8.0, sc12)
+Scene('ka13', 'Māyā Is the Night', 'The turning that makes stars visible.', 'Rātrī', '', 'night', ['maya','night','stars'], 'maya', 'dark field with stars appearing', 6.0, sc13)
+Scene('ka14', 'Your Limits Are Your Signature', 'No two souls wear the same armor.', 'Svakīya', '', 'signature', ['unique','limits','signature'], 'individuality', 'multiple different ring configurations', 6.0, sc14)
+Scene('ka15', 'Time Is a Gesture', 'A slicing of the eternal.', 'Kṣaṇa', '', 'gesture', ['time','gesture','slicing'], 'time', 'slicing gesture through luminous field', 8.0, sc15)
+Scene('ka16', 'The Body as Garment', 'Karma spun into form.', 'Puryaṣṭaka', '', 'body', ['body','garment','karma'], 'embodiment', 'body silhouette with five woven colors', 8.0, sc16)
+Scene('ka17', 'Both Faces of Armor', 'They reveal the finite as beautiful.', 'Saundarya', '', 'both', ['both','beauty','freedom'], 'seal', 'rings dissolving — translucent jewel-like', 8.0, sc17)
+Scene('ka01', 'You Can Only Do So Much', 'Time moves whether you want it to or not.', 'Pariccheda', '', 'limits', ['limitation'], 'intro', 'five rings wrapping a center', 6.0, sc01)
+Scene('ka02', 'Five Pieces of Armor', 'Between you and freedom.', 'Kañcuka', '', 'armor', ['kancuka','covering'], 'intro', 'five named rings', 8.0, sc02)
+Scene('ka03', 'The Knot of Māyā', 'Pull tighter the more you wrestle it.', 'Māyāgranthi', '', 'knot', ['maya','knot','tighten'], 'doctrine', 'knot that tightens/loosens', 6.0, sc03)
+Scene('ka04', 'Kalā — Limited Agency', 'You can only lift so much.', 'Kalā', '', 'agency', ['kala','agency'], 'kancuka', 'lifting arm with ceiling breaking', 8.0, sc04)
+Scene('ka05', 'Vidyā — Limited Knowledge', 'You only see a sliver.', 'Vidyā', '', 'knowledge', ['vidya','sliver'], 'kancuka', 'narrow beam expanding to full field', 8.0, sc05)
+Scene('ka06', 'Rāga — Craving', 'You reach for what you lack.', 'Rāga', '', 'craving', ['raga','desire'], 'kancuka', 'reaching arm toward an object', 8.0, sc06)
+Scene('ka07', 'Kāla — Time', 'You move from A to B.', 'Kāla', '', 'time', ['kala','time'], 'kancuka', 'timeline with moving point + still now', 8.0, sc07)
+Scene('ka08', 'Niyati — Necessity', 'You reap what you sow.', 'Niyati', '', 'necessity', ['niyati','karma'], 'kancuka', 'chain of links with free hand', 8.0, sc08)
+Scene('ka09', 'The Mirror of Vidyā', 'An eye cannot see itself without a mirror.', 'Vimarśa', '', 'mirror', ['vidya','mirror','self-knowledge'], 'reflection', 'two eyes facing each other with mirror', 6.0, sc09)
+Scene('ka10', 'The Cage of Time', 'The words "just now" are a cage.', 'Kāla-pañjara', '', 'cage', ['time','cage','now'], 'reflection', '"just now" dissolving into cage bars', 6.0, sc10)
+Scene('ka11', 'The Fist That Closes', 'Contraction generates the heat of life.', 'Saṃkoca', '', 'fist', ['contraction','heat','life'], 'paradox', 'hand closing into fist with glow at center', 8.0, sc11)
+Scene('ka12', 'The Seven Perceivers', 'Each state configures the five differently.', 'Saptapramātṛ', '', 'perceivers', ['states','perceivers','configurations'], 'states', 'five states with different ring configs', 8.0, sc12)
+Scene('ka13', 'Māyā Is the Night', 'The turning that makes stars visible.', 'Rātrī', '', 'night', ['maya','night','stars'], 'maya', 'dark field with stars appearing', 6.0, sc13)
+Scene('ka14', 'Your Limits Are Your Signature', 'No two souls wear the same armor.', 'Svakīya', '', 'signature', ['unique','limits','signature'], 'individuality', 'multiple different ring configurations', 6.0, sc14)
+Scene('ka15', 'Time Is a Gesture', 'A slicing of the eternal.', 'Kṣaṇa', '', 'gesture', ['time','gesture','slicing'], 'time', 'slicing gesture through luminous field', 8.0, sc15)
+Scene('ka16', 'The Body as Garment', 'Karma spun into form.', 'Puryaṣṭaka', '', 'body', ['body','garment','karma'], 'embodiment', 'body silhouette with five woven colors', 8.0, sc16)
+Scene('ka17', 'Both Faces of Armor', 'They reveal the finite as beautiful.', 'Saundarya', '', 'both', ['both','beauty','freedom'], 'seal', 'rings dissolving — translucent jewel-like', 8.0, sc17)
+Scene('ka01', 'You Can Only Do So Much', 'Time moves whether you want it to or not.', 'Pariccheda', '', 'limits', ['limitation'], 'intro', 'five rings wrapping a center', 6.0, sc01)
+Scene('ka02', 'Five Pieces of Armor', 'Between you and freedom.', 'Kañcuka', '', 'armor', ['kancuka','covering'], 'intro', 'five named rings', 8.0, sc02)
+Scene('ka03', 'The Knot of Māyā', 'Pull tighter the more you wrestle it.', 'Māyāgranthi', '', 'knot', ['maya','knot','tighten'], 'doctrine', 'knot that tightens/loosens', 6.0, sc03)
+Scene('ka04', 'Kalā — Limited Agency', 'You can only lift so much.', 'Kalā', '', 'agency', ['kala','agency'], 'kancuka', 'lifting arm with ceiling breaking', 8.0, sc04)
+Scene('ka05', 'Vidyā — Limited Knowledge', 'You only see a sliver.', 'Vidyā', '', 'knowledge', ['vidya','sliver'], 'kancuka', 'narrow beam expanding to full field', 8.0, sc05)
+Scene('ka06', 'Rāga — Craving', 'You reach for what you lack.', 'Rāga', '', 'craving', ['raga','desire'], 'kancuka', 'reaching arm toward an object', 8.0, sc06)
+Scene('ka07', 'Kāla — Time', 'You move from A to B.', 'Kāla', '', 'time', ['kala','time'], 'kancuka', 'timeline with moving point + still now', 8.0, sc07)
+Scene('ka08', 'Niyati — Necessity', 'You reap what you sow.', 'Niyati', '', 'necessity', ['niyati','karma'], 'kancuka', 'chain of links with free hand', 8.0, sc08)
+Scene('ka09', 'The Mirror of Vidyā', 'An eye cannot see itself without a mirror.', 'Vimarśa', '', 'mirror', ['vidya','mirror','self-knowledge'], 'reflection', 'two eyes facing each other with mirror', 6.0, sc09)
+Scene('ka10', 'The Cage of Time', 'The words "just now" are a cage.', 'Kāla-pañjara', '', 'cage', ['time','cage','now'], 'reflection', '"just now" dissolving into cage bars', 6.0, sc10)
+Scene('ka11', 'The Fist That Closes', 'Contraction generates the heat of life.', 'Saṃkoca', '', 'fist', ['contraction','heat','life'], 'paradox', 'hand closing into fist with glow at center', 8.0, sc11)
+Scene('ka12', 'The Seven Perceivers', 'Each state configures the five differently.', 'Saptapramātṛ', '', 'perceivers', ['states','perceivers','configurations'], 'states', 'five states with different ring configs', 8.0, sc12)
+Scene('ka13', 'Māyā Is the Night', 'The turning that makes stars visible.', 'Rātrī', '', 'night', ['maya','night','stars'], 'maya', 'dark field with stars appearing', 6.0, sc13)
+Scene('ka14', 'Your Limits Are Your Signature', 'No two souls wear the same armor.', 'Svakīya', '', 'signature', ['unique','limits','signature'], 'individuality', 'multiple different ring configurations', 6.0, sc14)
+Scene('ka15', 'Time Is a Gesture', 'A slicing of the eternal.', 'Kṣaṇa', '', 'gesture', ['time','gesture','slicing'], 'time', 'slicing gesture through luminous field', 8.0, sc15)
+Scene('ka16', 'The Body as Garment', 'Karma spun into form.', 'Puryaṣṭaka', '', 'body', ['body','garment','karma'], 'embodiment', 'body silhouette with five woven colors', 8.0, sc16)
+Scene('ka17', 'Both Faces of Armor', 'They reveal the finite as beautiful.', 'Saundarya', '', 'both', ['both','beauty','freedom'], 'seal', 'rings dissolving — translucent jewel-like', 8.0, sc17) [
     Scene('ka01', 'You Can Only Do So Much', 'Time moves whether you want it to or not.', 'Pariccheda', '', 'limits', ['limitation'], 'intro', 'five rings wrapping a center', 6.0, sc01),
     Scene('ka02', 'Five Pieces of Armor', 'Between you and freedom.', 'Kañcuka', '', 'armor', ['kancuka','covering'], 'intro', 'five named rings', 8.0, sc02),
     Scene('ka03', 'The Knot of Māyā', 'Pull tighter the more you wrestle it.', 'Māyāgranthi', '', 'knot', ['maya','knot','tighten'], 'doctrine', 'knot that tightens/loosens', 6.0, sc03),

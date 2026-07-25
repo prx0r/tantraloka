@@ -36,7 +36,10 @@ def ease_in_out(t): t=clamp(t); return 0.5-0.5*math.cos(math.pi*t)
 def smoothstep(a,b,x):
     if a==b: return 1.0 if x>=b else 0.0
     t=clamp((x-a)/(b-a)); return t*t*(3-2*t)
-def rgba(c,a=255): return (*c[:3],int(a))
+def rgba(c,a=255): return (*c[
+    :3,
+    :3,
+],int(a))
 
 def layer(): return Image.new('RGBA',(W,H),(0,0,0,0))
 
@@ -77,13 +80,13 @@ def draw_rosette(d,cx,cy,r,outer,inner):
 
 def border(im):
     d=ImageDraw.Draw(im)
-    d.rectangle((28,28,W-28,H-28),outline=rgba(ROSE_GOLD,70),width=2)
-    d.rectangle((42,42,W-42,H-42),outline=rgba(ROSE_GOLD,45),width=1)
+    d.rectangle((28,28,W-28,H-28),outline=rgba(mix(ROSE_GOLD,GOLD,.5),70),width=2)
+    d.rectangle((42,42,W-42,H-42),outline=rgba(mix(ROSE_GOLD,GOLD,.3),45),width=1)
     for x,y in [(70,70),(W-70,70),(70,H-70),(W-70,H-70)]: draw_rosette(d,x,y,22,CRIMSON,GOLD)
 
 def footer(im,title,subtitle,term=None):
     d=ImageDraw.Draw(im); y0=H-112
-    d.rounded_rectangle((90,y0,W-90,H-34),radius=14,fill=(14,12,18,200),outline=rgba(ROSE_GOLD,45),width=1)
+    d.rounded_rectangle((90,y0,W-90,H-34),radius=14,fill=(14,12,18,200),outline=rgba(mix(ROSE_GOLD,GOLD,.3),45),width=1)
     d.text((122,y0+18),title,font=TITLE_FONT,fill=PEARL)
     d.text((124,y0+58),subtitle,font=SUB_FONT,fill=MIST)
     if term:
@@ -94,7 +97,7 @@ def dust(im,seed,n=55):
     rng=np.random.default_rng(seed); ov=layer(); d=ImageDraw.Draw(ov)
     for _ in range(n):
         x=float(rng.uniform(40,W-40)); y=float(rng.uniform(40,H-40))
-        r=float(rng.uniform(0.8,2.0)); c=mix(ROSE_GOLD_LIGHT,SILVER,rng.uniform(0,1))
+        r=float(rng.uniform(0.8,2.0)); c=mix(mix(ROSE_GOLD,GOLD,.5),SILVER,rng.uniform(0,1))
         d.ellipse((x-r,y-r,x+r,y+r),fill=rgba(c,int(rng.uniform(12,45))))
     im.alpha_composite(ov)
 
@@ -302,7 +305,42 @@ def sc12(im,t):
         d.ellipse((x-3,y-3,x+3,y+3),fill=rgba(GOLD_LIGHT,int(120*prog)))
     d.text((640,485),'you are that being. you have always been that being.',font=SUB_FONT,fill=MIST,anchor='mm')
 
-SCENES=[
+SCENES=[,Scene('iw01','God Needs You','What if god needs you as much as you need god?','Wahdat al-wujud','','opening',['god','need','completion'],'intro','two arcs forming a circle',6.0,sc01)
+Scene('iw02','One Ocean','One act of being — one ocean, many waves.','Wahdat al-wujud','','unity',['ocean','waves','unity'],'unity','many waves on one ocean surface',8.0,sc02)
+Scene('iw03','I Created Perception','That i might become the object of my perception.','Tajallī','','perception',['perception','self-seeing','eye'],'perception','eye whose gaze curves back to itself',8.0,sc03)
+Scene('iw04','The Mirror','You are the mirror in which the divine sees itself.','Mir\'āt','','mirror',['mirror','reflection','witness'],'mirror','mirror reflecting luminous source',8.0,sc04)
+Scene('iw05','The Formless Takes Form','In the heart that contemplates — the most beautiful form.','Tashakkul','','theophany',['heart','form','theophany'],'theophany','light taking shape within a heart-space',8.0,sc05)
+Scene('iw06','Unknowing','To know god is to know you do not know.','Jahl','','unknowing',['unknowing','concept','dissolution'],'unknowing','concept of god dissolving into open hands',8.0,sc06)
+Scene('iw07','The Perfect Man','Divine self-disclosure reaching completion.','Al-insān al-kāmil','','perfection',['perfect man','completion','luminous'],'perfection','human figure becoming translucent with light',8.0,sc07)
+Scene('iw08','A Category of One','An individual who is his own species.','Fard','','angel',['angel','unique','species'],'angel','single luminous figure — complete alone',6.0,sc08)
+Scene('iw09','A Letter to You','Every scripture addressed to you personally.','Kitāb','','scripture',['scripture','letter','reader'],'scripture','open book showing "dear you"',8.0,sc09)
+Scene('iw10','Two Mirrors','Love requires a beloved — infinite reflections.','Mahabbah','','love',['love','mirror','reflection'],'love','two mirrors facing each other with light',8.0,sc10)
+Scene('iw11','The Divine Body','You are an organ — necessary for completion.','Jism ilāhī','','body',['body','completion','arrival'],'body','cosmic body with one part missing — you',6.0,sc11)
+Scene('iw12','Complete the Circle','The only question is whether you will know it.','Kamāl','','seal',['circle','completion','recognition'],'seal','circle closing with radiant center',8.0,sc12)
+Scene('iw01','God Needs You','What if god needs you as much as you need god?','Wahdat al-wujud','','opening',['god','need','completion'],'intro','two arcs forming a circle',6.0,sc01)
+Scene('iw02','One Ocean','One act of being — one ocean, many waves.','Wahdat al-wujud','','unity',['ocean','waves','unity'],'unity','many waves on one ocean surface',8.0,sc02)
+Scene('iw03','I Created Perception','That i might become the object of my perception.','Tajallī','','perception',['perception','self-seeing','eye'],'perception','eye whose gaze curves back to itself',8.0,sc03)
+Scene('iw04','The Mirror','You are the mirror in which the divine sees itself.','Mir\'āt','','mirror',['mirror','reflection','witness'],'mirror','mirror reflecting luminous source',8.0,sc04)
+Scene('iw05','The Formless Takes Form','In the heart that contemplates — the most beautiful form.','Tashakkul','','theophany',['heart','form','theophany'],'theophany','light taking shape within a heart-space',8.0,sc05)
+Scene('iw06','Unknowing','To know god is to know you do not know.','Jahl','','unknowing',['unknowing','concept','dissolution'],'unknowing','concept of god dissolving into open hands',8.0,sc06)
+Scene('iw07','The Perfect Man','Divine self-disclosure reaching completion.','Al-insān al-kāmil','','perfection',['perfect man','completion','luminous'],'perfection','human figure becoming translucent with light',8.0,sc07)
+Scene('iw08','A Category of One','An individual who is his own species.','Fard','','angel',['angel','unique','species'],'angel','single luminous figure — complete alone',6.0,sc08)
+Scene('iw09','A Letter to You','Every scripture addressed to you personally.','Kitāb','','scripture',['scripture','letter','reader'],'scripture','open book showing "dear you"',8.0,sc09)
+Scene('iw10','Two Mirrors','Love requires a beloved — infinite reflections.','Mahabbah','','love',['love','mirror','reflection'],'love','two mirrors facing each other with light',8.0,sc10)
+Scene('iw11','The Divine Body','You are an organ — necessary for completion.','Jism ilāhī','','body',['body','completion','arrival'],'body','cosmic body with one part missing — you',6.0,sc11)
+Scene('iw12','Complete the Circle','The only question is whether you will know it.','Kamāl','','seal',['circle','completion','recognition'],'seal','circle closing with radiant center',8.0,sc12)
+Scene('iw01','God Needs You','What if god needs you as much as you need god?','Wahdat al-wujud','','opening',['god','need','completion'],'intro','two arcs forming a circle',6.0,sc01)
+Scene('iw02','One Ocean','One act of being — one ocean, many waves.','Wahdat al-wujud','','unity',['ocean','waves','unity'],'unity','many waves on one ocean surface',8.0,sc02)
+Scene('iw03','I Created Perception','That i might become the object of my perception.','Tajallī','','perception',['perception','self-seeing','eye'],'perception','eye whose gaze curves back to itself',8.0,sc03)
+Scene('iw04','The Mirror','You are the mirror in which the divine sees itself.','Mir\'āt','','mirror',['mirror','reflection','witness'],'mirror','mirror reflecting luminous source',8.0,sc04)
+Scene('iw05','The Formless Takes Form','In the heart that contemplates — the most beautiful form.','Tashakkul','','theophany',['heart','form','theophany'],'theophany','light taking shape within a heart-space',8.0,sc05)
+Scene('iw06','Unknowing','To know god is to know you do not know.','Jahl','','unknowing',['unknowing','concept','dissolution'],'unknowing','concept of god dissolving into open hands',8.0,sc06)
+Scene('iw07','The Perfect Man','Divine self-disclosure reaching completion.','Al-insān al-kāmil','','perfection',['perfect man','completion','luminous'],'perfection','human figure becoming translucent with light',8.0,sc07)
+Scene('iw08','A Category of One','An individual who is his own species.','Fard','','angel',['angel','unique','species'],'angel','single luminous figure — complete alone',6.0,sc08)
+Scene('iw09','A Letter to You','Every scripture addressed to you personally.','Kitāb','','scripture',['scripture','letter','reader'],'scripture','open book showing "dear you"',8.0,sc09)
+Scene('iw10','Two Mirrors','Love requires a beloved — infinite reflections.','Mahabbah','','love',['love','mirror','reflection'],'love','two mirrors facing each other with light',8.0,sc10)
+Scene('iw11','The Divine Body','You are an organ — necessary for completion.','Jism ilāhī','','body',['body','completion','arrival'],'body','cosmic body with one part missing — you',6.0,sc11)
+Scene('iw12','Complete the Circle','The only question is whether you will know it.','Kamāl','','seal',['circle','completion','recognition'],'seal','circle closing with radiant center',8.0,sc12)
     Scene('iw01','God Needs You','What if god needs you as much as you need god?','Wahdat al-wujud','','opening',['god','need','completion'],'intro','two arcs forming a circle',6.0,sc01),
     Scene('iw02','One Ocean','One act of being — one ocean, many waves.','Wahdat al-wujud','','unity',['ocean','waves','unity'],'unity','many waves on one ocean surface',8.0,sc02),
     Scene('iw03','I Created Perception','That i might become the object of my perception.','Tajallī','','perception',['perception','self-seeing','eye'],'perception','eye whose gaze curves back to itself',8.0,sc03),

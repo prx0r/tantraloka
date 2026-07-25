@@ -1,0 +1,129 @@
+{
+  "pack_id": "expansion_essay_pack_20260724_0036",
+  "generated_at": "2026-07-24T00:41:46.591287+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7522,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_your_body_is_the_diagram_your_mind_keeps_redrawing.md",
+      "title": "your body is the diagram your mind keeps redrawing",
+      "slug": "01_your_body_is_the_diagram_your_mind_keeps_redrawing",
+      "primary_domain": "Śrīvidyā × cognitive neuroscience",
+      "secondary_domain": "Bhāvanopaniṣad and predictive body models",
+      "word_count": 1552,
+      "key_concepts": [
+        "Bhāvanopaniṣad",
+        "Śrīcakra",
+        "interoception",
+        "body schema",
+        "predictive processing"
+      ],
+      "source_categories": [
+        "tantric source corpus",
+        "peer-reviewed research",
+        "arXiv/preprints",
+        "scholarship"
+      ],
+      "epistemic_status": "structural comparison with empirical embodiment research",
+      "hook": "You do not experience the body as a collection of organs."
+    },
+    {
+      "number": 2,
+      "filename": "02_touch_can_move_the_border_of_the_self.md",
+      "title": "touch can move the border of the self",
+      "slug": "02_touch_can_move_the_border_of_the_self",
+      "primary_domain": "Tantric ritual × body ownership",
+      "secondary_domain": "nyāsa and multisensory self-location",
+      "word_count": 1486,
+      "key_concepts": [
+        "nyāsa",
+        "mātṛkā",
+        "body ownership",
+        "multisensory integration",
+        "somatotopy"
+      ],
+      "source_categories": [
+        "tantric source corpus",
+        "peer-reviewed research",
+        "arXiv/preprints",
+        "scholarship"
+      ],
+      "epistemic_status": "historical ritual compared with experimental body-model plasticity",
+      "hook": "Touch your forehead."
+    },
+    {
+      "number": 3,
+      "filename": "03_a_diagram_becomes_alive_when_it_is_given_a_world.md",
+      "title": "a diagram becomes alive when it is given a world",
+      "slug": "03_a_diagram_becomes_alive_when_it_is_given_a_world",
+      "primary_domain": "Tantric ritual × active inference",
+      "secondary_domain": "prāṇapratiṣṭhā and the architecture of agency",
+      "word_count": 1545,
+      "key_concepts": [
+        "prāṇapratiṣṭhā",
+        "yantra",
+        "Markov blanket",
+        "active inference",
+        "embodied agency"
+      ],
+      "source_categories": [
+        "tantric source corpus",
+        "peer-reviewed research",
+        "arXiv/preprints",
+        "scholarship"
+      ],
+      "epistemic_status": "ritual ontology compared with computational agent architecture",
+      "hook": "A triangle drawn on copper does nothing."
+    },
+    {
+      "number": 4,
+      "filename": "04_the_first_point_becomes_a_body_by_losing_symmetry.md",
+      "title": "the first point becomes a body by losing symmetry",
+      "slug": "04_the_first_point_becomes_a_body_by_losing_symmetry",
+      "primary_domain": "Śrīvidyā × developmental biology",
+      "secondary_domain": "bindu and symmetry breaking",
+      "word_count": 1402,
+      "key_concepts": [
+        "Yoginīhṛdaya",
+        "bindu",
+        "symmetry breaking",
+        "organoids",
+        "reaction-diffusion"
+      ],
+      "source_categories": [
+        "tantric source corpus",
+        "peer-reviewed research",
+        "arXiv/preprints",
+        "scholarship"
+      ],
+      "epistemic_status": "structural comparison with morphogenesis",
+      "hook": "A perfect point has no direction."
+    },
+    {
+      "number": 5,
+      "filename": "05_breath_is_the_clock_the_brain_cannot_ignore.md",
+      "title": "breath is the clock the brain cannot ignore",
+      "slug": "05_breath_is_the_clock_the_brain_cannot_ignore",
+      "primary_domain": "Tantric time × neuroscience",
+      "secondary_domain": "Nityās, breath cycles, and respiration-brain coupling",
+      "word_count": 1537,
+      "key_concepts": [
+        "Nityās",
+        "haṃsa",
+        "breath",
+        "neural entrainment",
+        "memory phase"
+      ],
+      "source_categories": [
+        "tantric source corpus",
+        "peer-reviewed research",
+        "arXiv/preprints",
+        "scholarship"
+      ],
+      "epistemic_status": "ritual cosmology compared with current respiratory neuroscience",
+      "hook": "You do not merely breathe through time."
+    }
+  ]
+}

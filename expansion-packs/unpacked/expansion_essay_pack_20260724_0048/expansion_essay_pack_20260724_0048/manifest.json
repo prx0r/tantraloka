@@ -1,0 +1,134 @@
+{
+  "pack_id": "expansion_essay_pack_20260724_0048",
+  "generated_at": "2026-07-24T00:52:46.013870+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 7391,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_the_goddess_is_not_the_alphabet_but_the_path_through_it.md",
+      "title": "the goddess is not the alphabet but the path through it",
+      "slug": "01_the_goddess_is_not_the_alphabet_but_the_path_through_it",
+      "primary_domain": "Trika mantra theory × Assembly Theory",
+      "secondary_domain": "Mālinīvijayottara and selected paths through phonemic space",
+      "word_count": 1484,
+      "key_concepts": [
+        "Mālinī",
+        "mātṛkā",
+        "assembly space",
+        "formal grammar",
+        "copy number",
+        "path dependence"
+      ],
+      "source_categories": [
+        "primary tantric texts",
+        "scholarship",
+        "peer-reviewed science",
+        "arXiv/preprints"
+      ],
+      "epistemic_status": "structural comparison between ritual metaphysics and an active scientific programme",
+      "hook": "An alphabet looks complete when every letter is present."
+    },
+    {
+      "number": 2,
+      "filename": "02_life_survives_by_never_becoming_fully_stable.md",
+      "title": "life survives by never becoming fully stable",
+      "slug": "02_life_survives_by_never_becoming_fully_stable",
+      "primary_domain": "Spanda × complexity science",
+      "secondary_domain": "metastability, criticality, and adaptive transitions",
+      "word_count": 1412,
+      "key_concepts": [
+        "spanda",
+        "metastability",
+        "criticality",
+        "attractors",
+        "allostasis",
+        "valence"
+      ],
+      "source_categories": [
+        "primary tantric texts",
+        "scholarship",
+        "peer-reviewed science",
+        "arXiv/preprints"
+      ],
+      "epistemic_status": "historical philosophy compared with contested complexity-science hypotheses",
+      "hook": "A dead system can be perfectly still."
+    },
+    {
+      "number": 3,
+      "filename": "03_the_crooked_body_can_reach_forms_the_straight_body_cannot.md",
+      "title": "the crooked body can reach forms the straight body cannot",
+      "slug": "03_the_crooked_body_can_reach_forms_the_straight_body_cannot",
+      "primary_domain": "Kubjikā × morphospace",
+      "secondary_domain": "curvature, topology, developmental accessibility, and defects",
+      "word_count": 1424,
+      "key_concepts": [
+        "Kubjikā",
+        "morphospace",
+        "topology",
+        "curvature",
+        "branching",
+        "defects"
+      ],
+      "source_categories": [
+        "primary tantric texts",
+        "scholarship",
+        "peer-reviewed science",
+        "arXiv/preprints"
+      ],
+      "epistemic_status": "structural comparison with current morphogenesis research",
+      "hook": "A straight path is easy to describe."
+    },
+    {
+      "number": 4,
+      "filename": "04_a_collective_becomes_one_when_its_desires_stop_cancelling_each_other.md",
+      "title": "a collective becomes one when its desires stop cancelling each other",
+      "slug": "04_a_collective_becomes_one_when_its_desires_stop_cancelling_each_other",
+      "primary_domain": "Yoginī Kaula × multiscale agency",
+      "secondary_domain": "collective goals, conflict, and valence alignment",
+      "word_count": 1561,
+      "key_concepts": [
+        "Kaulajñānanirṇaya",
+        "kula",
+        "yoginīs",
+        "nested agency",
+        "collective intelligence",
+        "valence"
+      ],
+      "source_categories": [
+        "primary tantric texts",
+        "scholarship",
+        "peer-reviewed science",
+        "arXiv/preprints"
+      ],
+      "epistemic_status": "historical ritual body compared with functional biological agency",
+      "hook": "A body contains many appetites."
+    },
+    {
+      "number": 5,
+      "filename": "05_fear_is_a_precision_setting_before_it_is_a_story.md",
+      "title": "fear is a precision setting before it is a story",
+      "slug": "05_fear_is_a_precision_setting_before_it_is_a_story",
+      "primary_domain": "Netra Tantra × affective science",
+      "secondary_domain": "threat precision, allostasis, and protective action",
+      "word_count": 1510,
+      "key_concepts": [
+        "Netra Tantra",
+        "Mṛtyuñjaya",
+        "precision",
+        "interoception",
+        "allostasis",
+        "fear"
+      ],
+      "source_categories": [
+        "primary tantric texts",
+        "scholarship",
+        "peer-reviewed science",
+        "arXiv/preprints"
+      ],
+      "epistemic_status": "ritual protection compared with computational and affective models",
+      "hook": "A branch cracks in darkness."
+    }
+  ]
+}

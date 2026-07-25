@@ -1,5 +1,3 @@
-# Tantrāloka — Sthiti-Vyutthāna Pack
+# Self and World Hold Each Other Upright — 8 scenes (48s)
 
-- 1280x720, 10fps, 5 scenes
-
-Run: `python render_pack.py`
+Run: python render_pack.py

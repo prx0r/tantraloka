@@ -36,7 +36,10 @@ def ease_in_out(t): t=clamp(t); return 0.5-0.5*math.cos(math.pi*t)
 def smoothstep(a,b,x):
     if a==b: return 1.0 if x>=b else 0.0
     t=clamp((x-a)/(b-a)); return t*t*(3-2*t)
-def rgba(c,a=255): return (*c[:3],int(a))
+def rgba(c,a=255): return (*c[
+    :3,
+    :3,
+],int(a))
 
 def layer(): return Image.new('RGBA',(W,H),(0,0,0,0))
 
@@ -278,7 +281,39 @@ def sc11(im,t):
     d.ellipse((cx-8,cy-8,cx+8,cy+8),fill=rgba(WHITE,255))
     d.text((640,480),'the question: are you willing to become the place where they can appear?',font=SUB_FONT,fill=MIST,anchor='mm')
 
-SCENES=[
+SCENES=[,Scene('th01','Ritual Is Not Symbolic','It changes the structure of reality.','Theourgia','','opening',['ritual','ontology','reality'],'intro','ritual vessel with inner glow',6.0,sc01)
+Scene('th02','God-Work','The theurgist: technician of the divine.','Theourgia','','definition',['theurgy','god-work','technician'],'definition','four symbols in a ring',8.0,sc02)
+Scene('th03','The Break','Iamblichus vs Porphyry — contemplation is not enough.','Aporrheton','','debate',['iamblichus','porphyry','contemplation'],'debate','two panels: thought vs ritual',8.0,sc03)
+Scene('th04','Divinity in Smoke','The incense is god in the form of smoke.','Thymiama','','material',['incense','smoke','divine'],'material','rising smoke from censer',8.0,sc04)
+Scene('th05','Containing Ecstasy','The formless accessed through perfect form.','Perioche','','containment',['ecstasy','vessel','form'],'vessel','flame in a vessel',8.0,sc05)
+Scene('th06','The Descent','The gods descend because they are invited.','Katabasis','','invitation',['descent','invitation','sequence'],'descent','descending divine light',8.0,sc06)
+Scene('th07','The Luminous Body','A body of light parallel to the physical.','Augeides sōma','','body',['luminous','body','vehicle'],'vehicle','light body within physical outline',8.0,sc07)
+Scene('th08','Taking the Shape','Tuning an instrument to a divine frequency.','Morphē theōn','','channel',['shape','gods','channel'],'channel','figure expanding into resonance',8.0,sc08)
+Scene('th09','The Anonymous Priest','The flute — the music belongs to the breath.','Anonymia','','anonymity',['anonymous','priest','transparency'],'transparency','flute with breath-music',8.0,sc09)
+Scene('th10','Body as Furnace','Ritual as heat. God as gold.','Chrysopoeia','','transformation',['body','furnace','gold'],'transformation','body outline with gold at heart',6.0,sc10)
+Scene('th11','Ontological Weight','You become by doing.','Dromenon','','seal',['action','becoming','descent'],'seal','radial ritual mandala',8.0,sc11)
+Scene('th01','Ritual Is Not Symbolic','It changes the structure of reality.','Theourgia','','opening',['ritual','ontology','reality'],'intro','ritual vessel with inner glow',6.0,sc01)
+Scene('th02','God-Work','The theurgist: technician of the divine.','Theourgia','','definition',['theurgy','god-work','technician'],'definition','four symbols in a ring',8.0,sc02)
+Scene('th03','The Break','Iamblichus vs Porphyry — contemplation is not enough.','Aporrheton','','debate',['iamblichus','porphyry','contemplation'],'debate','two panels: thought vs ritual',8.0,sc03)
+Scene('th04','Divinity in Smoke','The incense is god in the form of smoke.','Thymiama','','material',['incense','smoke','divine'],'material','rising smoke from censer',8.0,sc04)
+Scene('th05','Containing Ecstasy','The formless accessed through perfect form.','Perioche','','containment',['ecstasy','vessel','form'],'vessel','flame in a vessel',8.0,sc05)
+Scene('th06','The Descent','The gods descend because they are invited.','Katabasis','','invitation',['descent','invitation','sequence'],'descent','descending divine light',8.0,sc06)
+Scene('th07','The Luminous Body','A body of light parallel to the physical.','Augeides sōma','','body',['luminous','body','vehicle'],'vehicle','light body within physical outline',8.0,sc07)
+Scene('th08','Taking the Shape','Tuning an instrument to a divine frequency.','Morphē theōn','','channel',['shape','gods','channel'],'channel','figure expanding into resonance',8.0,sc08)
+Scene('th09','The Anonymous Priest','The flute — the music belongs to the breath.','Anonymia','','anonymity',['anonymous','priest','transparency'],'transparency','flute with breath-music',8.0,sc09)
+Scene('th10','Body as Furnace','Ritual as heat. God as gold.','Chrysopoeia','','transformation',['body','furnace','gold'],'transformation','body outline with gold at heart',6.0,sc10)
+Scene('th11','Ontological Weight','You become by doing.','Dromenon','','seal',['action','becoming','descent'],'seal','radial ritual mandala',8.0,sc11)
+Scene('th01','Ritual Is Not Symbolic','It changes the structure of reality.','Theourgia','','opening',['ritual','ontology','reality'],'intro','ritual vessel with inner glow',6.0,sc01)
+Scene('th02','God-Work','The theurgist: technician of the divine.','Theourgia','','definition',['theurgy','god-work','technician'],'definition','four symbols in a ring',8.0,sc02)
+Scene('th03','The Break','Iamblichus vs Porphyry — contemplation is not enough.','Aporrheton','','debate',['iamblichus','porphyry','contemplation'],'debate','two panels: thought vs ritual',8.0,sc03)
+Scene('th04','Divinity in Smoke','The incense is god in the form of smoke.','Thymiama','','material',['incense','smoke','divine'],'material','rising smoke from censer',8.0,sc04)
+Scene('th05','Containing Ecstasy','The formless accessed through perfect form.','Perioche','','containment',['ecstasy','vessel','form'],'vessel','flame in a vessel',8.0,sc05)
+Scene('th06','The Descent','The gods descend because they are invited.','Katabasis','','invitation',['descent','invitation','sequence'],'descent','descending divine light',8.0,sc06)
+Scene('th07','The Luminous Body','A body of light parallel to the physical.','Augeides sōma','','body',['luminous','body','vehicle'],'vehicle','light body within physical outline',8.0,sc07)
+Scene('th08','Taking the Shape','Tuning an instrument to a divine frequency.','Morphē theōn','','channel',['shape','gods','channel'],'channel','figure expanding into resonance',8.0,sc08)
+Scene('th09','The Anonymous Priest','The flute — the music belongs to the breath.','Anonymia','','anonymity',['anonymous','priest','transparency'],'transparency','flute with breath-music',8.0,sc09)
+Scene('th10','Body as Furnace','Ritual as heat. God as gold.','Chrysopoeia','','transformation',['body','furnace','gold'],'transformation','body outline with gold at heart',6.0,sc10)
+Scene('th11','Ontological Weight','You become by doing.','Dromenon','','seal',['action','becoming','descent'],'seal','radial ritual mandala',8.0,sc11)
     Scene('th01','Ritual Is Not Symbolic','It changes the structure of reality.','Theourgia','','opening',['ritual','ontology','reality'],'intro','ritual vessel with inner glow',6.0,sc01),
     Scene('th02','God-Work','The theurgist: technician of the divine.','Theourgia','','definition',['theurgy','god-work','technician'],'definition','four symbols in a ring',8.0,sc02),
     Scene('th03','The Break','Iamblichus vs Porphyry — contemplation is not enough.','Aporrheton','','debate',['iamblichus','porphyry','contemplation'],'debate','two panels: thought vs ritual',8.0,sc03),

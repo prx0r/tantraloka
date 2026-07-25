@@ -1,0 +1,120 @@
+{
+  "pack_id": "expansion_essay_pack_20260723_1945",
+  "generated_at": "2026-07-23T19:45:25.069158+07:00",
+  "timezone": "Asia/Bangkok",
+  "essay_count": 5,
+  "total_word_count": 9773,
+  "items": [
+    {
+      "number": 1,
+      "filename": "01_the_world_arrives_before_you_name_it.md",
+      "title": "the world arrives before you name it",
+      "slug": "01_the_world_arrives_before_you_name_it",
+      "primary_domain": "Kashmir Śaivism / Pratyabhijñā",
+      "secondary_domain": null,
+      "word_count": 1865,
+      "key_concepts": [
+        "prakāśa",
+        "vimarśa",
+        "ābhāsa",
+        "pratyabhijñā",
+        "udyama"
+      ],
+      "source_categories": [
+        "primary texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical-philosophical",
+      "hook": "Before an object receives its name, consciousness has already built a world."
+    },
+    {
+      "number": 2,
+      "filename": "02_a_bird_may_see_the_earths_magnetic_field.md",
+      "title": "a bird may see the earth’s magnetic field",
+      "slug": "02_a_bird_may_see_the_earths_magnetic_field",
+      "primary_domain": "Quantum biology",
+      "secondary_domain": "magnetoreception",
+      "word_count": 1753,
+      "key_concepts": [
+        "cryptochrome",
+        "radical pair",
+        "spin chemistry",
+        "magnetoreception",
+        "quantum biology"
+      ],
+      "source_categories": [
+        "peer-reviewed research",
+        "institutional research pages"
+      ],
+      "epistemic_status": "empirical with unresolved mechanism",
+      "hook": "A migratory bird may translate Earth’s magnetic field through quantum-sensitive chemistry in its retina."
+    },
+    {
+      "number": 3,
+      "filename": "03_matter_remembers_the_gods.md",
+      "title": "matter remembers the gods",
+      "slug": "03_matter_remembers_the_gods",
+      "primary_domain": "Neoplatonism / theurgy",
+      "secondary_domain": "ritual embodiment",
+      "word_count": 1864,
+      "key_concepts": [
+        "theurgy",
+        "participation",
+        "cosmic sympathy",
+        "symbol",
+        "ritual"
+      ],
+      "source_categories": [
+        "primary texts",
+        "scholarship"
+      ],
+      "epistemic_status": "historical-philosophical",
+      "hook": "Late Platonists treated matter as a participant in divine causality rather than an empty obstacle."
+    },
+    {
+      "number": 4,
+      "filename": "04_the_universe_speaks_in_borrowed_voices.md",
+      "title": "the universe speaks in borrowed voices",
+      "slug": "04_the_universe_speaks_in_borrowed_voices",
+      "primary_domain": "Comparative channeled literature",
+      "secondary_domain": "psychology of authorship",
+      "word_count": 1926,
+      "key_concepts": [
+        "channeling",
+        "Seth",
+        "Law of One",
+        "Cassiopaean",
+        "source criticism"
+      ],
+      "source_categories": [
+        "channeled source texts",
+        "comparative scholarship"
+      ],
+      "epistemic_status": "claimed revelation / comparative esotericism",
+      "hook": "A claimed nonhuman voice always enters history through a human instrument."
+    },
+    {
+      "number": 5,
+      "filename": "05_your_cells_may_be_solving_a_problem_called_you.md",
+      "title": "your cells may be solving a problem called you",
+      "slug": "05_your_cells_may_be_solving_a_problem_called_you",
+      "primary_domain": "Bioelectric morphogenesis",
+      "secondary_domain": "Kashmir Śaivism",
+      "word_count": 2365,
+      "key_concepts": [
+        "bioelectricity",
+        "pattern memory",
+        "basal cognition",
+        "morphospace",
+        "saṃkoca"
+      ],
+      "source_categories": [
+        "peer-reviewed research",
+        "institutional research pages",
+        "primary philosophical texts"
+      ],
+      "epistemic_status": "empirical science plus explicitly limited philosophical comparison",
+      "hook": "A body may preserve its form through distributed cellular goals rather than a single central blueprint."
+    }
+  ]
+}
