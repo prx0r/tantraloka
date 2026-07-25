@@ -1,0 +1,19 @@
+// =============================================================================
+// aces.glsl — ACES filmic tonemapping
+// =============================================================================
+// Reference: https://github.com/TheRealMJP/BakingLab/blob/master/BakingLab/ACES.hlsl
+// Fitted curve approximation of the ACES filmic tonemap.
+
+#ifndef ACES_GLSL
+#define ACES_GLSL
+
+vec3 acesFilmic(vec3 x) {
+    float a = 2.51;
+    float b = 0.03;
+    float c = 2.43;
+    float d = 0.59;
+    float e = 0.14;
+    return clamp((x * (a * x + b)) / (x * (c * x + d) + e), 0.0, 1.0);
+}
+
+#endif
