@@ -219,7 +219,7 @@ def list_packs(packs: list[Path]):
         # Try to extract scene count
         with open(p) as f:
             content = f.read()
-        scene_count = content.count('Scene("')
+        scene_count = content.count('Scene("') + content.count('Scene(\n')
         tier = TIER_MAP.get(p.name, "?")
         status = "ready"
         if pack_already_done(p):
