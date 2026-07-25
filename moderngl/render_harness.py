@@ -37,11 +37,23 @@ def load_shader_source(name: str) -> str:
     if not path.exists():
         raise FileNotFoundError(f"Shader: {path}")
     src = path.read_text()
-    # Resolve #include directives
+    # Resolve #include directives with multiple search paths
+    include_paths = [
+        SHADER_DIR / "include",
+        ROOT / "moderngl" / "lygia",
+    ]
     def _inc(m):
         inc_name = m.group(1)
-        inc_path = SHADER_DIR / "include" / f"{inc_name}.glsl"
-        return inc_path.read_text() if inc_path.exists() else f"// missing: {inc_name}"
+        for base in include_paths:
+            inc_path = base / inc_name
+            if inc_path.exists():
+                return inc_path.read_text()
+        # Try nested under lygia/ for paths like "sdf/circle.glsl"
+        for base in include_paths:
+            inc_path = base / "lygia" / inc_name
+            if inc_path.exists():
+                return inc_path.read_text()
+        return f"// missing: {inc_name}"
     src = re.sub(r'#include\s+"([^"]+)"', _inc, src)
     return src
 

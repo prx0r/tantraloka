@@ -56,6 +56,14 @@
 - Text SDF atlas generation
 - Cosine palette integration (ready in primitives.glsl, not wired per-shader)
 
+### Key decision: Lygia replaces custom primitives
+All hand-written SDF, noise, easing, and color functions have been replaced with
+Lygia (https://github.com/patriciogonzalezvivo/lygia) — a 3.4k-star battle-tested
+multi-language shader library. Added as a git submodule at moderngl/lygia/.
+
+The file `shaders/include/primitives.glsl` now wraps Lygia functions under our
+naming conventions and adds pipeline-specific helpers (fieldBackground, glowSoft).
+
 ### Next steps
 1. ✅ Test on GPU box: `python render_harness.py --pack life_crosses_barriers --preview`
 2. ⬜ Generate SDF font atlas for text rendering
